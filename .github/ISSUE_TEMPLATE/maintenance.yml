@@ -1,0 +1,104 @@
+name: Maintenance / Chore
+description: Track technical debt, refactors, dependency updates, or project hygiene tasks
+labels:
+  - chore
+  - maintenance
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for tasks that improve code quality, maintainability, or developer experience 
+        without changing user-facing functionality.
+        
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: This work does not change user-facing behavior
+          required: true
+        - label: I assessed risk and rollout implications
+          required: true
+        - label: I searched for existing related issues
+          required: true
+  - type: dropdown
+    id: task_type
+    attributes:
+      label: Task type
+      description: What kind of maintenance work is this?
+      options:
+        - Code refactoring
+        - Technical debt reduction
+        - Dependency update
+        - Performance optimization
+        - Code cleanup
+        - Test coverage improvement
+        - Documentation cleanup
+        - Build system improvement
+        - Developer tooling
+        - Other
+    validations:
+      required: true
+      
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Explain why this maintenance task is needed and what problems it solves.
+      placeholder: |
+        Example: Upgrade to Next.js 16 to access new performance features and stay current with security patches.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Outline the work to be done, including affected modules, files, or systems.
+      placeholder: |
+        Files/modules affected:
+        - src/features/stock-coverage/
+        - src/@saas-boilerplate/utils/
+        
+        Changes planned:
+        - Extract common logic into shared utilities
+        - Remove duplicate code
+        - Update type definitions
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Define what success looks like and how to verify the work is complete.
+      placeholder: |
+        - [ ] All tests pass after refactoring
+        - [ ] No changes to user-facing behavior
+        - [ ] TypeScript compilation succeeds
+        - [ ] Code coverage maintained or improved
+        - [ ] Documentation updated if needed
+        
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How urgent is this maintenance work?
+      options:
+        - critical (blocking other work)
+        - high (important for stability)
+        - medium (should be done soon)
+        - low (nice to have)
+    validations:
+      required: true
+      
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies / blockers
+      description: List related issues, PRs, or prerequisites that must be completed first.
+      placeholder: |
+        Depends on:
+        - #123 (must be merged first)
+        - Next.js 16 release
+        
+        Blocks:
+        - #456 (feature requiring this refactor)

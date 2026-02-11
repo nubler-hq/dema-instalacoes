@@ -1,0 +1,92 @@
+name: Technical documentation update
+description: Suggest improvements or fixes to technical documentation (code docs, API references, architecture)
+labels:
+  - documentation
+  - technical
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for technical documentation improvements such as:
+        - Code documentation and JSDoc comments
+        - API reference documentation
+        - Architecture diagrams and technical specs
+        - Setup and configuration guides for developers
+        
+        **For user-facing content** (blogs, help center), use the "Content Update" template instead.
+        
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and discussions
+          required: true
+        - label: I reviewed the current documentation to confirm the gap
+          required: true
+        - label: This is technical documentation (not user-facing content)
+          required: true
+  - type: dropdown
+    id: doc_type
+    attributes:
+      label: Documentation type
+      description: What type of technical documentation needs updating?
+      options:
+        - Code documentation (JSDoc, comments)
+        - API reference
+        - Architecture documentation
+        - Setup/installation guide
+        - Configuration guide
+        - Development guide
+        - README
+        - Other technical docs
+    validations:
+      required: true
+      
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe what part of the technical documentation needs to change and why.
+      placeholder: |
+        Example: The API documentation for the stock-coverage endpoint is missing the response schema definition.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed changes
+      description: Provide the specific documentation updates you suggest, including file paths if known.
+      placeholder: |
+        File: src/features/stock-coverage/controllers/stock-coverage.controller.ts
+        
+        Add JSDoc:
+        ```typescript
+        /**
+         * Calculate stock coverage analysis for products
+         * @param {string} organizationId - Organization identifier
+         * @param {Date} startDate - Analysis start date
+         * @returns {Promise<StockCoverageReport>} Coverage metrics including P10/P50/P90
+         */
+        ```
+    validations:
+      required: true
+      
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: How does this documentation gap affect developers or users?
+      placeholder: |
+        Developers integrating with the API don't know what fields to expect in the response, 
+        leading to runtime errors and extra debugging time.
+        
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Link to relevant code sections, PRs, issues, or external resources.
+      placeholder: |
+        - Related code: src/features/stock-coverage/stock-coverage.interface.ts
+        - Related PR: #456
+        - External API docs: https://www.tiny.com.br/api/products

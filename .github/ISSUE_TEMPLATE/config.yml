@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/nubler-hq/dema-instalacoes/discussions
+    about: Ask questions, share ideas, and connect with the community.
+  - name: Security report
+    url: https://github.com/nubler-hq/dema-instalacoes/security
+    about: Please report security vulnerabilities privately following SECURITY.md.

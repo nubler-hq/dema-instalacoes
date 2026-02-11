@@ -1,0 +1,112 @@
+name: Content update
+description: Suggest improvements or additions to blog posts, help center articles, or API documentation
+labels:
+  - content
+  - documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Tiny Dash content! Use this template for:
+        - Blog post suggestions or corrections
+        - Help center article updates
+        - API documentation improvements
+        - Tutorial or guide enhancements
+        
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues and discussions
+          required: true
+        - label: I have reviewed the current content to confirm the gap
+          required: true
+        - label: This is not a bug report (use the Bug Report template instead)
+          required: true
+
+  - type: dropdown
+    id: content_type
+    attributes:
+      label: Content type
+      description: What type of content needs to be updated?
+      options:
+        - Blog post
+        - Help center article
+        - API documentation
+        - Tutorial or guide
+        - README or getting started docs
+        - Other documentation
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe what content needs to be added, updated, or corrected and why.
+      placeholder: |
+        Example: The help center article on "Setting up Tiny ERP integration" is missing steps for configuring webhook notifications.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_content
+    attributes:
+      label: Current content (if updating existing)
+      description: Link to or quote the current content that needs updating.
+      placeholder: |
+        URL: https://tiny-dash.com/help/tiny-erp-setup
+        Current text: "Click the API button to generate a token..."
+
+  - type: textarea
+    id: proposed_changes
+    attributes:
+      label: Proposed changes
+      description: Provide the specific updates, additions, or corrections you suggest.
+      placeholder: |
+        Add a new section after step 3:
+        
+        ### Configure Webhook Notifications
+        1. In Tiny ERP, navigate to Settings > Webhooks
+        2. Click "Add New Webhook"
+        3. Set the URL to: https://your-domain.com/api/webhooks/tiny
+        4. Enable the following events: stock_updated, order_created
+    validations:
+      required: true
+
+  - type: textarea
+    id: target_audience
+    attributes:
+      label: Target audience
+      description: Who is this content for? (e.g., developers, business users, administrators)
+      placeholder: E-commerce managers setting up their first Tiny ERP integration
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How critical is this content update?
+      options:
+        - critical (blocking users from completing tasks)
+        - high (important missing information)
+        - medium (helpful improvement)
+        - low (nice to have)
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Link to relevant code, PRs, issues, external documentation, or screenshots.
+      placeholder: |
+        - Related PR: #123
+        - Tiny ERP API docs: https://www.tiny.com.br/api-docs
+        - Screenshot: [attach image]
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add any other context, examples, or screenshots that would help create or update this content.
