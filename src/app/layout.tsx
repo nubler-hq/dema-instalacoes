@@ -1,24 +1,25 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Cormorant_Garamond, Manrope } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { cn } from "@/lib/utils";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const sans = Manrope({
+  variable: "--font-manrope",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const display = Cormorant_Garamond({
+  variable: "--font-cormorant",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
-  title: "Dema Instalações - Elétrica, Hidráulica e Manutenções",
+  title: "Dema Instalações | Infraestrutura Predial Premium",
   description:
-    "Especializada em instalações elétricas, hidráulicas e manutenções. Atuando no mercado desde 2006 com qualidade, rapidez e dentro das normas técnicas.",
+    "Site institucional premium da Dema Instalações com foco em autoridade técnica, cases e captação consultiva.",
 };
 
 export default function RootLayout({
@@ -31,11 +32,11 @@ export default function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
-          geistSans.variable,
-          geistMono.variable,
+          sans.variable,
+          display.variable,
         )}
       >
-        <div className="relative flex min-h-screen flex-col bg-background">
+        <div className="site-grid relative flex min-h-screen flex-col bg-background text-foreground">
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />

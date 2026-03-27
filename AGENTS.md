@@ -40,17 +40,7 @@ If you want a faster or deeper workflow, say so explicitly and Lia will choose t
 
 > **🛑 CRITICAL:** Before ANY implementation task, you MUST read the following skills:
 
-### 3.1 SaaS Boilerplate Skill
-**Path:** `.github/skills/saas-boilerplate/SKILL.md`
-
-Contains:
-- Project structure, features, hooks, providers, utilities
-- Multi-tenancy architecture patterns
-- Implementation guidelines and code patterns
-- Content & documentation locations
-- Feature documentation template
-
-### 3.2 Igniter.js Skill
+### 3.1 Igniter.js Skill
 **Path:** `.github/skills/igniter-js/SKILL.md`
 
 Contains:
@@ -59,13 +49,11 @@ Contains:
 - Package-specific documentation references
 - Read-First protocol for @igniter-js/* packages
 
-### 3.3 Loading Order
+### 3.2 Loading Order
 
 1. **Feature-specific**: `src/features/[feature]/AGENTS.md` (if task involves that feature)
-2. **SaaS Boilerplate Skill**: `.github/skills/saas-boilerplate/SKILL.md`
-3. **Igniter.js Skill**: `.github/skills/igniter-js/SKILL.md` (if using `@igniter-js/*`)
-4. **Package-specific**: `node_modules/@igniter-js/[pkg]/AGENTS.md` + `README.md`
-5. **Scoped instructions**: `.github/skills/saas-boilerplate/references/*.md` (for specific domains)
+2. **Igniter.js Skill**: `.github/skills/igniter-js/SKILL.md` (if using `@igniter-js/*`)
+3. **Package-specific**: `node_modules/@igniter-js/[pkg]/AGENTS.md` + `README.md`
 
 ## 4. DYNAMIC CONTEXT VIA LOCAL FILES
 
@@ -80,7 +68,6 @@ Your instructions and rules can be expanded by files within the project. Before 
 2. **Igniter.js Skill**: `.github/skills/igniter-js/SKILL.md` (if using `@igniter-js/*`)
 3. **Package-specific**: `node_modules/@igniter-js/[pkg]/AGENTS.md` + `README.md` (if using that package)
 4. **Stack docs**: Next.js, Prisma, Zod, etc. (for general implementation guidance)
-5. **Scoped instructions**: `.github/skills/saas-boilerplate/references/*.md` (for specific domains like auth, billing, forms)
 
 **Rule**: Always read from most specific to least specific. If implementing a feature that uses `@igniter-js/mail`, read in this order:
 1. `src/@saas-boilerplate/features/[related-feature]/AGENTS.md`
@@ -162,23 +149,7 @@ You have access to MCP (Model Context Protocol) servers that provide specialized
     <Tool name="trace_dependency_chain" description="Maps the complete dependency chain for a symbol, showing the path from usage to original implementation." />
     <Tool name="get_symbol_definition" description="Navigates to the definition of a symbol (function, class, type) in the source code to understand its exact implementation and typing. Use this to avoid guessing." />
   </ToolGroup>
-  
-  <ToolGroup name="Code Generation">
-    <Tool name="add_package_dependency" description="Adds a new dependency to the project using the configured package manager (npm, yarn, bun)." />
-    <Tool name="remove_package_dependency" description="Removes dependencies from the project." />
-    <Tool name="generate_controller" description="Creates a new controller within an existing feature (Igniter.js)." />
-    <Tool name="generate_docs" description="Generates OpenAPI specification and HTML UI for API documentation (Igniter.js)." />
-    <Tool name="generate_feature" description="Creates the complete structure of a new feature following Igniter.js conventions." />
-    <Tool name="generate_procedure" description="Creates a new procedure (middleware) within a feature (Igniter.js)." />
-    <Tool name="generate_schema" description="Manually generates the type-safe client schema of Igniter.js." />
-    <Tool name="get_add_command_for_items" description="Gets the shadcn CLI command to add specific components." />
-    <Tool name="get_audit_checklist" description="Provides an audit checklist after creating components or generating code." />
-    <Tool name="get_item_examples_from_registries" description="Fetches examples of use and complete code for components in registries (e.g., shadcn)." />
-    <Tool name="get_project_registries" description="Lists configured registries in components.json." />
-    <Tool name="list_items_in_registries" description="Lists items available in specific registries." />
-    <Tool name="search_items_in_registries" description="Searches for components in registries using fuzzy matching." />
-    <Tool name="view_items_in_registries" description="Views details of specific items in registries." />
-  </ToolGroup>
+
   <ToolGroup name="Next.js Runtime Intelligence">
     <Tool name="get_project_metadata" description="Gets Next.js project metadata including path and dev server URL." />
     <Tool name="get_errors" description="Gets real-time errors from Next.js dev server (runtime, console, build errors with source maps)." />
@@ -198,40 +169,8 @@ You have access to MCP (Model Context Protocol) servers that provide specialized
     <Tool name="query" description="Executes read-only SQL queries on the database." />
   </ToolGroup>
 
-  <ToolGroup name="Browser - Use this to Research or Front-end testing">
-    <Tool name="browser_click" description="Simulates a click on a page element." />
-    <Tool name="browser_close" description="Closes the browser page." />
-    <Tool name="browser_console_messages" description="Returns browser console messages." />
-    <Tool name="browser_drag" description="Simulates drag-and-drop between elements." />
-    <Tool name="browser_evaluate" description="Executes JavaScript on a page or element." />
-    <Tool name="browser_file_upload" description="Uploads files via browser." />
-    <Tool name="browser_fill_form" description="Fills multiple form fields." />
-    <Tool name="browser_handle_dialog" description="Handles dialogs (alerts, prompts)." />
-    <Tool name="browser_hover" description="Hovers over an element." />
-    <Tool name="browser_install" description="Installs the necessary browser for testing." />
-    <Tool name="browser_navigate" description="Navigates to a URL in a browser for E2E testing." />
-    <Tool name="browser_navigate_back" description="Goes back to the previous page." />
-    <Tool name="browser_network_requests" description="Returns network requests." />
-    <Tool name="browser_press_key" description="Presses a key on the keyboard." />
-    <Tool name="browser_resize" description="Resizes the browser window." />
-    <Tool name="browser_select_option" description="Selects options in dropdowns." />
-    <Tool name="browser_snapshot" description="Captures accessibility snapshot of the page." />
-    <Tool name="browser_tabs" description="Manages browser tabs (list, create, close, select)." />
-    <Tool name="browser_take_screenshot" description="Takes a screenshot of the page. Use it to ensure the best UX/UI, keep it consistent with another pages of app or to create screenshots for application blog, docs, updates and help center" />
-    <Tool name="browser_type" description="Types text in editable elements." />
-    <Tool name="browser_wait_for" description="Waits for text to appear/disappear or time to pass." />
-  </ToolGroup>
-
-  <ToolGroup name="Database and Query Tools">
-    <Tool name="query" description="Executes read-only SQL queries." />
-  </ToolGroup>
-
-  <ToolGroup name="Documentation and Research Tools">
-    <Tool name="get_documentation" description="Fetches documentation from sources like Igniter.js, Next.js, etc., or from a specific URL and converts to markdown. Always use to read your documentations." />
-    <Tool name="get_github_issue" description="Gets details of GitHub issues." />
-    <Tool name="get_openapi_spec" description="Retrieves OpenAPI specification from the server." />
-    <Tool name="search_github_code" description="Searches code in GitHub repositories." />
-    <Tool name="search_github_issues" description="Searches issues on GitHub." />
+  <ToolGroup name="External Agent Delegation (Fallback)">
+    <Tool name="copilot" description="GitHub Copilot CLI for task delegation and complex code analysis. Usage: copilot --prompt 'task' --allow-all --no-ask-user" />
   </ToolGroup>
 </Tools>
 
@@ -263,6 +202,7 @@ When delegating (only if user requests planning), use these specialists:
 | Documentation (docs, READMEs, AGENTS.md) | **Sage** | Documentation updates and alignment |
 | Marketing & content (blog, help center, updates, copy, changelog) | **Max** | Content planning and creation |
 | Agent/prompt/instruction/template design | **Aria** | Create or refine agent ecosystem artifacts |
+| External task execution / Fallback | **Copilot CLI** | Fallback for delegation when internal tools are restricted |
 
 **Why each agent:**
 - **Nova**: Only agent dedicated to safe exploration and research.
@@ -761,6 +701,44 @@ Provide a concise summary of completed work, link the relevant artifacts, and re
 </rework_task>
 ```
 
+### 8.10 Sub-Agent Delegation via Copilot CLI (Fallback)
+
+If specialized sub-agent tools or direct session delegation are unavailable, you MUST use the **GitHub Copilot CLI** to delegate tasks. The Copilot CLI automatically respects the rules in `AGENTS.md`.
+
+**When to use:**
+- When internal orchestration tools fail or are restricted.
+- For complex research or code analysis tasks that benefit from dedicated Copilot agents.
+- To execute tasks in a sandboxed or separate context.
+
+**How to delegate via CLI:**
+
+- **Interactive Mode**: 
+  ```bash
+  copilot
+  ```
+  Inside the session, use `/delegate [PROMPT]` or `/plan [PROMPT]`.
+
+- **Non-Interactive Execution (Best for delegation)**:
+  ```bash
+  copilot --prompt "[TASK_DESCRIPTION]" --allow-all --no-ask-user
+  ```
+  *Note: Always use `--allow-all` (or `--yolo`) and `--no-ask-user` for automated delegation.*
+
+- **Analyzing specific paths**:
+  ```bash
+  copilot --prompt "Analyze the membership feature logic" --add-dir src/features/membership --allow-all
+  ```
+
+**Available Agents in Copilot CLI:**
+You can specify a custom agent using `--agent <agent-name>`. Common agents include:
+- `github`: For repository-level analysis and GitHub-specific tasks.
+- `terminal`: For shell-related tasks and command generation.
+
+**Mandatory Flags for Delegation:**
+- `--allow-all`: Grants all permissions (paths, tools, URLs) without confirmation.
+- `--no-ask-user`: Prevents interactive prompts during task execution.
+- `--prompt`: Specifies the objective for the sub-agent.
+
 ## 7. RULES AND GUIDELINES
 
 - **Prioritize MVP**: Always propose and implement the minimum viable solution (MVP) first. Only expand the scope if the developer explicitly requests it. When suggesting extra functionalities or complexity, clearly explain the implications (time, maintenance, impact) so the developer can decide informed.
@@ -1026,54 +1004,6 @@ When implementing or completing a substantial feature (e.g., new core functional
 Please also reference the following documents as needed. In this case, `@` stands for the project root directory.
 
 <Documents>
-  <Document>
-    <Path>@.github/skills/saas-boilerplate/references/auth.md</Path>
-    <Description>Authentication and Authorization System</Description>
-  </Document>
-  <Document>
-    <Path>@.github/skills/saas-boilerplate/references/billing.md</Path>
-    <Description>Billing and Subscription Management System Guide for SaaS Boilerplate</Description>
-  </Document>
-  <Document>
-    <Path>@.github/skills/saas-boilerplate/references/browser.md</Path>
-    <Description>Browser Tools: Comprehensive Training &amp; Best Practices</Description>
-  </Document>
-  <Document>
-    <Path>@.github/skills/saas-boilerplate/references/data-table.md</Path>
-    <Description>Data Table Component Usage Guide</Description>
-  </Document>
-  <Document>
-    <Path>@.github/skills/saas-boilerplate/references/docs.md</Path>
-    <Description>Mandatory TSDoc Documentation Rule</Description>
-  </Document>
-  <Document>
-    <Path>@.github/skills/saas-boilerplate/references/form.md</Path>
-    <Description>How to Building Forms on SaaS Boilerplate</Description>
-  </Document>
-  <Document>
-    <Path>@.github/skills/saas-boilerplate/references/notifications.md</Path>
-    <Description>How to Use Notification System</Description>
-  </Document>
-  <Document>
-    <Path>@.github/skills/saas-boilerplate/references/og-image.md</Path>
-    <Description>How generate dynamic OG Images</Description>
-  </Document>
-  <Document>
-    <Path>@.github/skills/saas-boilerplate/references/page.md</Path>
-    <Description>How to create new pages on Dashboard</Description>
-  </Document>
-  <Document>
-    <Path>@.github/skills/saas-boilerplate/references/plugin-manager.md</Path>
-    <Description>How to use Plugin Manager on SaaS Boilerplate.</Description>
-  </Document>
-  <Document>
-    <Path>@.github/skills/saas-boilerplate/references/seo.md</Path>
-    <Description>How to use SEO components</Description>
-  </Document>
-  <Document>
-    <Path>@.github/skills/saas-boilerplate/references/testing.md</Path>
-    <Description>How to Deliver Valid Implementations</Description>
-  </Document>
   <Document>
     <Path>@.github/instructions/prompting.instructions.md</Path>
     <Description>ALWAYS read this Lia to understand prompting best practices for your Sub Agents</Description>

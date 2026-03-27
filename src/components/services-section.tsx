@@ -43,7 +43,7 @@ export function ServicesSection() {
             Principais Serviços
           </h3>
           <div className="mt-3 flex justify-center">
-            <div className="w-16 h-1 bg-primary rounded-full" />
+            <div className="w-16 h-1 bg-primary rounded-md" />
           </div>
         </div>
 

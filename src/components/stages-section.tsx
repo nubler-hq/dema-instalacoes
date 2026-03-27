@@ -59,7 +59,7 @@ export function StagesSection() {
           {stagesData.map((item, index) => (
             <div key={index} className="text-center">
               <div className="flex justify-center mb-5">
-                <div className="w-24 h-24 rounded-full border-2 border-border flex items-center justify-center">
+                <div className="w-24 h-24 rounded-md border-2 border-border flex items-center justify-center">
                   {item.icon}
                 </div>
               </div>

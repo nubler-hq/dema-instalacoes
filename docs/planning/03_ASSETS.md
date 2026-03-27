@@ -2,6 +2,8 @@
 
 Este documento centraliza todos os assets estáticos (textos, URLs de imagens, etc.) extraídos do site original. Estes assets serão usados para popular os componentes do novo site durante a fase de reconstrução visual.
 
+> **Nota de estratégia:** este documento continua útil como inventário bruto do site antigo. A curadoria premium de cases, nomes comerciais e fontes públicas complementares foi documentada em [portfolio_obras_dema.md](/Users/felipebarcelospro/Sandbox/nubler/dema-instalacoes/.artifacts/references/portfolio_obras_dema.md).
+
 ---
 
 ## Cores Principais (Análise do CSS)
@@ -199,6 +201,16 @@ Este documento centraliza todos os assets estáticos (textos, URLs de imagens, e
         - Sugestões
         - Outro
     - **Mensagem:** (Área de texto)
+
+---
+## 4. Estratégia de Uso dos Assets
+
+- O site antigo serve como inventário inicial, não como limite visual do novo projeto.
+- Para o novo portfólio, priorizar:
+  - imagens públicas dos empreendimentos confirmados
+  - fotos reais já presentes no acervo da Dema
+  - imagens com boa leitura arquitetônica e áreas calmas para texto
+- Quando houver conflito entre “imagem disponível” e “imagem premium”, a decisão deve favorecer qualidade de narrativa visual.
 
 ---
 **Nota:** As URLs das imagens podem ser baixadas localmente e servidas através do diretório `public/` no projeto Next.js para otimização, ou podemos continuar a usá-las diretamente se preferirmos.

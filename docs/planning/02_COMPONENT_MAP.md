@@ -1,73 +1,73 @@
-# 02 - Mapeamento de Componentes (Original -> Shadcn/UI)
+# 02 - Mapeamento de Componentes
 
-Este documento detalha a "tradução" de cada seção visual do site original para os componentes específicos do Shadcn/UI que serão utilizados na reconstrução.
+Este documento não trata Shadcn como linguagem visual final. Ele mapeia a base técnica dos componentes, mas a composição deve seguir o blueprint premium do projeto.
 
----
+## 1. Regras Gerais
 
-## Página Inicial (`/`)
+- Shadcn/UI é base estrutural, não estética.
+- Evitar depender de `Card` como solução padrão.
+- Priorizar layout, imagem, tipografia, listas, colunas, divisórias e mídia antes de “encaixotar” conteúdo.
+- Hero, cases e blocos institucionais devem ser majoritariamente customizados.
 
-Análise da página principal, que serve como base para a maioria dos componentes reutilizáveis.
+## 2. Componentes Compartilhados
 
-| Seção Original                 | Componente(s) Shadcn/UI Propostos                               | Notas de Implementação                                                                                                   |
-| :----------------------------- | :---------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- |
-| **Header (Informações)**       | `Button` (variant: `outline`), Ícones (`lucide-react`)            | Usar Flexbox para alinhar os elementos de contato e os botões.                                                           |
-| **Menu de Navegação**          | `NavigationMenu`                                                  | Componente ideal para a estrutura de links principal.                                                                    |
-| **Slider Principal (Hero)**    | `Carousel`                                                        | Para replicar o carrossel de imagens. O texto sobreposto será posicionado com classes de posicionamento absoluto do Tailwind. |
-| **Principais Serviços**        | `Card`, `CardHeader`, `CardContent`                               | Criar uma grade de `Card`s, cada um representando um serviço.                                                             |
-| **Últimos Empreendimentos**    | `Card` (para imagens), `ToggleGroup` (para filtros)               | A galeria será uma grade de `Card`s. O overlay no hover será feito com `group-hover` do Tailwind. Os filtros usarão `ToggleGroup`. |
-| **Estágios da Renovação**      | Componente Customizado (baseado em `Card`)                        | Cada um dos 4 estágios será um componente que pode usar a estrutura de um `Card` para agrupar o ícone, título e texto.       |
-| **Carrossel de Clientes**      | `Carousel`                                                        | Perfeito para o slider de logos. Configurar para exibir múltiplos itens e, opcionalmente, com auto-scroll.             |
-| **Banner de Contato (Footer)** | -                                                                 | Um `div` estilizado com Flexbox para alinhar o texto e o botão.                                                          |
-| **Rodapé (Footer)**            | -                                                                 | A estrutura de colunas do rodapé será criada com CSS Grid do Tailwind. Não necessita de um componente Shadcn específico. |
+| Bloco | Base técnica | Estratégia |
+| :--- | :--- | :--- |
+| Header | `NavigationMenu`, `Sheet`, `Button` | Customizar fortemente |
+| Footer | Tailwind layout + `Button` | Customizado |
+| CTA | `Button` + layout customizado | Customizado |
+| Formulário | `Input`, `Textarea`, `Label`, `Select`, `Button` | Shadcn como base |
+| Carrossel de logos | `Carousel` | Só se fizer sentido narrativo |
+| Menu mobile | `Sheet` ou `Drawer` | Customizado visualmente |
 
----
+## 3. Homepage (`/`)
 
-## Página de Obras (`/obras`)
+| Seção | Base técnica | Observação |
+| :--- | :--- | :--- |
+| Hero full-bleed | Custom + `Button` | Não usar `Carousel` como solução automática |
+| Barra de autoridade | Layout customizado | Sem cards |
+| Serviços | Blocos editoriais customizados | Evitar grade de `Card`s genérica |
+| Cases em destaque | Grid/layout editorial customizado | Forte dependência de imagem |
+| Processo + compliance | Layout customizado | Pode usar ícones, mas não depender deles |
+| Parceiros / clientes | Lista, marquee leve ou grid limpo | Evitar parecer “logo cloud SaaS” |
+| CTA final | Custom + `Button` | Direto e consultivo |
 
-**Status:** `A SER ANALISADO`
+## 4. Página de Serviços (`/servicos`)
 
-| Seção Original | Componente(s) Shadcn/UI Propostos | Notas de Implementação |
-| :------------- | :-------------------------------- | :--------------------- |
-| A definir      | A definir                         | A definir              |
+| Seção | Base técnica | Observação |
+| :--- | :--- | :--- |
+| Hero da página | Custom | Visual forte e contido |
+| Lista de serviços | Layout editorial | Um bloco por serviço principal |
+| Cases relacionados | Reuso do módulo de cases | Priorizar conexão com casos reais |
+| Bloco técnico | Lista / tabela / texto estruturado | Sem excesso de caixas |
+| CTA | Reuso do módulo de CTA | Conversão direta |
 
----
+## 5. Página de Cases (`/cases`)
 
-## Página de Galeria (`/galeria`)
+| Seção | Base técnica | Observação |
+| :--- | :--- | :--- |
+| Hero da página | Custom | Mais editorial que “banner” |
+| Filtros | `Tabs`, `ToggleGroup` ou custom | Escolher a solução mais limpa |
+| Índice de cases | Grid editorial customizado | Não virar feed comum |
+| CTA | Custom | Fechamento comercial |
 
-**Status:** `A SER ANALISADO`
+## 6. Página de Case (`/cases/[slug]`)
 
-| Seção Original | Componente(s) Shadcn/UI Propostos | Notas de Implementação |
-| :------------- | :-------------------------------- | :--------------------- |
-| A definir      | A definir                         | A definir              |
+| Seção | Base técnica | Observação |
+| :--- | :--- | :--- |
+| Hero de case | Custom | Imagem âncora dominante |
+| Ficha executiva | Lista estruturada | Sem cards, se possível |
+| Desafio / solução / resultados | Blocos editoriais | Forte controle tipográfico |
+| Galeria | Grid ou carrossel consciente | Só se houver narrativa |
+| Cases relacionados | Reuso do módulo de cases | Curadoria pequena |
 
----
+## 7. Sobre Nós e Contato
 
-## Página de Serviços (`/servicos`)
+| Página | Base técnica | Observação |
+| :--- | :--- | :--- |
+| `/sobre-nos` | Layout editorial customizado | Mistura de texto, prova e imagem |
+| `/contato` | Form + infos + CTA | Simples, rápido, premium |
 
-**Status:** `A SER ANALISADO`
+## 8. Referência Obrigatória
 
-| Seção Original | Componente(s) Shadcn/UI Propostos | Notas de Implementação |
-| :------------- | :-------------------------------- | :--------------------- |
-| A definir      | A definir                         | A definir              |
-
----
-
-## Página Sobre Nós (`/sobre-nos`)
-
-**Status:** `A SER ANALISado`
-
-| Seção Original | Componente(s) Shadcn/UI Propostos | Notas de Implementação |
-| :------------- | :-------------------------------- | :--------------------- |
-| A definir      | A definir                         | A definir              |
-
----
-
-## Página de Contato (`/contato`)
-
-**Status:** `A SER ANALISADO`
-
-| Seção Original      | Componente(s) Shadcn/UI Propostos                             | Notas de Implementação                                                                          |
-| :------------------ | :------------------------------------------------------------ | :---------------------------------------------------------------------------------------------- |
-| **Formulário**      | `Input`, `Textarea`, `Label`, `Button`                        | Usar `react-hook-form` e `zod` para validação do formulário, integrando com os componentes Shadcn. |
-| **Informações**     | Ícones (`lucide-react`)                                       | Usar Flexbox para alinhar ícones com as informações de contato.                                   |
-| **Mapa**            | -                                                             | O mapa é um `iframe` do Google Maps, que será mantido.                                          |
+A sequência de seções e a intenção visual de cada rota estão documentadas em [05_VISUAL_BLUEPRINT.md](/Users/felipebarcelospro/Sandbox/nubler/dema-instalacoes/docs/planning/05_VISUAL_BLUEPRINT.md).

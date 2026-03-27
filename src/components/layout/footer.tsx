@@ -1,104 +1,93 @@
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { company } from "@/content/site-content";
+import Image from "next/image";
 
 export function Footer() {
   return (
     <>
-      {/* Infobox */}
-      <div className="bg-primary py-5">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-primary-foreground text-lg">
-            Deixe o seu cadastro que entraremos em contato{" "}
-            <Link href="/contato" className="underline font-semibold">
-              area de cadastro
+      <section className="bg-[color:var(--surface-strong)] text-primary-foreground">
+        <div className="shell border-border/20 section-space flex flex-col">
+          <div>
+            <h2 className="section-title text-primary-foreground! max-w-2xl!">
+              Tenha o Acompanhamento técnico que o seu empreendimento merece.
+            </h2>
+            <p className="mt-4 text-lg leading-8 text-primary-foreground/60">
+              Acompanhamento técnico, documentação contínua e foco no avanço físico que clientes de ponta exigem.
+            </p>
+          </div>
+          <div className="flex items-center flex-wrap gap-4 mt-12">
+            <Link
+              href={company.whatsappHref}
+              target="_blank"
+              className="inline-flex h-12 items-center justify-center rounded-md border border-white/10 bg-primary px-8 text-sm font-semibold uppercase tracking-[0.2em] transition-colors hover:bg-white/10"
+            >
+              Falar com a equipe
             </Link>
-          </p>
+            <Link
+              href="/cases"
+              className="inline-flex text-sm font-semibold uppercase tracking-[0.2em] transition-colors"
+            >
+              Conhecer os cases
+            </Link>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <footer className="bg-gray-800 text-gray-400 pt-16 pb-6">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {/* Sobre Nós */}
-            <div className="lg:col-span-2">
-              <h4 className="text-white font-bold mb-4 text-sm uppercase">
-                SOBRE NÓS
-              </h4>
-              <p className="mb-4 text-sm leading-relaxed text-gray-400/80">
-                A Dema Instalações, Elétrica, Hidráulica e Manutenções LTDA está
-                no mercado desde 2006 e é especializada em instalações
-                elétricas, hidraulicas e manutenções.
+      <footer className="bg-[color:var(--surface-strong)] border-t border-border/20 text-white">
+        <div className="shell section-space pb-6! border-white/10 pt-12">
+          <div className="grid gap-12 pb-12 lg:grid-cols-[1fr_0.8fr]">
+            <div className="space-y-6">
+              <div className="relative h-10 w-[150px]">
+                <Image
+                  src="/images/logos/logo-full-white.png"
+                  alt="Logo da Dema Instalacoes"
+                  fill
+                  className="object-contain object-left"
+                />
+              </div>
+              <p className="max-w-xl text-sm leading-7 text-white/68">
+                {company.tagline} Atuacao voltada a empreendimentos urbanos,
+                retrofit e operacoes que pedem confianca de campo.
               </p>
-              <Button
-                variant="outline"
-                className="bg-transparent border-white/50 text-white hover:bg-white hover:text-gray-800 rounded-sm text-xs font-bold"
-                asChild
-              >
+            </div>
+            <div className="ml-auto">
+              <p className="eyebrow">Contato</p>
+              <div className="mt-4 space-y-4 text-sm text-white/68">
+                <p>{company.address}</p>
                 <a
-                  href="https://api.whatsapp.com/send?phone=5511947941317&text=Ol%C3%A1%2C%20estou%20interessado%20na%20Dema%20Instala%C3%A7%C3%B5es.%20*Contato%20via%20site*."
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={company.phoneHref}
+                  className="block transition hover:text-white"
                 >
-                  Contato via WhatsApp
+                  {company.phoneDisplay}
                 </a>
-              </Button>
-            </div>
-
-            {/* Links Uteis */}
-            <div>
-              <h4 className="text-white font-bold mb-4 text-sm uppercase">
-                LINKS UTEIS
-              </h4>
-              <ul className="space-y-2 text-sm text-gray-400/80">
-                <li>
-                  <Link href="/servicos" className="hover:text-white">
-                    &gt; Serviços
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/obras" className="hover:text-white">
-                    &gt; Obras
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/galeria" className="hover:text-white">
-                    &gt; Depoimentos
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/contato" className="hover:text-white">
-                    &gt; Contato
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            {/* Entre em Contato */}
-            <div>
-              <h4 className="text-white font-bold mb-4 text-sm uppercase">
-                ENTRE EM CONTATO
-              </h4>
-              <div className="text-sm text-gray-400/80">
-                <p>Av. Brigadeiro Luís Antônio, 3097</p>
-                <p>Jardim Paulista - SP, Brasil</p>
-                <p className="mt-4">Telefone: (11)9479-41317</p>
-                <p>contato@demainstalacoes.com.br</p>
+                <a
+                  href={`mailto:${company.email}`}
+                  className="block transition hover:text-white"
+                >
+                  {company.email}
+                </a>
+                <Link href="/contato" className="block transition hover:text-white">
+                  Solicite um contato
+                </Link>
               </div>
             </div>
           </div>
+        </div>
 
-          {/* Copyright */}
-          <div className="border-t border-gray-700 mt-12 pt-6 text-center text-xs text-gray-500">
+        <div className="shell border-t border-white/10 pb-6">
+          <div className="flex flex-col gap-3 pt-6 text-xs text-white/42 sm:flex-row sm:items-center sm:justify-between">
             <p>
-              Dema Instalações ©{new Date().getFullYear()} - Todos os direitos
-              reservados |{" "}
+              {company.displayName} ©{new Date().getFullYear()}. Todos os
+              direitos reservados.
+            </p>
+            <p>
               <a
                 href="http://nubler.com.br/"
                 target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-white"
+                rel="noreferrer"
+                className="transition hover:text-white"
               >
-                Website e Tecnologia desenvolvido por Nubler
+                Website e tecnologia por Nubler
               </a>
             </p>
           </div>
