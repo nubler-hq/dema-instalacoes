@@ -11,9 +11,6 @@ export function Footer() {
             <h2 className="section-title text-primary-foreground! max-w-2xl!">
               Tenha o acompanhamento técnico que o seu empreendimento merece.
             </h2>
-            <p className="mt-4 text-lg leading-8 text-primary-foreground/60">
-              Acompanhamento técnico, documentação contínua e foco no avanço físico que clientes de ponta exigem.
-            </p>
           </div>
           <div className="flex items-center flex-wrap gap-4 mt-12">
             <Link
