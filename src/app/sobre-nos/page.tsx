@@ -36,12 +36,12 @@ export default function AboutPage() {
               </Button>
             </div>
           </div>
-          <div className="relative mx-auto aspect-video sm:aspect-[21/9] w-full rounded-t-md border-x border-t border-border bg-secondary/10 overflow-hidden shadow-sm -mb-px">
+          <div className="hidden lg:block relative mx-auto aspect-video sm:aspect-[21/9] w-full rounded-t-md bg-primary/50 border-x border-t border-border overflow-hidden shadow-sm -mb-px">
             <Image
-              src="/images/about/engineers-lifestyle.png"
+              src="/images/about/engineers-lifestyle.jpg"
               alt="Engenheiros da Dema em Campo"
               fill
-              className="object-cover opacity-90 transition-all duration-700 hover:scale-[1.03]"
+              className="object-cover transition-all duration-700 hover:scale-[1.03] grayscale opacity-80"
             />
           </div>
         </div>
@@ -51,28 +51,28 @@ export default function AboutPage() {
       <section>
         <div className="shell section-space">
           <div className="grid gap-12 lg:grid-cols-3 sm:text-left divide-y sm:divide-y-0 sm:divide-x divide-border/20 text-center">
-            <div className="pt-8 sm:pt-0 sm:pr-8 lg:pr-12 flex flex-col items-center sm:items-start">
+            <div className="flex flex-col items-center sm:items-start">
               <Target className="size-8 text-primary mb-6" />
               <p className="text-[0.68rem] font-bold uppercase tracking-[0.25em] text-foreground/50 mb-4">Missão</p>
-              <h3 className="section-title mb-4 text-3xl! font-semibold">O Esqueleto Vital</h3>
-              <p className="text-secondary-foreground/80 leading-relaxed text-sm max-w-sm">
-                Projetar e executar a infraestrutura predial de alto padrão em São Paulo, entregando sistemas elétricos e hidráulicos que superem os mais rigorosos crivos construtivos.
+              <h3 className="section-title mb-4 text-3xl! font-semibold">Soluções e Eficiência</h3>
+              <p className="text-secondary-foreground leading-relaxed text-sm max-w-sm">
+                Atender nossos clientes com excelência, buscando soluções inovadoras para cada projeto que conciliem agilidade e economia sem jamais comprometer a qualidade técnica e a segurança.
               </p>
             </div>
-            <div className="pt-8 sm:pt-0 sm:px-8 lg:px-12 flex flex-col items-center sm:items-start">
+            <div className="flex flex-col items-center sm:items-start">
               <Eye className="size-8 text-primary mb-6" />
               <p className="text-[0.68rem] font-bold uppercase tracking-[0.25em] text-foreground/50 mb-4">Visão</p>
-              <h3 className="section-title mb-4 text-3xl! font-semibold">A Previsibilidade</h3>
-              <p className="text-secondary-foreground/80 leading-relaxed text-sm max-w-sm">
-                Ser o padrão definitivo de eficiência no mercado civil, garantindo uma instalação impecável, zero atrasos por incompatibilidades e previsibilidade absoluta em sua entrega.
+              <h3 className="section-title mb-4 text-3xl! font-semibold">Referência Técnica</h3>
+              <p className="text-secondary-foreground leading-relaxed text-sm max-w-sm">
+                Consolidar a trajetória de quase duas décadas no mercado como a principal autoridade em instalações elétricas e hidráulicas, sendo reconhecida pelo melhor custo-benefício e rigor normativo.
               </p>
             </div>
-            <div className="pt-8 sm:pt-0 sm:pl-8 lg:pl-12 flex flex-col items-center sm:items-start">
+            <div className="flex flex-col items-center sm:items-start">
               <ShieldCheck className="size-8 text-primary mb-6" />
               <p className="text-[0.68rem] font-bold uppercase tracking-[0.25em] text-foreground/50 mb-4">Valores</p>
-              <h3 className="section-title mb-4 text-3xl! font-semibold">Rigor Inegociável</h3>
-              <p className="text-secondary-foreground/80 leading-relaxed text-sm max-w-sm">
-                Zelar pela primazia técnica em campo, rigor normativo indiscutível, transparência irrestrita no cronograma estipulado e profundo compromisso documental as-built em cada obra.
+              <h3 className="section-title mb-4 text-3xl! font-semibold">Comprometimento</h3>
+              <p className="text-secondary-foreground leading-relaxed text-sm max-w-sm">
+                Pautamos nossa atuação em uma equipe altamente especializada, agilidade operacional, conformidade técnica irrestrita e transparência absoluta em cada entrega e manutenção.
               </p>
             </div>
           </div>
@@ -103,12 +103,12 @@ export default function AboutPage() {
             </div>
 
             {/* Right Card / Image */}
-            <div className="relative h-full min-h-[400px] w-full overflow-hidden rounded-md border border-border bg-secondary/10 shadow-sm">
+            <div className="hidden lg:block relative h-full min-h-[400px] w-full overflow-hidden rounded-md border border-border bg-primary/50 shadow-sm">
               <Image
-                src="/images/about/team-meeting.png"
+                src="/images/about/team-meeting.jpg"
                 alt="Equipe de engenheiros Dema em reunião"
                 fill
-                className="object-cover opacity-90 transition-all duration-700 hover:scale-105 grayscale hover:grayscale-0"
+                className="object-cover opacity-60 transition-all duration-700 hover:scale-105 grayscale"
               />
             </div>
           </div>

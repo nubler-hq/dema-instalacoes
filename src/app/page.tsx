@@ -27,9 +27,9 @@ export default function Home() {
         <div className="shell relative flex border-r min-h-[calc(84svh-64px)] items-end py-10 sm:min-h-[calc(100svh-73px)] sm:py-16 lg:py-18">
           <div className="grid w-full gap-8 lg:grid-cols-[minmax(0,1fr)_280px] lg:items-end lg:gap-12">
             <div className="max-w-4xl">
-              <p className="eyebrow reveal-up">Engenharia Predial Desde 2006</p>
-              <h1 className="reveal-up reveal-delay-1 section-title">
-                Elétrica, Hidráulica e SPDA com 100% de conformidade para garantir a previsibilidade total em obras de alto padrão.
+              <p className="eyebrow reveal-up">Instalações Prediais, Comerciais e Residenciais Desde 2006</p>
+              <h1 className="reveal-up reveal-delay-1 section-title lg:text-6xl! lg:max-w-3xl!">
+                Elétrica e Hidráulica com precisão técnica para empreendimentos de alto padrão.
               </h1>
               <div className="reveal-up reveal-delay-3 mt-10 flex flex-col gap-4 sm:flex-row">
                 <Button
@@ -58,7 +58,7 @@ export default function Home() {
       </section>
 
       <section className="border-b">
-        <div className="shell section-space pb-8!">
+        <div className="shell section-space">
           <div className="flex flex-col gap-10 text-left lg:items-start">
             <div>
               <p className="eyebrow">Rigor Executivo</p>
@@ -66,34 +66,6 @@ export default function Home() {
                 Projetos complexos exigem engenharia de precisão, cumprimento estrito de prazos e aderência normativa.
               </h2>
             </div>
-          </div>
-        </div>
-        <div className="shell border-t py-0!">
-          <div className="grid sm:grid-cols-3 gap-6 divide-x divide-border" style={{ verticalAlign: "bottom" }}>
-            {authorityStats.map((stat) => (
-              <div key={stat.value} className="py-5">
-                <p className="font-display text-5xl text-foreground">
-                  {stat.value}
-                </p>
-                <p className="mt-3 text-sm leading-7 text-muted-foreground">
-                  {stat.label}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="border-b">
-        <div className="shell section-space">
-          <div>
-            <p className="eyebrow">Escopo de Operação</p>
-            <h2 className="section-title mt-5">
-              Infraestrutura crítica projetada sob os maiores níveis de exigência.
-            </h2>
-            <p className="mt-6 max-w-md text-sm leading-7 text-muted-foreground">
-              Do projeto minucioso do centro de medição às redes hídricas e proteção de incêndio robustas, nossa operação une montagem impecável em campo a laudos certificadores incontestáveis baseados puramente na engenharia de resultados.
-            </p>
           </div>
 
           <div className="grid md:grid-cols-2 border rounded-md mt-12 bg-secondary/50">
@@ -144,9 +116,9 @@ export default function Home() {
         <div className="shell section-space">
           <div className="flex flex-col gap-6">
             <div>
-              <p className="eyebrow">Chancela Institucional</p>
+              <p className="eyebrow">Nossos clientes e parceiros</p>
               <h2 className="section-title">
-                A sustentação estrutural das frentes mais emblemáticas do Brasil.
+                <strong className="text-primary font-display">20 anos</strong> de história atendendo os mais exigentes padrões de clientes.
               </h2>
             </div>
             <p className="text-muted-foreground max-w-2xl leading-relaxed text-lg reveal-up reveal-delay-2">

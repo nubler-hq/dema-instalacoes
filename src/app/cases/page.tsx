@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { useState, useMemo } from "react";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 export default function CasesPage() {
   const [filter, setFilter] = useState("all");
@@ -45,7 +46,22 @@ export default function CasesPage() {
       </section>
 
       <section>
+        <header className="shell pt-0! pb-2!">
+          <h2 className="section-title reveal-up reveal-delay-3 text-xl! font-bold">Filtros</h2>
+        </header>
         <div className="shell pt-0!">
+          <Select value={filter} onValueChange={(value) => setFilter(value)}>
+            <SelectTrigger className="lg:hidden bg-card h-12 w-full reveal-up reveal-delay-3">
+              <SelectValue placeholder="Selecione" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all">Todos</SelectItem>
+              <SelectItem value="residencial">Residenciais</SelectItem>
+              <SelectItem value="comercial">Comerciais</SelectItem>
+              <SelectItem value="industrial">Industriais</SelectItem>
+            </SelectContent>
+          </Select>
+
           <ToggleGroup
             type="single"
             value={filter}
@@ -53,7 +69,7 @@ export default function CasesPage() {
               if (value) setFilter(value);
             }}
             variant="outline"
-            className="justify-start flex-wrap reveal-up reveal-delay-3"
+            className="lg:flex hidden reveal-up reveal-delay-3"
           >
             <ToggleGroupItem value="all" className="px-6 h-10 text-xs font-semibold uppercase tracking-widest">
               Todos

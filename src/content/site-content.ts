@@ -10,14 +10,14 @@ export const company = {
   whatsappHref:
     "https://api.whatsapp.com/send?phone=5511947941317&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20sobre%20um%20projeto%20com%20a%20Dema%20Instala%C3%A7%C3%B5es.",
   address:
-    "Av. Brigadeiro Luis Antonio, 3097, Jardim Paulista, Sao Paulo - SP",
+    "Av. Brigadeiro Luís Antônio, 3097, Jardim Paulista, São Paulo - SP",
   cityFootprint: ["Moema", "Vila Mariana", "Campo Belo", "Jardins"],
 };
 
 export const authorityStats = [
   {
     value: "2006",
-    label: "Ano de fundação. Quase duas décadas mitigando riscos e garantindo integridade em infraestruturas.",
+    label: "Ano de fundação. Por mais de duas décadas mitigando riscos e garantindo integridade em infraestruturas.",
   },
   {
     value: "100%",
@@ -121,7 +121,7 @@ export const serviceCatalog = [
       "Montagem e manutenção de subestação de média tensão.",
   },
   {
-    title: "Sistema de Combate à Incêndio",
+    title: "Sistema de Combate a Incêndio",
     description:
       "Instalação de centrais de alarme analógicas e endereçáveis, detectores de fumaça e infraestrutura associada.",
   },

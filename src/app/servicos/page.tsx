@@ -39,7 +39,7 @@ export default function ServicesPage() {
                 key={stat.value}
                 className={cn(
                   "py-5",
-                  index > 0 && "border-l border-border pl-12",
+                  index > 0 && "lg:border-l border-border lg:pl-12",
                 )}
               >
                 <p className="font-display text-5xl text-foreground">

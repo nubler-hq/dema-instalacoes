@@ -175,7 +175,7 @@
     }
 
     .section-title {
-        @apply max-w-xl text-4xl tracking-tight sm:text-5xl text-foreground font-display;
+        @apply max-w-3xl text-3xl tracking-tight sm:text-4xl text-foreground font-display;
     }
 
     .eyebrow::after {

@@ -40,7 +40,7 @@ export function CasesSection() {
           <div className="max-w-2xl">
             <p className="eyebrow text-primary/80">Cases em destaque</p>
             <h2 className="section-title mt-5">
-              Obras que mostram a atuação da Dema em empreendimentos relevantes de São Paulo.
+              Empreendimentos que mostram a atuação da Dema Instalações em São Paulo.
             </h2>
           </div>
 

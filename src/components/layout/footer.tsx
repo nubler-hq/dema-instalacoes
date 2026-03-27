@@ -9,7 +9,7 @@ export function Footer() {
         <div className="shell border-border/20 section-space flex flex-col">
           <div>
             <h2 className="section-title text-primary-foreground! max-w-2xl!">
-              Tenha o Acompanhamento técnico que o seu empreendimento merece.
+              Tenha o acompanhamento técnico que o seu empreendimento merece.
             </h2>
             <p className="mt-4 text-lg leading-8 text-primary-foreground/60">
               Acompanhamento técnico, documentação contínua e foco no avanço físico que clientes de ponta exigem.
@@ -40,14 +40,14 @@ export function Footer() {
               <div className="relative h-10 w-[150px]">
                 <Image
                   src="/images/logos/logo-full-white.png"
-                  alt="Logo da Dema Instalacoes"
+                  alt="Logo da Dema Instalações"
                   fill
                   className="object-contain object-left"
                 />
               </div>
               <p className="max-w-xl text-sm leading-7 text-white/68">
-                {company.tagline} Atuacao voltada a empreendimentos urbanos,
-                retrofit e operacoes que pedem confianca de campo.
+                {company.tagline} Atuação voltada a empreendimentos urbanos,
+                retrofit e operações que pedem confiança de campo.
               </p>
             </div>
             <div className="ml-auto">

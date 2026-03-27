@@ -111,3 +111,5 @@
   - 7. SEO e polish
   - 8. backend real
 - [2026-03-25 17:55:00] - A primeira execução material do plano já cobre boa parte da Etapa A: tipografia editorial, paleta premium mineral com laranja da marca, header/footer novos, homepage forte e rotas institucionais iniciais usando um módulo único de conteúdo mockado.
+- [2026-03-27 13:45:00] - Correção Gramatical e Ortográfica: Revisão completa do Footer e sitewide content. Ajustados acentos em "Atuação", "operações", "confiança", "Luís Antônio" e "São Paulo". Removida crase incorreta em "Sistema de Combate a Incêndio".
+- [2026-03-27 13:50:00] - Atualização Institucional (Sobre Nós): Seção de Missão, Visão e Valores atualizada para integrar o histórico do site antigo com o novo tom premium, priorizando termos como "melhor custo-benefício", "soluções inovadoras" e "agilidade operacional".
