@@ -1,0 +1,5 @@
+{
+  "taskId": "DEM-008",
+  "description": "Adicionar função utilitária que recebe obra + quotes e retorna { type, budget, consumed, remaining, percent, alert }. alert = 'ok' se percent<60, 'warn' se 60-90, 'over' se >90. Consumido = soma quote.total onde status === 'approved'.",
+  "status": "finished"
+}

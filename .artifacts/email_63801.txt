@@ -1,0 +1,5 @@
+Error: 
+   0: [91mcannot fetch IMAP messages: request timed out[0m
+
+[96mNote[0m: Run with --debug to enable logs with spantrace.
+[96mNote[0m: Run with --trace to enable verbose logs with backtrace.

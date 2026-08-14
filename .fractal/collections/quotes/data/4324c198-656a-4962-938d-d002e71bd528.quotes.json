@@ -1,0 +1,72 @@
+{
+  "customer": "89879105-9531-4bc3-992c-932e1ef6a07e",
+  "supplier": "d1ecb46d-3d6f-4ce8-8475-d27d8961f01e",
+  "number": "001",
+  "type": "Incêndio",
+  "quote": "80206",
+  "paymentTerms": "30/45/60 dias - Boleto",
+  "invoice": {
+    "name": "GTZ 84 Empreendimentos Imobiliários SPE LTDA",
+    "cnpj": "48.950.512/0001-45"
+  },
+  "items": [
+    {
+      "description": "Tubos de aço preto e galvanizado (1\" a 2.1/2\") — diversos diâmetros para sistema de incêndio",
+      "quantity": 1,
+      "unit": "conjunto"
+    },
+    {
+      "description": "Curvas 90° e 45° STD FIG 90/120 UL/FM — diâmetros 1\" a 4\"",
+      "quantity": 1,
+      "unit": "conjunto"
+    },
+    {
+      "description": "Tês STD e de redução FIG 130 UL/FM — diâmetros 1\" a 4\"",
+      "quantity": 1,
+      "unit": "conjunto"
+    },
+    {
+      "description": "Redutores concêntricos ranhurados FIG 240 UL/FM",
+      "quantity": 1,
+      "unit": "conjunto"
+    },
+    {
+      "description": "Acoplamentos rígidos STD FIG 1G UL/FM — 1\" a 2.1/2\"",
+      "quantity": 1,
+      "unit": "conjunto"
+    },
+    {
+      "description": "Válvulas gaveta, retenção e hidrante ranhuradas",
+      "quantity": 1,
+      "unit": "conjunto"
+    },
+    {
+      "description": "Sprinklers pendente 1/2\" 68° K5.6 UL resposta rápida",
+      "quantity": 806,
+      "unit": "PC"
+    },
+    {
+      "description": "Mangueira de incêndio Lacer Fire 1.1/2\" x 30m tipo 2",
+      "quantity": 64,
+      "unit": "PC"
+    },
+    {
+      "description": "Adaptadores e chaves storz para hidrante",
+      "quantity": 1,
+      "unit": "conjunto"
+    },
+    {
+      "description": "Esguicho regulável 1.1/2\" storz",
+      "quantity": 64,
+      "unit": "PC"
+    }
+  ],
+  "subtotal": 318652.46,
+  "taxes": 7562.64,
+  "total": 326215.1,
+  "file":".fractal/drive/Obras/GTZ-84/Pedidos/001-Incêndio/Orçamentos/Orcamento-Cemil-Tubos-80206.pdf",
+    "email": "63784",
+  "status": "quoted",
+  "notes": "Orçamento #80206 recebido de Cemil Tubos (Rosana Nobrega) em 21/05/2026 para GTZ 84. 194 itens de tubulação, conexões, sprinklers, válvulas e mangueiras para sistema de incêndio/sprinkler. Total produtos: R$ 318.652,46 | Total c/ IPI: R$ 326.215,10. Pagamento em 3 boletos (30/45/60 dias). O PDF original consta como 'ORÇAMENTO SEM APROVAÇÃO'.",
+  "quotedAt": "2026-05-21T15:15:00.000Z"
+}

@@ -1,0 +1,5 @@
+{
+  "taskId": "DEM-008",
+  "description": "Validar: 3 clientes aparecem corretos, header mostra totais agregados, kanban consistente, sem quebrar obras sem budget, sem erros de lint/console.",
+  "status": "finished"
+}

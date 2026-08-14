@@ -1,0 +1,7 @@
+Error: cannot parse search emails query `Plasticon SHAFT RYT Pass-Pro Passante`
+   ╭─[query:1:1]
+   │
+ 1 │ Plasticon SHAFT RYT Pass-Pro Passante
+   │ ┬  
+   │ ╰── found 'P' expected `not`, `date`, `before`, `after`, `from`, `to`, `subject`, `body`, `flag`, or (nested filter)
+───╯

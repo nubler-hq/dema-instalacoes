@@ -1,0 +1,17 @@
+{
+  "slug": "fixagold",
+  "name": "Fixagold Fixação",
+  "documents": {
+    "cnpj": "11.551.676/0001-90",
+    "ie": ""
+  },
+  "segment": "mixed",
+  "contact": "Matheus",
+  "email": "vendas2@fixagold.com.br",
+  "phone": "(11) 2387-7880",
+  "address": "R. Susana, 522 - Jd Independencia, São Paulo - SP, 03223-000",
+  "postalCode": "03223-000",
+  "paymentTerms": "28 days - Boleto Itaú",
+  "notes": "Contato principal para materiais de fixação e infraestrutura hidráulica. Orçamento #3028284 recebido em 19/05/2026 para obra Wise Clementino.",
+  "createdAt": "2026-05-21T14:01:00.000Z"
+}

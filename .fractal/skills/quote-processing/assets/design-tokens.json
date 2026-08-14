@@ -1,0 +1,33 @@
+{
+  "name": "Dema Mapa de Cotacao",
+  "colors": {
+    "paper": "#FBF7EF",
+    "surface": "#FFFDF8",
+    "table": "#FFFFFF",
+    "wash": "#F7EFE4",
+    "line": "#DED2C2",
+    "lineStrong": "#C7B39E",
+    "brand": "#A94F2D",
+    "brandDark": "#71361F",
+    "green": "#31594D",
+    "greenSoft": "#E8F3ED",
+    "bestCell": "#EDF6F0",
+    "ink": "#211B16",
+    "muted": "#6A6056"
+  },
+  "typography": {
+    "family": "Aptos, Arial, sans-serif",
+    "bodyLineHeight": 1.45,
+    "compactLineHeight": 1.25
+  },
+  "table": {
+    "itemColumnPercent": 44,
+    "quantityColumnPercent": 6,
+    "supplierColumnPercent": 10,
+    "minimumWidthPx": 1180
+  },
+  "radius": {
+    "small": 4,
+    "medium": 6
+  }
+}

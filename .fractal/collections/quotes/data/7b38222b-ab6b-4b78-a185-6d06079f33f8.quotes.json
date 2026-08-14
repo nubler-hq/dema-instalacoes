@@ -1,0 +1,432 @@
+{
+  "customer": "03be712a-263a-46d1-82af-aa18a473d7ed",
+  "supplier": "696bac28-2bdb-493a-a9f6-9bcf134958c5",
+  "number": "006",
+  "type": "Elétrica",
+  "quote": "ACCLG9",
+  "paymentTerms": "28 DDL",
+  "freight": "FOB",
+  "file": ".fractal/drive/Obras/WISE/Pedidos/006-Elétrica/Orçamentos/Orcamento-Santil-ACCLG9.pdf",
+    "invoice": {
+    "name": "SMG22 Empreendimentos Imobiliários SPE LTDA",
+    "cnpj": "48.868.032/0001-30"
+  },
+  "items":[
+      {
+        "description": "ELETRODUTO GALVANIZADO A FOGO 4\" PESADO",
+      "quantity": 240,
+      "unit": "m"
+    },
+    {
+      "description": "CURVA 4\" 45° GALVANIZADA",
+      "quantity": 30,
+      "unit": "unid."
+    },
+    {
+      "description": "CURVA 4\" 90° GALVANIZADA",
+      "quantity": 15,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE CÔNICO 4\" COM BUCHA E ARRUELA",
+      "quantity": 36,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE RETO 4\"",
+      "quantity": 80,
+      "unit": "unid."
+    },
+    {
+      "description": "CAIXA DE PASSAGEM 80/80 x 25, SOBREPOR, CHAPA 18, COM DISPOSITIVO DE LACRE",
+      "quantity": 7,
+      "unit": "unid."
+    },
+    {
+      "description": "ELETRODUTO GALVANIZADO A FOGO 127 mm / 5\"",
+      "quantity": 108,
+      "unit": "m"
+    },
+    {
+      "description": "UNIDUTE CÔNICO 127 mm COM BUCHA E ARRUELA",
+      "quantity": 18,
+      "unit": "unid."
+    },
+    {
+      "description": "CURVA 90° 127 mm",
+      "quantity": 12,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE RETO 127 mm",
+      "quantity": 18,
+      "unit": "unid."
+    },
+    {
+      "description": "ELETRODUTO PVC RÍGIDO 1.1/4\"",
+      "quantity": 230,
+      "unit": "m"
+    },
+    {
+      "description": "ELETRODUTO PVC RÍGIDO 2\"",
+      "quantity": 30,
+      "unit": "m"
+    },
+    {
+      "description": "ELETRODUTO PVC RÍGIDO 3/4\"",
+      "quantity": 80,
+      "unit": "m"
+    },
+    {
+      "description": "ELETRODUTO PVC RÍGIDO 1\"",
+      "quantity": 75,
+      "unit": "m"
+    },
+    {
+      "description": "ELETRODUTO PVC RÍGIDO 2.1/2\"",
+      "quantity": 9,
+      "unit": "m"
+    },
+    {
+      "description": "ELETRODUTO PVC RÍGIDO 3\"",
+      "quantity": 9,
+      "unit": "m"
+    },
+    {
+      "description": "UNIDUTE CÔNICO 3\" COM BUCHA E ARRUELA",
+      "quantity": 4,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE RETO 3\"",
+      "quantity": 4,
+      "unit": "unid."
+    },
+    {
+      "description": "CANDULETE 3/4\" TIPO E",
+      "quantity": 38,
+      "unit": "unid."
+    },
+    {
+      "description": "CANDULETE 3/4\" TIPO C",
+      "quantity": 18,
+      "unit": "unid."
+    },
+    {
+      "description": "CANDULETE 3/4\" TIPO LL",
+      "quantity": 8,
+      "unit": "unid."
+    },
+    {
+      "description": "CANDULETE 3/4\" TIPO T",
+      "quantity": 8,
+      "unit": "unid."
+    },
+    {
+      "description": "CANDULETE 1\" TIPO C",
+      "quantity": 6,
+      "unit": "unid."
+    },
+    {
+      "description": "CANDULETE 1\" TIPO T",
+      "quantity": 2,
+      "unit": "unid."
+    },
+    {
+      "description": "CANDULETE 1\" TIPO LL",
+      "quantity": 3,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE CÔNICO 2.1/2\" COM BUCHA E ARRUELA",
+      "quantity": 2,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE RETO 2.1/2\"",
+      "quantity": 3,
+      "unit": "unid."
+    },
+    {
+      "description": "CURVA 90° PVC 1.1/4\"",
+      "quantity": 18,
+      "unit": "unid."
+    },
+    {
+      "description": "CURVA 90° PVC 2\"",
+      "quantity": 11,
+      "unit": "unid."
+    },
+    {
+      "description": "CAIXA DE PASSAGEM 15/15 x 12, SOBREPOR, CHAPA 18",
+      "quantity": 16,
+      "unit": "unid."
+    },
+    {
+      "description": "ABRAÇADEIRA TIPO D 1.1/4\" COM PARAFUSO",
+      "quantity": 100,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE CÔNICO 1.1/4\" COM BUCHA E ARRUELA",
+      "quantity": 20,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE RETO 1.1/4\"",
+      "quantity": 94,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE RETO 2\"",
+      "quantity": 12,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE CÔNICO 2\" COM BUCHA E ARRUELA",
+      "quantity": 12,
+      "unit": "unid."
+    },
+    {
+      "description": "ABRAÇADEIRA TIPO D 2\" COM PARAFUSO",
+      "quantity": 30,
+      "unit": "unid."
+    },
+    {
+      "description": "ABRAÇADEIRA PERFIL 1.1/4\"",
+      "quantity": 50,
+      "unit": "pares"
+    },
+    {
+      "description": "ELETRODUTO PVC RÍGIDO",
+      "quantity": 88,
+      "unit": "m"
+    },
+    {
+      "description": "CANDULETE TIPO E",
+      "quantity": 2,
+      "unit": "unid."
+    },
+    {
+      "description": "CANDULETE TIPO C",
+      "quantity": 2,
+      "unit": "unid."
+    },
+    {
+      "description": "CANDULETE TIPO T / LR",
+      "quantity": 1,
+      "unit": "unid."
+    },
+    {
+      "description": "ABRAÇADEIRA TIPO D COM PARAFUSO",
+      "quantity": 30,
+      "unit": "unid."
+    },
+    {
+      "description": "ABRAÇADEIRA PERFIL",
+      "quantity": 40,
+      "unit": "pares"
+    },
+    {
+      "description": "CANDULETE DUPLO 3/4\" TIPO E",
+      "quantity": 12,
+      "unit": "unid."
+    },
+    {
+      "description": "CANDULETE 3/4\" TIPO E",
+      "quantity": 83,
+      "unit": "unid."
+    },
+    {
+      "description": "CANDULETE 3/4\" TIPO C",
+      "quantity": 28,
+      "unit": "unid."
+    },
+    {
+      "description": "CANDULETE 3/4\" TIPO LR",
+      "quantity": 13,
+      "unit": "unid."
+    },
+    {
+      "description": "CANDULETE 3/4\" TIPO T",
+      "quantity": 14,
+      "unit": "unid."
+    },
+    {
+      "description": "TAMPA DE CANDULETE 3/4\"",
+      "quantity": 45,
+      "unit": "unid."
+    },
+    {
+      "description": "ELETRODUTO PVC RÍGIDO 3/4\"",
+      "quantity": 250,
+      "unit": "m"
+    },
+    {
+      "description": "ELETRODUTO PVC RÍGIDO 1\"",
+      "quantity": 130,
+      "unit": "m"
+    },
+    {
+      "description": "CAIXA DE PASSAGEM 15/15, SOBREPOR, CHAPA 18",
+      "quantity": 16,
+      "unit": "unid."
+    },
+    {
+      "description": "CAIXA DE PASSAGEM 20/20, SOBREPOR, CHAPA 18",
+      "quantity": 8,
+      "unit": "unid."
+    },
+    {
+      "description": "CAIXA DE PASSAGEM 30/30 x 12, SOBREPOR, CHAPA 18",
+      "quantity": 8,
+      "unit": "unid."
+    },
+    {
+      "description": "ABRAÇADEIRA 2\" TIPO PERFIL COM PARAFUSO",
+      "quantity": 40,
+      "unit": "pares"
+    },
+    {
+      "description": "ABRAÇADEIRA TIPO D 3/4\" COM PARAFUSO",
+      "quantity": 200,
+      "unit": "unid."
+    },
+    {
+      "description": "ABRAÇADEIRA 3/4\" TIPO PERFIL",
+      "quantity": 240,
+      "unit": "pares"
+    },
+    {
+      "description": "ABRAÇADEIRA 1\" TIPO PERFIL",
+      "quantity": 120,
+      "unit": "pares"
+    },
+    {
+      "description": "ABRAÇADEIRA 1.1/4\" TIPO PERFIL",
+      "quantity": 30,
+      "unit": "unid."
+    },
+    {
+      "description": "CURVA 90° PVC 3/4\"",
+      "quantity": 80,
+      "unit": "unid."
+    },
+    {
+      "description": "CURVA 90° PVC 2\"",
+      "quantity": 30,
+      "unit": "unid."
+    },
+    {
+      "description": "CURVA 90° PVC 1\"",
+      "quantity": 11,
+      "unit": "unid."
+    },
+    {
+      "description": "CURVA 90° PVC 1.1/4\"",
+      "quantity": 14,
+      "unit": "unid."
+    },
+    {
+      "description": "CURVA 90° PVC 2.1/2\"",
+      "quantity": 4,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE RETO 2\"",
+      "quantity": 60,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE RETO 3/4\"",
+      "quantity": 134,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE RETO 1.1/4\"",
+      "quantity": 36,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE CÔNICO 3/4\" COM BUCHA E ARRUELA",
+      "quantity": 120,
+      "unit": "unid."
+    },
+    {
+      "description": "TOMADA VERMELHA 20 A PARA CANDULETE 3/4\" COM TAMPA",
+      "quantity": 74,
+      "unit": "unid."
+    },
+    {
+      "description": "TOMADA PARA CANDULETE 3/4\"",
+      "quantity": 26,
+      "unit": "unid."
+    },
+    {
+      "description": "ELETRODUTO PVC RÍGIDO 3/4\"",
+      "quantity": 300,
+      "unit": "m"
+    },
+    {
+      "description": "ELETRODUTO PVC RÍGIDO 1\"",
+      "quantity": 120,
+      "unit": "m"
+    },
+    {
+      "description": "ELETRODUTO PVC RÍGIDO 1.1/4\"",
+      "quantity": 76,
+      "unit": "m"
+    },
+    {
+      "description": "ELETRODUTO PVC RÍGIDO 2\"",
+      "quantity": 195,
+      "unit": "m"
+    },
+    {
+      "description": "ELETRODUTO PVC RÍGIDO 2.1/2\"",
+      "quantity": 9,
+      "unit": "m"
+    },
+    {
+      "description": "UNIDUTE CÔNICO 2\" COM BUCHA E ARRUELA",
+      "quantity": 26,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE CÔNICO 3/4\" COM BUCHA E ARRUELA",
+      "quantity": 120,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE CÔNICO 1.1/4\" COM BUCHA E ARRUELA",
+      "quantity": 12,
+      "unit": "unid."
+    },
+    {
+      "description": "UNIDUTE CÔNICO 1\" COM BUCHA E ARRUELA",
+      "quantity": 38,
+      "unit": "unid."
+    },
+    {
+      "description": "PARAFUSO 1/4\"",
+      "quantity": 1000,
+      "unit": "unid."
+    },
+    {
+      "description": "PORCA SEXTAVADA 1/4\"",
+      "quantity": 2000,
+      "unit": "unid."
+    },
+    {
+      "description": "ARRUELA 1/4\"",
+      "quantity": 4000,
+      "unit": "unid."
+    }
+  ],
+  "total": 53809.84,
+  "email": "63835",
+  "status": "quoted",
+  "notes": "---\n## Orçamento Santil — ACCLG9\n\n**Recebido:** 28/05/2026 14:14 (email ID: 63835)\n**Vendedora:** Vera Lucia Pedro\n**Condições:** 28 DDL, Frete FOB, Validade 1 dia\n**Total:** R$ 53.809,84\n\n### Itens cotados pela Santil\nA Santil cotou 74 itens. Abaixo o mapeamento com os itens originais do pedido.\n\n#### Itens OK (cotados conforme pedido):\n- Itens 1-5, 11-18, 26-29, 31-36, 45-68, 71-79: cotados com preços\n- Itens 19-25 (Condul 3/4\" e 1\"): cotados corretamente (grafia CONDUL)\n- Itens 69-70 (Tomadas): cotados\n\n#### Itens com divergência na cotação:\n- Itens 4, 8, 17, 26, 32, 35, 68, 76-79: Santil desmembrou \"Unidute Cônico c/ Bucha e Arruela\" em 3 itens separados (unidute + bucha + arruela)\n- Item 31: Santil cotou como 2 itens (Abraçadeira D c/ Cunha + Abraçadeira D c/ Porca e Parafuso)\n- Item 33 (Unidute Reto 1.1/4\" — 94 unid): Santil cotou apenas 1 unidade (possível erro ou falta de estoque)\n\n#### Itens NÃO cotados pela Santil:\n- Item 6: Caixa passagem 80/80x25 c/ lacre (7 unid) — fora do escopo\n- Itens 7-10: Eletroduto Galv 5\" (127mm) + Unidutes + Curvas — Santil não trabalha com 5\"\n- Itens 38-43: Itens sem especificação de diâmetro (PVC 88m, Condul, Abraçadeiras) — itens ambíguos, ignorados\n- Item 44: Condul Duplo 3/4\" Tipo E (12 unid) — não cotado\n- Itens 80-82: Parafuso, Porca, Arruela 1/4\" (1.000+2.000+4.000) — Santil não trabalha com fixadores\n\n### Pendências com a fornecedora:\n1. Vera cobrou retorno sobre orçamentos anteriores (apto Juliana)\n2. Vera cobrou ficha cadastral (Dn. Elaine)\n3. Itens faltantes — questionar motivo\n\n### Anexo:\nPDF do orçamento: `.fractal/skills/email/downloads/IMP_PDF_0008acclg9scgn0050e2.pdf`",
+  "quotedAt": "2026-05-28T17:14:00.000Z",
+  "sentAt": "2026-05-28T20:10:00.000Z"
+}

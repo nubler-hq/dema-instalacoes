@@ -1,0 +1,17 @@
+{
+  "servers": {
+    "fractal": {
+      "command": "bun",
+      "args": [
+        "/Volumes/Sandbox/Sandbox/nubler/fractal/src/@cli/index.ts",
+        "--mcp"
+      ],
+      "env": {
+        "FRACTAL_WORKSPACE_ID": "dema-instalacoes",
+        "FRACTAL_AGENT_ID": "atlas",
+        "FRACTAL_TOKEN": "fractal_932ef1ee7079bb53610e5fe244dd516605bb792dd8df1ba4e33d30607b3d7f0d"
+      }
+    }
+  },
+  "inputs": []
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "jmc",
+  "name": "JMC Com. Elétrica",
+  "documents": {
+    "cnpj": "43.350.099/0001-64",
+    "ie": "108.780.089.115"
+  },
+  "segment": "electrical",
+  "contact": "Tiago Balção",
+  "email": "danfe@jmc.com.br",
+  "phone": "(11) 3358-8000",
+  "address": "R. Aurora, 525 - Santa Efigênia, São Paulo - SP, 01209-001",
+  "paymentTerms": "",
+  "notes": "Nota fiscal 377317 emitida em 19/05/2026. Produtos: eletrodutos PVC, abraçadeiras, buchas, parafusos, arruelas.",
+  "createdAt": "2026-05-21T15:54:00.000Z"
+}

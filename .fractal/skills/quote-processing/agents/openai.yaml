@@ -1,0 +1,6 @@
+interface:
+  display_name: "Dema Quote Processing"
+  short_description: "Sincroniza orçamentos e cria mapas de cotação"
+  default_prompt: "Use $quote-processing para processar os orçamentos e gerar o mapa de cotação do pedido informado."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,829 @@
+{
+  "customer": "89879105-9531-4bc3-992c-932e1ef6a07e",
+  "supplier": "7891e5e6-8c8c-47b9-a180-f679b40fdb34",
+  "number": "001",
+  "type": "Hidráulica",
+  "quote": "848281",
+  "paymentTerms": "30/60 DDL",
+  "freight": "CIF",
+  "deliveryDays": 2,
+  "invoice": {
+    "name": "GTZ 84 INVESTIMENTOS IMOBILIÁRIOS SPE LTDA",
+    "cnpj": "48.950.512/0001-45"
+  },
+  "items": [
+    {
+      "position": 1,
+      "description": "TUBO ESG DN 50 6MT",
+      "reference": "10470",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "TB",
+      "unitPrice": 48.9,
+      "totalPrice": 489.02
+    },
+    {
+      "position": 2,
+      "description": "TUBO ESG DN 75 6MT",
+      "reference": "10471",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "TB",
+      "unitPrice": 78.57,
+      "totalPrice": 785.66
+    },
+    {
+      "position": 3,
+      "description": "TUBO ESG DN 100 6MT",
+      "reference": "10472",
+      "manufacturer": "AMANCO",
+      "quantity": 100,
+      "unit": "TB",
+      "unitPrice": 80.91,
+      "totalPrice": 8091.44
+    },
+    {
+      "position": 4,
+      "description": "TUBO ESG DN 150 6MT",
+      "reference": "10473",
+      "manufacturer": "AMANCO",
+      "quantity": 20,
+      "unit": "TB",
+      "unitPrice": 187.82,
+      "totalPrice": 3756.32
+    },
+    {
+      "position": 5,
+      "description": "TUBO SERIE R DN 75 6MT",
+      "reference": "11464",
+      "manufacturer": "AMANCO",
+      "quantity": 15,
+      "unit": "TB",
+      "unitPrice": 90.58,
+      "totalPrice": 1358.71
+    },
+    {
+      "position": 6,
+      "description": "TUBO SERIE R DN 100 6MT",
+      "reference": "11460",
+      "manufacturer": "AMANCO",
+      "quantity": 80,
+      "unit": "TB",
+      "unitPrice": 129.56,
+      "totalPrice": 10364.44
+    },
+    {
+      "position": 7,
+      "description": "TUBO SERIE R DN 150 6MT",
+      "reference": "11462",
+      "manufacturer": "AMANCO",
+      "quantity": 60,
+      "unit": "TB",
+      "unitPrice": 260.55,
+      "totalPrice": 15632.77
+    },
+    {
+      "position": 8,
+      "description": "TUBO PVC OCRE 200MM 6MT",
+      "reference": "0306710004",
+      "manufacturer": "CORR PLASTIK",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 434.55,
+      "totalPrice": 4345.48
+    },
+    {
+      "position": 9,
+      "description": "TE ESG DN 50 X 50 MM SN",
+      "reference": "11803",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 4.72,
+      "totalPrice": 188.89
+    },
+    {
+      "position": 10,
+      "description": "JUNCAO ESG SIMP DN 50 X 50 SN",
+      "reference": "11703",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 5.93,
+      "totalPrice": 237.26
+    },
+    {
+      "position": 11,
+      "description": "JUNCAO ESG SIMP RED DN 75 X 50 SN",
+      "reference": "11705",
+      "manufacturer": "AMANCO",
+      "quantity": 20,
+      "unit": "PC",
+      "unitPrice": 8.2,
+      "totalPrice": 163.95
+    },
+    {
+      "position": 12,
+      "description": "JUNCAO ESG SIMP DN 75 SR",
+      "reference": "11708",
+      "manufacturer": "AMANCO",
+      "quantity": 15,
+      "unit": "PC",
+      "unitPrice": 24.52,
+      "totalPrice": 367.73
+    },
+    {
+      "position": 13,
+      "description": "JUNCAO ESG SIMP RED DN100 X 75 SR",
+      "reference": "11706",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 40.43,
+      "totalPrice": 404.27
+    },
+    {
+      "position": 14,
+      "description": "JUNCAO ESG SIMP DN100 SR",
+      "reference": "11707",
+      "manufacturer": "AMANCO",
+      "quantity": 80,
+      "unit": "PC",
+      "unitPrice": 39.36,
+      "totalPrice": 3148.58
+    },
+    {
+      "position": 15,
+      "description": "JUNCAO ESG SIMP DN150 SR",
+      "reference": "11401",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 119.27,
+      "totalPrice": 3578.05
+    },
+    {
+      "position": 16,
+      "description": "JUNCAO ESG SIMP RED DN150 X100 SR",
+      "reference": "11402",
+      "manufacturer": "AMANCO",
+      "quantity": 20,
+      "unit": "PC",
+      "unitPrice": 98.09,
+      "totalPrice": 1961.76
+    },
+    {
+      "position": 17,
+      "description": "JUNCAO ESG SIMP RED DN100 X 75 SN",
+      "reference": "11701",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 13.8,
+      "totalPrice": 137.98
+    },
+    {
+      "position": 18,
+      "description": "JUNCAO ESG SIMP DN100 X100 SN",
+      "reference": "11699",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 14,
+      "totalPrice": 560.06
+    },
+    {
+      "position": 19,
+      "description": "JUNCAO ESG SIMP DN150 X150 SN",
+      "reference": "11397",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 97.86,
+      "totalPrice": 978.59
+    },
+    {
+      "position": 20,
+      "description": "JUNCAO ESG SIMP RED DN150 X100 SN",
+      "reference": "11398",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 48.98,
+      "totalPrice": 489.8
+    },
+    {
+      "position": 21,
+      "description": "TE ESG DN150 X150 MM SN",
+      "reference": "10054",
+      "manufacturer": "AMANCO",
+      "quantity": 6,
+      "unit": "PC",
+      "unitPrice": 38.91,
+      "totalPrice": 233.47
+    },
+    {
+      "position": 22,
+      "description": "TE ESG RED DN150 X100 MM SN",
+      "reference": "11441",
+      "manufacturer": "AMANCO",
+      "quantity": 6,
+      "unit": "PC",
+      "unitPrice": 42.68,
+      "totalPrice": 256.08
+    },
+    {
+      "position": 23,
+      "description": "TE ESG RED DN150 X100 MM SR",
+      "reference": "11443",
+      "manufacturer": "AMANCO",
+      "quantity": 5,
+      "unit": "PC",
+      "unitPrice": 57.52,
+      "totalPrice": 287.61
+    },
+    {
+      "position": 24,
+      "description": "TE ESG DN100 SR",
+      "reference": "11805",
+      "manufacturer": "AMANCO",
+      "quantity": 12,
+      "unit": "PC",
+      "unitPrice": 29.07,
+      "totalPrice": 348.87
+    },
+    {
+      "position": 25,
+      "description": "TE ESG DN150 SR",
+      "reference": "11438",
+      "manufacturer": "AMANCO",
+      "quantity": 6,
+      "unit": "PC",
+      "unitPrice": 76.98,
+      "totalPrice": 461.9
+    },
+    {
+      "position": 26,
+      "description": "JUNCAO JE BBP OCRE 200MM",
+      "reference": "SANJCJEO02",
+      "manufacturer": "SANE",
+      "quantity": 6,
+      "unit": "PC",
+      "unitPrice": 276.25,
+      "totalPrice": 1657.52
+    },
+    {
+      "position": 27,
+      "description": "JUNCAO JE BBP OCRE C/RED 200MM X 150MM",
+      "reference": "SANJCRDO0",
+      "manufacturer": "SANE",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 240.74,
+      "totalPrice": 2407.35
+    },
+    {
+      "position": 28,
+      "description": "JUNCAO JE BBP OCRE C/RED 200MM X 100MM",
+      "reference": "SANJCRDO0",
+      "manufacturer": "SANE",
+      "quantity": 3,
+      "unit": "PC",
+      "unitPrice": 146.83,
+      "totalPrice": 440.5
+    },
+    {
+      "position": 29,
+      "description": "REDUCAO ESG PBV 200MM X 150MM",
+      "reference": "SANRDBVE0",
+      "manufacturer": "SANE",
+      "quantity": 3,
+      "unit": "PC",
+      "unitPrice": 45.47,
+      "totalPrice": 136.42
+    },
+    {
+      "position": 30,
+      "description": "REDUCAO ESG EXCEN DN150 X 100 SR",
+      "reference": "11433",
+      "manufacturer": "AMANCO",
+      "quantity": 15,
+      "unit": "PC",
+      "unitPrice": 32.11,
+      "totalPrice": 481.72
+    },
+    {
+      "position": 31,
+      "description": "COTOVELO JE PB OCRE 45 X 200MM",
+      "reference": "SANCT45O0",
+      "manufacturer": "SANE",
+      "quantity": 6,
+      "unit": "PC",
+      "unitPrice": 138.47,
+      "totalPrice": 830.84,
+      "notes": "ITEM NÃO DISPONÍVEL - Sidny informou que não tem este item"
+    },
+    {
+      "position": 32,
+      "description": "JOELHO ESG 45 DN150 SR",
+      "reference": "11382",
+      "manufacturer": "AMANCO",
+      "quantity": 60,
+      "unit": "PC",
+      "unitPrice": 48.34,
+      "totalPrice": 2900.63,
+      "notes": "ITEM NÃO DISPONÍVEL - Sidny informou que não tem este item"
+    },
+    {
+      "position": 33,
+      "description": "JOELHO ESG 45 DN100 SR",
+      "reference": "11635",
+      "manufacturer": "AMANCO",
+      "quantity": 100,
+      "unit": "PC",
+      "unitPrice": 13.67,
+      "totalPrice": 1367.07
+    },
+    {
+      "position": 34,
+      "description": "JOELHO ESG 45 DN 75 SR",
+      "reference": "11636",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 11.25,
+      "totalPrice": 337.57
+    },
+    {
+      "position": 35,
+      "description": "COTOVELO JE PB OCRE 90 X 200MM",
+      "reference": "SANCT90O0",
+      "manufacturer": "SANE",
+      "quantity": 4,
+      "unit": "PC",
+      "unitPrice": 138.47,
+      "totalPrice": 553.89
+    },
+    {
+      "position": 36,
+      "description": "JOELHO ESG 90 DN150 SR",
+      "reference": "11388",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 52.71,
+      "totalPrice": 527.1
+    },
+    {
+      "position": 37,
+      "description": "JOELHO ESG 90 DN100 SR",
+      "reference": "11659",
+      "manufacturer": "AMANCO",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 13.03,
+      "totalPrice": 651.71
+    },
+    {
+      "position": 38,
+      "description": "JOELHO ESG 90 DN 75 SR",
+      "reference": "11660",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 11.49,
+      "totalPrice": 344.82
+    },
+    {
+      "position": 39,
+      "description": "JOELHO ESG 45 DN150 SN",
+      "reference": "10051",
+      "manufacturer": "AMANCO",
+      "quantity": 60,
+      "unit": "PC",
+      "unitPrice": 38.71,
+      "totalPrice": 2322.49
+    },
+    {
+      "position": 40,
+      "description": "JOELHO ESG 45 DN100 SN",
+      "reference": "18890",
+      "manufacturer": "AMANCO",
+      "quantity": 100,
+      "unit": "PC",
+      "unitPrice": 5.63,
+      "totalPrice": 562.61
+    },
+    {
+      "position": 41,
+      "description": "JOELHO ESG 45 DN 75 SN",
+      "reference": "11634",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 5.14,
+      "totalPrice": 154.27
+    },
+    {
+      "position": 42,
+      "description": "JOELHO ESG 90 DN150 SN",
+      "reference": "10049",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 36.35,
+      "totalPrice": 363.53
+    },
+    {
+      "position": 43,
+      "description": "JOELHO ESG 90 DN100 SN",
+      "reference": "11655",
+      "manufacturer": "AMANCO",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 6.25,
+      "totalPrice": 312.49
+    },
+    {
+      "position": 44,
+      "description": "JOELHO ESG 90 DN 75 SN",
+      "reference": "11658",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 3.92,
+      "totalPrice": 117.61
+    },
+    {
+      "position": 45,
+      "description": "LUVA ESG SIMP DN 50 SN",
+      "reference": "11738",
+      "manufacturer": "AMANCO",
+      "quantity": 500,
+      "unit": "PC",
+      "unitPrice": 1.99,
+      "totalPrice": 992.85
+    },
+    {
+      "position": 46,
+      "description": "LUVA ESG SIMP DN 75 SN",
+      "reference": "11739",
+      "manufacturer": "AMANCO",
+      "quantity": 100,
+      "unit": "PC",
+      "unitPrice": 3.87,
+      "totalPrice": 386.95
+    },
+    {
+      "position": 47,
+      "description": "LUVA ESG SIMP DN100 SN",
+      "reference": "11737",
+      "manufacturer": "AMANCO",
+      "quantity": 100,
+      "unit": "PC",
+      "unitPrice": 3.98,
+      "totalPrice": 398.41
+    },
+    {
+      "position": 48,
+      "description": "LUVA ESG SIMP DN 50 SR",
+      "reference": "12498",
+      "manufacturer": "AMANCO",
+      "quantity": 20,
+      "unit": "PC",
+      "unitPrice": 6.48,
+      "totalPrice": 129.58
+    },
+    {
+      "position": 49,
+      "description": "LUVA ESG SIMP DN 75 SR",
+      "reference": "11741",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 7.75,
+      "totalPrice": 310.07
+    },
+    {
+      "position": 50,
+      "description": "LUVA ESG SIMP DN100 SR",
+      "reference": "11740",
+      "manufacturer": "AMANCO",
+      "quantity": 500,
+      "unit": "PC",
+      "unitPrice": 9.16,
+      "totalPrice": 4582.35
+    },
+    {
+      "position": 51,
+      "description": "LUVA ESG SIMP DN100 SR",
+      "reference": "11740",
+      "manufacturer": "AMANCO",
+      "quantity": 600,
+      "unit": "PC",
+      "unitPrice": 9.16,
+      "totalPrice": 5498.82
+    },
+    {
+      "position": 52,
+      "description": "LUVA CORRER JE BB OCRE 200MM",
+      "reference": "SANLVJEO02",
+      "manufacturer": "SANE",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 69.24,
+      "totalPrice": 2077.09
+    },
+    {
+      "position": 53,
+      "description": "CAP ESG DN 50 SN",
+      "reference": "11562",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 3.67,
+      "totalPrice": 36.66
+    },
+    {
+      "position": 54,
+      "description": "CAP ESG DN 75 SN",
+      "reference": "11563",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 5.14,
+      "totalPrice": 154.27
+    },
+    {
+      "position": 55,
+      "description": "CAP ESG DN100 SN",
+      "reference": "11560",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 5.3,
+      "totalPrice": 211.81
+    },
+    {
+      "position": 56,
+      "description": "CAP ESG DN150 SN",
+      "reference": "10052",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 33.64,
+      "totalPrice": 1345.68
+    },
+    {
+      "position": 57,
+      "description": "CAP JE OCRE 200MM",
+      "reference": "SANKPJEO0",
+      "manufacturer": "SANE",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 80.02,
+      "totalPrice": 800.21
+    },
+    {
+      "position": 58,
+      "description": "ANEL VED PVC 200MM",
+      "reference": "009",
+      "manufacturer": "TERMOINJET",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 4.11,
+      "totalPrice": 205.56
+    },
+    {
+      "position": 59,
+      "description": "ANEL VED P/ESG DN150",
+      "reference": "90115",
+      "manufacturer": "AMANCO",
+      "quantity": 400,
+      "unit": "PC",
+      "unitPrice": 4.31,
+      "totalPrice": 1723.18
+    },
+    {
+      "position": 60,
+      "description": "ANEL VED P/ESG DN100",
+      "reference": "90114",
+      "manufacturer": "AMANCO",
+      "quantity": 1000,
+      "unit": "PC",
+      "unitPrice": 1.06,
+      "totalPrice": 1060.42
+    },
+    {
+      "position": 61,
+      "description": "ANEL VED P/ESG DN 75",
+      "reference": "90113",
+      "manufacturer": "AMANCO",
+      "quantity": 400,
+      "unit": "PC",
+      "unitPrice": 0.91,
+      "totalPrice": 362.31
+    },
+    {
+      "position": 62,
+      "description": "ANEL VED P/ESG DN 50",
+      "reference": "90112",
+      "manufacturer": "AMANCO",
+      "quantity": 1000,
+      "unit": "PC",
+      "unitPrice": 0.63,
+      "totalPrice": 629.62
+    },
+    {
+      "position": 63,
+      "description": "SERRA MANUAL BIMETAL 12 24D UNIQUE",
+      "reference": "BS1224",
+      "manufacturer": "STARRETT",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 15.86,
+      "totalPrice": 792.75
+    },
+    {
+      "position": 64,
+      "description": "DISCO CORTE FERRO/INOX 110 X 1,00 X 20",
+      "reference": "78989565361",
+      "manufacturer": "STONE CUT",
+      "quantity": 100,
+      "unit": "PC",
+      "unitPrice": 2.81,
+      "totalPrice": 280.8
+    },
+    {
+      "position": 65,
+      "description": "LIXA FERRO 100",
+      "reference": "411438",
+      "manufacturer": "TATU",
+      "quantity": 20,
+      "unit": "PC",
+      "unitPrice": 2.78,
+      "totalPrice": 55.64
+    },
+    {
+      "position": 66,
+      "description": "ADESIVO FRAS 850G",
+      "reference": "90126",
+      "manufacturer": "AMANCO",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 40.46,
+      "totalPrice": 2022.83
+    },
+    {
+      "position": 67,
+      "description": "PASTA LUBRIF 1000G C/ BICO APLIC",
+      "reference": "90130",
+      "manufacturer": "AMANCO",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 32.45,
+      "totalPrice": 1622.39
+    },
+    {
+      "position": 68,
+      "description": "BROCA WIDEA SDS PLUS (E) 10 X 160",
+      "reference": "344303",
+      "manufacturer": "MAKITA",
+      "quantity": 15,
+      "unit": "PC",
+      "unitPrice": 19.44,
+      "totalPrice": 291.56
+    },
+    {
+      "position": 69,
+      "description": "JUNCAO ESG SIMP DN 40 X 40 SN",
+      "reference": "11702",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 2.99,
+      "totalPrice": 29.91
+    },
+    {
+      "position": 70,
+      "description": "JOELHO ESG 90 DN 40 SN BOLSA CTA",
+      "reference": "11656",
+      "manufacturer": "AMANCO",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 1.35,
+      "totalPrice": 67.46
+    },
+    {
+      "position": 71,
+      "description": "JOELHO ESG 90 DN 40 X 38 SN C/ANEL LAB",
+      "reference": "11651",
+      "manufacturer": "AMANCO",
+      "quantity": 20,
+      "unit": "PC",
+      "unitPrice": 3.81,
+      "totalPrice": 76.12,
+      "notes": "ITEM NÃO DISPONÍVEL - Sidny informou que não tem este item"
+    },
+    {
+      "position": 72,
+      "description": "JOELHO ESG 45 DN 40 SN",
+      "reference": "11632",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 1.39,
+      "totalPrice": 55.5
+    },
+    {
+      "position": 73,
+      "description": "CORPO CX SIF 100 X 150 X 50 N 94",
+      "reference": "11359",
+      "manufacturer": "AMANCO",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 20.68,
+      "totalPrice": 1034.21
+    },
+    {
+      "position": 74,
+      "description": "CORPO CX SECA 100 X 100 X 50/40 N 98",
+      "reference": "11915",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 11.95,
+      "totalPrice": 358.57
+    },
+    {
+      "position": 75,
+      "description": "JOELHO ESG 45 DN 40 SN",
+      "reference": "11632",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 1.39,
+      "totalPrice": 55.5
+    },
+    {
+      "position": 76,
+      "description": "TUBO SOLD 25 MM 6MT",
+      "reference": "10458",
+      "manufacturer": "AMANCO",
+      "quantity": 20,
+      "unit": "TB",
+      "unitPrice": 19.78,
+      "totalPrice": 395.68
+    },
+    {
+      "position": 77,
+      "description": "TE SOLD 25 MM",
+      "reference": "11835",
+      "manufacturer": "AMANCO",
+      "quantity": 20,
+      "unit": "PC",
+      "unitPrice": 1.04,
+      "totalPrice": 20.88
+    },
+    {
+      "position": 78,
+      "description": "JOELHO SOLD 90 25MM",
+      "reference": "11671",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 0.57,
+      "totalPrice": 22.91
+    },
+    {
+      "position": 79,
+      "description": "JOELHO SOLD 45 25MM",
+      "reference": "11642",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 1.26,
+      "totalPrice": 37.8
+    },
+    {
+      "position": 80,
+      "description": "ABRAC ECON (C) 1",
+      "reference": "AGE1GE",
+      "manufacturer": "FIX",
+      "quantity": 100,
+      "unit": "PC",
+      "unitPrice": 0.67,
+      "totalPrice": 66.64
+    }
+  ],
+  "subtotal": 103347.03,
+  "total": 103347.03,
+  "file": ".fractal/drive/Obras/GTZ-84/Pedidos/001-Hidráulica/Orçamentos/Orcamento-FF-Guarulhos-848281.xlsx",
+  "sourceFile": ".fractal/drive/Obras/GTZ-84/Pedidos/001-Hidráulica/Orçamentos/Orcamento-FF-Guarulhos-848281.pdf",
+  "normalizedFile": ".fractal/drive/Obras/GTZ-84/Pedidos/001-Hidráulica/Orçamentos/Orcamento-FF-Guarulhos-848281.xlsx",
+  "email": "63988",
+  "comparisonStatus": "ready",
+  "status": "quoted",
+  "notes": "Orçamento #848281 recebido de FF Guarulhos (Sidny) em 24/06/2026 para GTZ 84 001-Hidráulica. ⚠️ Itens 31, 32 e 71 NÃO DISPONÍVEIS segundo Sidny (porém constam no PDF com preços). Itens 31 (COTOVELO JE PB OCRE 45 X 200MM), 32 (JOELHO ESG 45 DN150 SR), 71 (JOELHO ESG 90 DN 40 X 38 SN C/ANEL LAB). Prazo: 30/60 DDL. Entrega: própria (2 dias). Total: R$ 103.347,03. Validade: 24/06/2026. Vendedor: Sidny.",
+  "quotedAt": "2026-06-24T12:33:28.000Z"
+}

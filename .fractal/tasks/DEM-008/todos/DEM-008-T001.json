@@ -1,0 +1,7 @@
+{
+  "taskId": "DEM-008",
+  "description": "Adicionar propriedade `budget` (objeto opcional com type contract/owner, budget number, notes string) ao schema da collection customers.",
+  "status": "finished",
+  "agent": "donna",
+  "instructions": "Use `fractal collections update` ou edite o schema.json em .fractal/collections/customers/schema.json. Adicionar:\n\n```json\n\"budget\": {\n  \"type\": \"object\",\n  \"properties\": {\n    \"type\": { \"type\": \"string\", \"enum\": [\"contract\", \"owner\"] },\n    \"budget\": { \"type\": \"number\" },\n    \"notes\": { \"type\": \"string\" }\n  },\n  \"required\": [\"type\"],\n  \"additionalProperties\": false\n}\n```\n\nA propriedade budget é opcional no nível raiz (não adicionar em `required`)."
+}

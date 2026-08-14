@@ -1,0 +1,24 @@
+{
+  "slug": "or-ryt",
+  "name": "RYT Paulista",
+  "segment": "residential",
+  "addresses": {
+    "billing": "Rua Doutor Penaforte Mendes 74, Bela Vista, São Paulo - SP, 01308-010"
+  },
+  "postalCode": "01308-010",
+  "phone": "",
+  "billingEmail": "",
+  "client": "Ryt Paulista Bela Vista Empreendimento Imobiliario S.A.",
+  "document": "47.312.779/0002-25",
+  "engineer": "Rebeca",
+  "status": "in_progress",
+  "notes": "Proposta SHAFT Predial nº 142980W recebida em 19/05/2026. Materiais: caixas de concreto (10x10x12, 20x20x12, 20x10x12, 15x15x12 cm).",
+  "templates": {
+    "order": ".fractal/artifacts/docs/customers/or-ryt/templates/PEDIDO.xlsx"
+  },
+  "budget": {
+    "type": "owner",
+    "notes": "Materiais por conta do cliente. A Dema Instalações executa o serviço, mas a compra dos materiais é responsabilidade do cliente."
+  },
+  "createdAt": "2026-05-21T15:54:00.000Z"
+}

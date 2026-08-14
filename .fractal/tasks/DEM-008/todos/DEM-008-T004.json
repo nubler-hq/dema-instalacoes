@@ -1,0 +1,5 @@
+{
+  "taskId": "DEM-008",
+  "description": "No header (ledger-totals__breakdown) adicionar 2 KPIs: Verba total (soma budgets contract) e Saldo disponível (verba - consumido). Mostrar apenas se houver obras com budget contract.",
+  "status": "finished"
+}

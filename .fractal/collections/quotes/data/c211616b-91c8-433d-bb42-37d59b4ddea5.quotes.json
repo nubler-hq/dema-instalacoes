@@ -1,0 +1,159 @@
+{
+  "customer": "89879105-9531-4bc3-992c-932e1ef6a07e",
+  "supplier": "8be6389d-a227-4bad-ac73-1d9f54b65cf2",
+  "number": "001",
+  "type": "Fixação",
+  "quote": "268969",
+  "paymentTerms": "28 DDL - Duplicata",
+  "freight": "FOB",
+  "deliveryDays": 0,
+  "invoice": {
+    "name": "GTZ 84 Investimentos Imobiliários SPE LTDA",
+    "cnpj": "48.950.512/0001-45"
+  },
+  "items": [
+    {
+      "description": "CD194GE-3/8X3 - BARRA ROSCADA 3/8X3000MM (UNC 16) - GE",
+      "quantity": 300,
+      "unit": "un",
+      "unitPrice": 14.33,
+      "totalPrice": 4299
+    },
+    {
+      "description": "CD194GE-1/4X3 - BARRA ROSCADA 1/4X3000MM (UNC 20) - GE",
+      "quantity": 200,
+      "unit": "un",
+      "unitPrice": 6.1,
+      "totalPrice": 1220
+    },
+    {
+      "description": "PL70207GE - PORCA SEXTAVADA 3/8 (UNC 16) - GE",
+      "quantity": 5000,
+      "unit": "pc",
+      "unitPrice": 0.1632,
+      "totalPrice": 816
+    },
+    {
+      "description": "PL70205GE - PORCA SEXTAVADA 1/4 (UNC 20) - GE",
+      "quantity": 3000,
+      "unit": "pc",
+      "unitPrice": 0.0723,
+      "totalPrice": 216.9
+    },
+    {
+      "description": "PL70307GE - ARRUELA LISA 3/8 - GE",
+      "quantity": 5000,
+      "unit": "pc",
+      "unitPrice": 0.068,
+      "totalPrice": 340
+    },
+    {
+      "description": "PL70305GE - ARRUELA LISA 1/4 - GE",
+      "quantity": 3000,
+      "unit": "pc",
+      "unitPrice": 0.0391,
+      "totalPrice": 117.3
+    },
+    {
+      "description": "2138386000DPZ - PERFILADO PERF. REFORÇADO D-PZ 38X38X6000MM #18",
+      "quantity": 50,
+      "unit": "un",
+      "unitPrice": 61.36,
+      "totalPrice": 3068
+    },
+    {
+      "description": "2019386000DPZ - PERFILADO PERF. D-PZ 19X38X6000MM #18",
+      "quantity": 50,
+      "unit": "un",
+      "unitPrice": 42.84,
+      "totalPrice": 2142
+    },
+    {
+      "description": "PL72884PZ - ABRAÇADEIRA U PERFIL. 4\" - PZ",
+      "quantity": 300,
+      "unit": "pc",
+      "unitPrice": 2.47,
+      "totalPrice": 741
+    },
+    {
+      "description": "PL72825PZ - ABRAÇADEIRA U PERFIL. 3\" - PZ",
+      "quantity": 100,
+      "unit": "pc",
+      "unitPrice": 2.3,
+      "totalPrice": 230
+    },
+    {
+      "description": "PL72821PZ - ABRAÇADEIRA U PERFIL. 2\" - PZ",
+      "quantity": 100,
+      "unit": "pc",
+      "unitPrice": 1.46,
+      "totalPrice": 146
+    },
+    {
+      "description": "PL72812PZ - ABRAÇADEIRA U PERFIL. 1.1/4\" - PZ",
+      "quantity": 100,
+      "unit": "pc",
+      "unitPrice": 0.94,
+      "totalPrice": 94
+    },
+    {
+      "description": "PL73111PZ - ABRAÇADEIRA ECONÔMICA 1\" - PZ",
+      "quantity": 100,
+      "unit": "pc",
+      "unitPrice": 0.6,
+      "totalPrice": 60
+    },
+    {
+      "description": "PL73186PZ - ABRAÇADEIRA ECONÔMICA 6\" - PZ",
+      "quantity": 300,
+      "unit": "pc",
+      "unitPrice": 2.33,
+      "totalPrice": 699
+    },
+    {
+      "description": "PL73184PZ - ABRAÇADEIRA ECONÔMICA 4\" - PZ",
+      "quantity": 500,
+      "unit": "pc",
+      "unitPrice": 1.67,
+      "totalPrice": 835
+    },
+    {
+      "description": "PL73125PZ - ABRAÇADEIRA ECONÔMICA 3\" - PZ",
+      "quantity": 300,
+      "unit": "pc",
+      "unitPrice": 1.25,
+      "totalPrice": 375
+    },
+    {
+      "description": "PL73121PZ - ABRAÇADEIRA ECONÔMICA 2\" - PZ",
+      "quantity": 500,
+      "unit": "pc",
+      "unitPrice": 1.02,
+      "totalPrice": 510
+    },
+    {
+      "description": "PL73112PZ - ABRAÇADEIRA ECONÔMICA 1.1/4\" - PZ",
+      "quantity": 500,
+      "unit": "pc",
+      "unitPrice": 0.69,
+      "totalPrice": 345
+    },
+    {
+      "description": "PL73111PZ - ABRAÇADEIRA ECONÔMICA 1\" - PZ",
+      "quantity": 1000,
+      "unit": "pc",
+      "unitPrice": 0.6,
+      "totalPrice": 600
+    }
+  ],
+  "subtotal": 16798.2,
+  "total": 16798.2,
+  "file": ".fractal/drive/Obras/GTZ-84/Pedidos/001-Fixação/Orçamentos/Orcamento-PL-Industria-Metalurgica-LTDA-Perfil-Lider-268969.xlsx",
+  "normalizedFile": ".fractal/drive/Obras/GTZ-84/Pedidos/001-Fixação/Orçamentos/Orcamento-PL-Industria-Metalurgica-LTDA-Perfil-Lider-268969.xlsx",
+  "email": "63984",
+  "comparisonStatus": "ready",
+  "status": "quoted",
+  "notes": "Proposta 268969 - Perfil Lider. Itens complementares (não cotados): abraçadeira perfil 6\", cone/jaqueta 3/8\", disco corte inox 4\", lâmina serra Starret 24T, brocas SDS Plus. Condição especial: 2,5% desconto p/ pagamento em 7 dias. Validade: 24h. Fornecimento mínimo: R$ 3.000.",
+  "quotedAt": "2026-06-23T17:42:00.000Z",
+  "createdAt": "2026-06-24T09:30:00.000Z"
+}

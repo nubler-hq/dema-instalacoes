@@ -1,0 +1,5 @@
+{
+  "taskId": "DEM-008",
+  "description": "Renderizar visual: barra de progresso para contract (verde/amarelo/vermelho por % consumido), badge 'Materiais por conta do cliente' para owner. Mostrar consumido, saldo restante e %.",
+  "status": "finished"
+}

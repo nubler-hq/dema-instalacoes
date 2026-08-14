@@ -1,0 +1,826 @@
+{
+  "customer": "89879105-9531-4bc3-992c-932e1ef6a07e",
+  "supplier": "f7fb9210-1e7c-4fb2-9ea1-a1217efb85c8",
+  "number": "001",
+  "type": "Hidráulica",
+  "quote": "3678107",
+  "paymentTerms": "A Vista",
+  "freight": "CIF",
+  "deliveryDays": 0,
+  "invoice": {
+    "name": "GTZ 84 Empreendimentos Imobiliários SPE LTDA",
+    "cnpj": "48.950.512/0001-45"
+  },
+  "items": [
+    {
+      "position": 1,
+      "description": "ABRACADEIRA ECONOMICA 1 GE",
+      "reference": "AGE1GE",
+      "manufacturer": "FIX",
+      "quantity": 100,
+      "unit": "PC",
+      "unitPrice": 0.78,
+      "totalPrice": 78
+    },
+    {
+      "position": 2,
+      "description": "ADESIVO PVC 850G",
+      "reference": "000000000000090126",
+      "manufacturer": "AMANCO",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 38.8,
+      "totalPrice": 1940
+    },
+    {
+      "position": 3,
+      "description": "ANEL BORRACHA COLETOR 200MM",
+      "reference": "9",
+      "manufacturer": "CMD",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 3.3,
+      "totalPrice": 165
+    },
+    {
+      "position": 4,
+      "description": "ANEL ESG/SR 100MM",
+      "reference": "000000000000090114",
+      "manufacturer": "AMANCO",
+      "quantity": 1000,
+      "unit": "PC",
+      "unitPrice": 1.14,
+      "totalPrice": 1140
+    },
+    {
+      "position": 5,
+      "description": "ANEL ESG/SR 150MM",
+      "reference": "000000000000090115",
+      "manufacturer": "AMANCO",
+      "quantity": 400,
+      "unit": "PC",
+      "unitPrice": 4.35,
+      "totalPrice": 1740
+    },
+    {
+      "position": 6,
+      "description": "ANEL ESG/SR 50MM",
+      "reference": "000000000000090112",
+      "manufacturer": "AMANCO",
+      "quantity": 1000,
+      "unit": "PC",
+      "unitPrice": 0.59,
+      "totalPrice": 590
+    },
+    {
+      "position": 7,
+      "description": "ANEL ESG/SR 75MM",
+      "reference": "000000000000090113",
+      "manufacturer": "AMANCO",
+      "quantity": 400,
+      "unit": "PC",
+      "unitPrice": 0.91,
+      "totalPrice": 364
+    },
+    {
+      "position": 8,
+      "description": "BROCA DE VIDIA 10X160",
+      "reference": "31430",
+      "manufacturer": "SDS",
+      "quantity": 15,
+      "unit": "PC",
+      "unitPrice": 12.31,
+      "totalPrice": 184.65
+    },
+    {
+      "position": 9,
+      "description": "CAP ESG. 100MM",
+      "reference": "000000000000011560",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 5.04,
+      "totalPrice": 201.6
+    },
+    {
+      "position": 10,
+      "description": "CAP ESG. 150MM",
+      "reference": "000000000000010052",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 32.04,
+      "totalPrice": 1281.6
+    },
+    {
+      "position": 11,
+      "description": "CAP ESG. 50MM",
+      "reference": "000000000000011562",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 3.49,
+      "totalPrice": 34.9
+    },
+    {
+      "position": 12,
+      "description": "CAP ESG. 75MM",
+      "reference": "000000000000011563",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 4.9,
+      "totalPrice": 147
+    },
+    {
+      "position": 13,
+      "description": "CAP PVC COLETOR 200MM",
+      "reference": "01OCRE200MM02004",
+      "manufacturer": "INFRA",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 40.15,
+      "totalPrice": 401.5
+    },
+    {
+      "position": 14,
+      "description": "CORPO CX. SECA 100X100X50/40",
+      "reference": "000000000000011915",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 11.38,
+      "totalPrice": 341.4
+    },
+    {
+      "position": 15,
+      "description": "CORPO CX.SIF. 100X150X50",
+      "reference": "000000000000011359",
+      "manufacturer": "AMANCO",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 19.69,
+      "totalPrice": 984.5
+    },
+    {
+      "position": 16,
+      "description": "DISCO DE CORTE INOX 115X1,0X22,23",
+      "reference": "5986211151",
+      "manufacturer": "WURTH",
+      "quantity": 100,
+      "unit": "PC",
+      "unitPrice": 2.22,
+      "totalPrice": 222
+    },
+    {
+      "position": 17,
+      "description": "JOELHO 45 ESG. 100MM",
+      "reference": "000000000000018890",
+      "manufacturer": "AMANCO",
+      "quantity": 100,
+      "unit": "PC",
+      "unitPrice": 5.35,
+      "totalPrice": 535
+    },
+    {
+      "position": 18,
+      "description": "JOELHO 45 ESG. 150MM",
+      "reference": "000000000000010051",
+      "manufacturer": "AMANCO",
+      "quantity": 60,
+      "unit": "PC",
+      "unitPrice": 36.83,
+      "totalPrice": 2209.8
+    },
+    {
+      "position": 19,
+      "description": "JOELHO 45 ESG. 40MM",
+      "reference": "000000000000011632",
+      "manufacturer": "AMANCO",
+      "quantity": 80,
+      "unit": "PC",
+      "unitPrice": 1.32,
+      "totalPrice": 105.6
+    },
+    {
+      "position": 20,
+      "description": "JOELHO 45 ESG. 75MM",
+      "reference": "000000000000011634",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 4.9,
+      "totalPrice": 147
+    },
+    {
+      "position": 21,
+      "description": "JOELHO 45 SOLD. 25MM",
+      "reference": "000000000000011642",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 1.22,
+      "totalPrice": 36.6
+    },
+    {
+      "position": 22,
+      "description": "JOELHO 45 ESG. SERIE R 100MM",
+      "reference": "000000000000011635",
+      "manufacturer": "AMANCO",
+      "quantity": 100,
+      "unit": "PC",
+      "unitPrice": 13,
+      "totalPrice": 1300
+    },
+    {
+      "position": 23,
+      "description": "JOELHO 45 ESG. SERIE R 150MM",
+      "reference": "000000000000011382",
+      "manufacturer": "AMANCO",
+      "quantity": 60,
+      "unit": "PC",
+      "unitPrice": 46,
+      "totalPrice": 2760
+    },
+    {
+      "position": 24,
+      "description": "JOELHO 45 ESG. SERIE R 75MM",
+      "reference": "000000000000011636",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 10.7,
+      "totalPrice": 321
+    },
+    {
+      "position": 25,
+      "description": "JOELHO 90 ANEL LAB. ESG. 40MMX38",
+      "reference": "000000000000011651",
+      "manufacturer": "AMANCO",
+      "quantity": 20,
+      "unit": "PC",
+      "unitPrice": 3.62,
+      "totalPrice": 72.4
+    },
+    {
+      "position": 26,
+      "description": "JOELHO 90 B/B CURTO ESG. 40MM",
+      "reference": "000000000000011656",
+      "manufacturer": "AMANCO",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 1.28,
+      "totalPrice": 64
+    },
+    {
+      "position": 27,
+      "description": "JOELHO 90 ESG. 100MM",
+      "reference": "000000000000011655",
+      "manufacturer": "AMANCO",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 5.94,
+      "totalPrice": 297
+    },
+    {
+      "position": 28,
+      "description": "JOELHO 90 ESG. 150MM",
+      "reference": "000000000000010049",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 34.59,
+      "totalPrice": 345.9
+    },
+    {
+      "position": 29,
+      "description": "JOELHO 90 ESG. 75MM",
+      "reference": "000000000000011658",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 3.73,
+      "totalPrice": 111.9
+    },
+    {
+      "position": 30,
+      "description": "JOELHO 90 ESG. SERIE R 100MM",
+      "reference": "000000000000011659",
+      "manufacturer": "AMANCO",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 12.4,
+      "totalPrice": 620
+    },
+    {
+      "position": 31,
+      "description": "JOELHO 90 ESG. SERIE R 150MM",
+      "reference": "000000000000011388",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 50.15,
+      "totalPrice": 501.5
+    },
+    {
+      "position": 32,
+      "description": "JOELHO 90 ESG. SERIE R 75MM",
+      "reference": "000000000000011660",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 10.93,
+      "totalPrice": 327.9
+    },
+    {
+      "position": 33,
+      "description": "JOELHO 90 SOLD. 25MM",
+      "reference": "000000000000011671",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 0.56,
+      "totalPrice": 22.4
+    },
+    {
+      "position": 34,
+      "description": "JOELHO PVC COLETOR 45X200MM",
+      "reference": "01OCRE200MM04004",
+      "manufacturer": "INFRA",
+      "quantity": 6,
+      "unit": "PC",
+      "unitPrice": 53.09,
+      "totalPrice": 318.54
+    },
+    {
+      "position": 35,
+      "description": "JOELHO PVC COLETOR 90X200MM",
+      "reference": "01OCRE200MM04012",
+      "manufacturer": "INFRA",
+      "quantity": 4,
+      "unit": "PC",
+      "unitPrice": 69.48,
+      "totalPrice": 277.92
+    },
+    {
+      "position": 36,
+      "description": "JUNCAO PVC COLETOR 200MM",
+      "reference": "G00311",
+      "manufacturer": "INFRA",
+      "quantity": 6,
+      "unit": "PC",
+      "unitPrice": 138.35,
+      "totalPrice": 830.1
+    },
+    {
+      "position": 37,
+      "description": "JUNCAO RED.PVC COLETOR 200X100MM",
+      "reference": "01OCRE200MM06044",
+      "manufacturer": "INFRA",
+      "quantity": 3,
+      "unit": "PC",
+      "unitPrice": 75.19,
+      "totalPrice": 225.57
+    },
+    {
+      "position": 38,
+      "description": "JUNCAO RED.PVC COLETOR 200X150MM",
+      "reference": "01OCRE200MM06046",
+      "manufacturer": "INFRA",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 104.52,
+      "totalPrice": 1045.2
+    },
+    {
+      "position": 39,
+      "description": "JUNCAO SIMPLES ESG. 100MM",
+      "reference": "000000000000011699",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 13.32,
+      "totalPrice": 532.8
+    },
+    {
+      "position": 40,
+      "description": "JUNCAO SIMPLES ESG. 150MM",
+      "reference": "000000000000011397",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 93.11,
+      "totalPrice": 931.1
+    },
+    {
+      "position": 41,
+      "description": "JUNCAO SIMPLES ESG. 40MM",
+      "reference": "000000000000011702",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 2.84,
+      "totalPrice": 28.4
+    },
+    {
+      "position": 42,
+      "description": "JUNCAO SIMPLES ESG. 50MM",
+      "reference": "000000000000011703",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 5.64,
+      "totalPrice": 225.6
+    },
+    {
+      "position": 43,
+      "description": "JUNCAO SIMPLES ESG. SERIE R 100MM",
+      "reference": "000000000000011707",
+      "manufacturer": "AMANCO",
+      "quantity": 80,
+      "unit": "PC",
+      "unitPrice": 37.45,
+      "totalPrice": 2996
+    },
+    {
+      "position": 44,
+      "description": "JUNCAO SIMPLES ESG. SERIE R 150MM",
+      "reference": "000000000000011401",
+      "manufacturer": "AMANCO",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 113.49,
+      "totalPrice": 3404.7
+    },
+    {
+      "position": 45,
+      "description": "JUNCAO SIMPLES ESG. SERIE R 75MM",
+      "reference": "000000000000011708",
+      "manufacturer": "AMANCO",
+      "quantity": 15,
+      "unit": "PC",
+      "unitPrice": 23.33,
+      "totalPrice": 349.95
+    },
+    {
+      "position": 46,
+      "description": "JUNCAO SIMPLES RD ESG. 100X75",
+      "reference": "000000000000011701",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 13.12,
+      "totalPrice": 131.2
+    },
+    {
+      "position": 47,
+      "description": "JUNCAO SIMPLES RD ESG. 150X100",
+      "reference": "000000000000011398",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 46.6,
+      "totalPrice": 466
+    },
+    {
+      "position": 48,
+      "description": "JUNCAO SIMPLES RD ESG. 75X50",
+      "reference": "000000000000011705",
+      "manufacturer": "AMANCO",
+      "quantity": 20,
+      "unit": "PC",
+      "unitPrice": 7.8,
+      "totalPrice": 156
+    },
+    {
+      "position": 49,
+      "description": "JUNCAO SIMPLES RD ESG. SERIE R 100X75",
+      "reference": "000000000000011706",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "PC",
+      "unitPrice": 38.48,
+      "totalPrice": 384.8
+    },
+    {
+      "position": 50,
+      "description": "JUNCAO SIMPLES RD ESG. SERIE R 150X100",
+      "reference": "000000000000011402",
+      "manufacturer": "AMANCO",
+      "quantity": 20,
+      "unit": "PC",
+      "unitPrice": 93.34,
+      "totalPrice": 1866.8
+    },
+    {
+      "position": 51,
+      "description": "LIXA DE FERRO 100",
+      "reference": "60700100",
+      "manufacturer": "TIGRE",
+      "quantity": 20,
+      "unit": "FL",
+      "unitPrice": 2.01,
+      "totalPrice": 40.2
+    },
+    {
+      "position": 52,
+      "description": "LUVA CORRER PVC COLETOR 200MM",
+      "reference": "01OCRE200MM07004",
+      "manufacturer": "INFRA",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 34.74,
+      "totalPrice": 1042.2
+    },
+    {
+      "position": 53,
+      "description": "LUVA SIMPLES ESG. 100MM",
+      "reference": "000000000000011737",
+      "manufacturer": "AMANCO",
+      "quantity": 100,
+      "unit": "PC",
+      "unitPrice": 3.79,
+      "totalPrice": 379
+    },
+    {
+      "position": 54,
+      "description": "LUVA SIMPLES ESG. 50MM",
+      "reference": "000000000000011738",
+      "manufacturer": "AMANCO",
+      "quantity": 500,
+      "unit": "PC",
+      "unitPrice": 1.89,
+      "totalPrice": 945
+    },
+    {
+      "position": 55,
+      "description": "LUVA SIMPLES ESG. 75MM",
+      "reference": "000000000000011739",
+      "manufacturer": "AMANCO",
+      "quantity": 100,
+      "unit": "PC",
+      "unitPrice": 3.68,
+      "totalPrice": 368
+    },
+    {
+      "position": 56,
+      "description": "LUVA SIMPLES ESG. SERIE R 100MM",
+      "reference": "000000000000011740",
+      "manufacturer": "AMANCO",
+      "quantity": 1100,
+      "unit": "PC",
+      "unitPrice": 8.73,
+      "totalPrice": 9603
+    },
+    {
+      "position": 57,
+      "description": "LUVA SIMPLES ESG. SERIE R 50MM",
+      "reference": "000000000000012498",
+      "manufacturer": "AMANCO",
+      "quantity": 20,
+      "unit": "PC",
+      "unitPrice": 6.18,
+      "totalPrice": 123.6
+    },
+    {
+      "position": 58,
+      "description": "LUVA SIMPLES ESG. SERIE R 75MM",
+      "reference": "000000000000011741",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 7.37,
+      "totalPrice": 294.8
+    },
+    {
+      "position": 59,
+      "description": "PASTA LUBRIFICANTE 950G.",
+      "reference": "CA003",
+      "manufacturer": "PULVITEC",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 20.89,
+      "totalPrice": 1044.5
+    },
+    {
+      "position": 60,
+      "description": "REDUCAO EXCENT. ESG. 200X150",
+      "reference": "000000000000017308",
+      "manufacturer": "AMANCO",
+      "quantity": 3,
+      "unit": "PC",
+      "unitPrice": 90.17,
+      "totalPrice": 270.51
+    },
+    {
+      "position": 61,
+      "description": "REDUCAO EXCENT. ESG. SERIE R 150X100",
+      "reference": "000000000000011433",
+      "manufacturer": "AMANCO",
+      "quantity": 15,
+      "unit": "PC",
+      "unitPrice": 30.57,
+      "totalPrice": 458.55
+    },
+    {
+      "position": 62,
+      "description": "SERRA MANUAL FLEX BI-METAL 24D",
+      "reference": "BS1224",
+      "manufacturer": "STARRETT",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 12.03,
+      "totalPrice": 601.5
+    },
+    {
+      "position": 63,
+      "description": "TE ESG. 150MM",
+      "reference": "000000000000010054",
+      "manufacturer": "AMANCO",
+      "quantity": 6,
+      "unit": "PC",
+      "unitPrice": 37,
+      "totalPrice": 222
+    },
+    {
+      "position": 64,
+      "description": "TE ESG. 50MM",
+      "reference": "000000000000011803",
+      "manufacturer": "AMANCO",
+      "quantity": 40,
+      "unit": "PC",
+      "unitPrice": 4.49,
+      "totalPrice": 179.6
+    },
+    {
+      "position": 65,
+      "description": "TE ESG. SERIE R 100MM",
+      "reference": "000000000000011805",
+      "manufacturer": "AMANCO",
+      "quantity": 12,
+      "unit": "PC",
+      "unitPrice": 27.67,
+      "totalPrice": 332.04
+    },
+    {
+      "position": 66,
+      "description": "TE ESG. SERIE R 150MM",
+      "reference": "000000000000011438",
+      "manufacturer": "AMANCO",
+      "quantity": 6,
+      "unit": "PC",
+      "unitPrice": 73.25,
+      "totalPrice": 439.5
+    },
+    {
+      "position": 67,
+      "description": "TE INSP. ESG. SERIE R 100X75",
+      "reference": "000000000000014158",
+      "manufacturer": "AMANCO",
+      "quantity": 20,
+      "unit": "PC",
+      "unitPrice": 37.01,
+      "totalPrice": 740.2
+    },
+    {
+      "position": 68,
+      "description": "TE INSP. ESG. SERIE R 150X100",
+      "reference": "000000000000014474",
+      "manufacturer": "AMANCO",
+      "quantity": 1,
+      "unit": "PC",
+      "unitPrice": 159.13,
+      "totalPrice": 159.13
+    },
+    {
+      "position": 69,
+      "description": "TE RD ESG. 150X100",
+      "reference": "000000000000011441",
+      "manufacturer": "AMANCO",
+      "quantity": 6,
+      "unit": "PC",
+      "unitPrice": 40.61,
+      "totalPrice": 243.66
+    },
+    {
+      "position": 70,
+      "description": "TE RD ESG. SERIE R 150X100",
+      "reference": "000000000000011443",
+      "manufacturer": "AMANCO",
+      "quantity": 5,
+      "unit": "PC",
+      "unitPrice": 54.75,
+      "totalPrice": 273.75
+    },
+    {
+      "position": 71,
+      "description": "TE SOLD. 25MM",
+      "reference": "000000000000011835",
+      "manufacturer": "AMANCO",
+      "quantity": 20,
+      "unit": "PC",
+      "unitPrice": 1.01,
+      "totalPrice": 20.2
+    },
+    {
+      "position": 72,
+      "description": "TUBO 6M ESG. 100MM",
+      "reference": "000000000000010472",
+      "manufacturer": "AMANCO",
+      "quantity": 100,
+      "unit": "BR",
+      "unitPrice": 77,
+      "totalPrice": 7700
+    },
+    {
+      "position": 73,
+      "description": "TUBO 6M ESG. 150MM",
+      "reference": "000000000000010473",
+      "manufacturer": "AMANCO",
+      "quantity": 20,
+      "unit": "BR",
+      "unitPrice": 178.74,
+      "totalPrice": 3574.8
+    },
+    {
+      "position": 74,
+      "description": "TUBO 6M ESG. 50MM",
+      "reference": "000000000000010470",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "BR",
+      "unitPrice": 46.53,
+      "totalPrice": 465.3
+    },
+    {
+      "position": 75,
+      "description": "TUBO 6M ESG. 75MM",
+      "reference": "000000000000010471",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "BR",
+      "unitPrice": 74.77,
+      "totalPrice": 747.7
+    },
+    {
+      "position": 76,
+      "description": "TUBO 6M ESG. SERIE R 100MM",
+      "reference": "000000000000011460",
+      "manufacturer": "AMANCO",
+      "quantity": 80,
+      "unit": "BR",
+      "unitPrice": 123.28,
+      "totalPrice": 9862.4
+    },
+    {
+      "position": 77,
+      "description": "TUBO 6M ESG. SERIE R 150MM",
+      "reference": "000000000000011462",
+      "manufacturer": "AMANCO",
+      "quantity": 60,
+      "unit": "BR",
+      "unitPrice": 247.93,
+      "totalPrice": 14875.8
+    },
+    {
+      "position": 78,
+      "description": "TUBO 6M ESG. SERIE R 75MM",
+      "reference": "000000000000011464",
+      "manufacturer": "AMANCO",
+      "quantity": 15,
+      "unit": "BR",
+      "unitPrice": 86.19,
+      "totalPrice": 1292.85
+    },
+    {
+      "position": 79,
+      "description": "TUBO 6M MARROM SOLD. 25MM",
+      "reference": "000000000000010458",
+      "manufacturer": "AMANCO",
+      "quantity": 20,
+      "unit": "BR",
+      "unitPrice": 18.83,
+      "totalPrice": 376.6
+    },
+    {
+      "position": 80,
+      "description": "TUBO COLETOR 200MM",
+      "reference": "000000000000018151",
+      "manufacturer": "AMANCO",
+      "quantity": 10,
+      "unit": "BR",
+      "unitPrice": 555.01,
+      "totalPrice": 5550.1
+    }
+  ],
+  "subtotal": 95991.32,
+  "taxes": 0,
+  "total": 95991.32,
+  "file": ".fractal/drive/Obras/GTZ-84/Pedidos/001-Hidráulica/Orçamentos/Orcamento-Casa-Mimosa-Hidraulica-e-Acabamentos-LTDA-3678107.xlsx",
+  "normalizedFile": ".fractal/drive/Obras/GTZ-84/Pedidos/001-Hidráulica/Orçamentos/Orcamento-Casa-Mimosa-Hidraulica-e-Acabamentos-LTDA-3678107.xlsx",
+  "email": "64010",
+  "comparisonStatus": "ready",
+  "status": "quoted",
+  "notes": "Itens consolidados: removida duplicata do JOELHO 45 ESG. 40MM (qty consolidada: 40+40=80 unid). Itens ordenados por descrição.",
+  "quotedAt": "2026-06-25T21:45:00.000Z"
+}

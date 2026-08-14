@@ -1,0 +1,39 @@
+{
+  "$schema": "https://fractal-os.dev/template-descriptor-v1.json",
+  "customer": "or-ryt-paulista",
+  "sheet": "Baume",
+  "singleCells": {
+    "orderNumber":    { "cell": "A7",  "template": "PEDIDO Nº: {quote.number}" },
+    "date":           { "cell": "G7",  "template": "{date}" },
+    "supplierName":   { "cell": "D18", "template": "{supplier.name}" },
+    "supplierCnpj":   { "cell": "D19", "template": "{supplier.documents.cnpj}" },
+    "supplierIe":     { "cell": "D20", "template": "{supplier.documents.ie}" },
+    "supplierAddress":{ "cell": "D21", "template": "{supplier.address}" },
+    "supplierPhone":  { "cell": "D22", "template": "{supplier.phone}" },
+    "supplierEmail":  { "cell": "D23", "template": "{supplier.email}" },
+    "supplierContact":{ "cell": "D24", "template": "{supplier.contact}" },
+    "paymentTerms":   { "cell": "C43", "template": "{quote.paymentTerms}" },
+    "freight":        { "cell": "C44", "template": "{quote.freight}" }
+  },
+  "items": {
+    "startRow": 38,
+    "endRow": 38,
+    "columns": {
+      "code":        { "col": "A", "source": "index" },
+      "quantity":    { "col": "B", "source": "item.quantity" },
+      "unit":        { "col": "C", "source": "item.unit" },
+      "description": { "col": "D", "source": "item.description" },
+      "unitPrice":   { "col": "F", "source": "item.unitPrice" },
+      "ipi":         { "col": "G", "source": "item.ipi" },
+      "subtotal":    { "col": "H", "source": "formula", "formula": "=B{row}*F{row}" }
+    }
+  },
+  "totals": {
+    "subtotal": { "cell": "H39", "labelCell": "F39", "source": "formula", "formula": "=SUM(H38:H{lastItemRow})" },
+    "freight":  { "cell": "H40", "labelCell": "F40", "source": "manual" },
+    "total":    { "cell": "H41", "labelCell": "F41", "source": "formula", "formula": "=H39+H40" }
+  },
+  "footer": {
+    "observations": { "cell": "A47", "template": "{notes}" }
+  }
+}

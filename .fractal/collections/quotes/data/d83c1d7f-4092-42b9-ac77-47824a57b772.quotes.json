@@ -1,0 +1,44 @@
+{
+  "customer": "03be712a-263a-46d1-82af-aa18a473d7ed",
+  "supplier": "a492b43d-cad0-433d-b738-6c8f6aecf981",
+  "number": "005",
+  "type": "Elétrica",
+  "quote": "23876",
+  "paymentTerms": "28 DIAS",
+  "freight": "CIF",
+  "invoice": {
+    "name": "SMG22 Empreendimentos Imobiliários SPE LTDA",
+    "cnpj": "48.868.032/0001-30"
+  },
+  "items": [
+    {
+      "description": "Caixa Octogonal Teto Snap Fit® com tampa",
+      "quantity": 1700,
+      "unit": "PÇ",
+      "unitPrice": 2.15,
+      "totalPrice": 3655,
+      "notes": "CTO"
+    },
+    {
+      "description": "Caixa de Passagem Angle Box®",
+      "quantity": 1000,
+      "unit": "PÇ",
+      "unitPrice": 1.4,
+      "totalPrice": 1400,
+      "notes": "CPAB"
+    },
+    {
+      "description": "Eletroduto Flexível Corrugado Médio de 40mm - PEAD OCRE - 50 metros",
+      "quantity": 10,
+      "unit": "ROLO",
+      "unitPrice": 187.5,
+      "totalPrice": 1875,
+      "notes": "ELC40O"
+    }
+  ],
+  "total": 6930,
+  "file": ".fractal/drive/Obras/WISE/Pedidos/005-Elétrica/PEDIDO_005_ELETRICA_WISE_PLASTICON_23876.xlsx",
+  "status": "done",
+  "sentAt": "2026-05-21T23:15:00.000Z",
+  "createdAt": "2026-05-21T18:00:00.000Z"
+}

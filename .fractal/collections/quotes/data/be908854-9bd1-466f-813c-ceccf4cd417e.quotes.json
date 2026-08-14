@@ -1,0 +1,559 @@
+{
+  "customer": "03be712a-263a-46d1-82af-aa18a473d7ed",
+  "supplier": "8be6389d-a227-4bad-ac73-1d9f54b65cf2",
+  "number": "007",
+  "type": "Elétrica",
+  "quote": "267691",
+  "paymentTerms": "28 DDL",
+  "freight": "CIF",
+  "deliveryDays": 3,
+  "invoice": {
+    "name": "SMG22 Empreendimentos Imobiliários SPE LTDA",
+    "cnpj": "48.868.032/0001-30"
+  },
+  "items": [
+    {
+      "position": 1,
+      "description": "BPZ - ELETROC. LISA S/VIR. B-PZ 150X100X3000MM #16",
+      "quantity": 99,
+      "unit": "br",
+      "unitPrice": 131.5,
+      "totalPrice": 13018.5
+    },
+    {
+      "position": 2,
+      "description": "CPZ - CURVA HORIZ. 90º LISA S/VIR. C-PZ 150X100X150",
+      "quantity": 4,
+      "unit": "pc",
+      "unitPrice": 34.41,
+      "totalPrice": 137.64
+    },
+    {
+      "position": 3,
+      "description": "CPZ - CURVA HORIZ. 45º LISA S/VIR. C-PZ 150X100X150",
+      "quantity": 2,
+      "unit": "pc",
+      "unitPrice": 17.2,
+      "totalPrice": 34.4
+    },
+    {
+      "position": 4,
+      "description": "CPZ - CURVA VERT. INT. 45º LISA S/VIR. C-PZ 150X100X150",
+      "quantity": 6,
+      "unit": "pc",
+      "unitPrice": 14.34,
+      "totalPrice": 86.04
+    },
+    {
+      "position": 5,
+      "description": "CPZ - CURVA VERT. INT. 90º LISA S/VIR. C-PZ 150X100X150",
+      "quantity": 2,
+      "unit": "pc",
+      "unitPrice": 28.67,
+      "totalPrice": 57.34
+    },
+    {
+      "position": 6,
+      "description": "CPZ - CURVA VERT. EXT. 45º LISA S/VIR. C-PZ 150X100X150",
+      "quantity": 6,
+      "unit": "pc",
+      "unitPrice": 16.89,
+      "totalPrice": 101.34
+    },
+    {
+      "position": 7,
+      "description": "CPZ - REDUÇÃO CONC. LISA S/VIR. C-PZ 200X100/ 150X100MM",
+      "quantity": 2,
+      "unit": "pc",
+      "unitPrice": 35.7,
+      "totalPrice": 71.4
+    },
+    {
+      "position": 8,
+      "description": "CPZ - FLANGE P/ PAINEL C-PZ 150X100MM",
+      "quantity": 3,
+      "unit": "pc",
+      "unitPrice": 5.05,
+      "totalPrice": 15.15
+    },
+    {
+      "position": 9,
+      "description": "CPZ - CURVA VERT. EXT. 90º LISA S/VIR. C-PZ 150X100X150",
+      "quantity": 15,
+      "unit": "pc",
+      "unitPrice": 33.78,
+      "totalPrice": 506.7
+    },
+    {
+      "position": 10,
+      "description": "BPZ - ELETROC. LISA S/VIR. B-PZ 100X50X3000MM #16",
+      "quantity": 78,
+      "unit": "br",
+      "unitPrice": 75.14,
+      "totalPrice": 5860.92
+    },
+    {
+      "position": 11,
+      "description": "CPZ - CURVA VERT. EXT. 45º LISA S/VIR. C-PZ 100X50X150",
+      "quantity": 10,
+      "unit": "pc",
+      "unitPrice": 11.09,
+      "totalPrice": 110.9
+    },
+    {
+      "position": 12,
+      "description": "CPZ - CURVA VERT. INT. 45º LISA S/VIR. C-PZ 100X50X150",
+      "quantity": 10,
+      "unit": "pc",
+      "unitPrice": 6.55,
+      "totalPrice": 65.5
+    },
+    {
+      "position": 13,
+      "description": "CPZ - CURVA VERT. INT. 90º LISA S/VIR. C-PZ 100X50X150",
+      "quantity": 2,
+      "unit": "pc",
+      "unitPrice": 13.11,
+      "totalPrice": 26.22
+    },
+    {
+      "position": 14,
+      "description": "CPZ - CURVA VERT. EXT. 90º LISA S/VIR. C-PZ 100X50X150",
+      "quantity": 8,
+      "unit": "pc",
+      "unitPrice": 22.18,
+      "totalPrice": 177.44
+    },
+    {
+      "position": 15,
+      "description": "CPZ - CURVA HORIZ. 90º LISA S/VIR. C-PZ 100X50X150",
+      "quantity": 12,
+      "unit": "pc",
+      "unitPrice": 16.38,
+      "totalPrice": 196.56
+    },
+    {
+      "position": 16,
+      "description": "CPZ - CURVA HORIZ. 45º LISA S/VIR. C-PZ 100X50X150",
+      "quantity": 2,
+      "unit": "pc",
+      "unitPrice": 8.19,
+      "totalPrice": 16.38
+    },
+    {
+      "position": 17,
+      "description": "CPZ - TE HORIZ. 90º LISO S/VIR. C-PZ 100X50X150",
+      "quantity": 6,
+      "unit": "pc",
+      "unitPrice": 29.26,
+      "totalPrice": 175.56
+    },
+    {
+      "position": 18,
+      "description": "CPZ - GANCHO VERTICAL C-PZ 100X50MM",
+      "quantity": 220,
+      "unit": "pc",
+      "unitPrice": 1.96,
+      "totalPrice": 431.2
+    },
+    {
+      "position": 19,
+      "description": "HPZ - TAMPA DE ENCAIXE H-PZ 100X10X3000MM",
+      "quantity": 10,
+      "unit": "br",
+      "unitPrice": 15.7,
+      "totalPrice": 157
+    },
+    {
+      "position": 20,
+      "description": "BPZ - ELETROC. PERF. S/VIR. B-PZ 200X100X3000MM #16",
+      "quantity": 99,
+      "unit": "br",
+      "unitPrice": 150.29,
+      "totalPrice": 14878.71
+    },
+    {
+      "position": 21,
+      "description": "CPZ - CURVA VERT. INT. 90º PERF. S/VIR. C-PZ 200X100X150",
+      "quantity": 2,
+      "unit": "pc",
+      "unitPrice": 32.77,
+      "totalPrice": 65.54
+    },
+    {
+      "position": 22,
+      "description": "CPZ - CURVA VERT. INT. 45º PERF. S/VIR. C-PZ 200X100X150",
+      "quantity": 14,
+      "unit": "pc",
+      "unitPrice": 16.38,
+      "totalPrice": 229.32
+    },
+    {
+      "position": 23,
+      "description": "CPZ - CURVA VERT. EXT. 45º PERF. S/VIR. C-PZ 200X100X150",
+      "quantity": 14,
+      "unit": "pc",
+      "unitPrice": 18.14,
+      "totalPrice": 253.96
+    },
+    {
+      "position": 24,
+      "description": "CPZ - CURVA HORIZ. 45º LISA S/VIR. C-PZ 200X100X150",
+      "quantity": 4,
+      "unit": "pc",
+      "unitPrice": 22.94,
+      "totalPrice": 91.76
+    },
+    {
+      "position": 25,
+      "description": "CPZ - CURVA HORIZ. 90º LISA S/VIR. C-PZ 200X100X150",
+      "quantity": 6,
+      "unit": "pc",
+      "unitPrice": 45.88,
+      "totalPrice": 275.28
+    },
+    {
+      "position": 26,
+      "description": "CPZ - CURVA VERT. EXT. 90º LISA S/VIR. C-PZ 200X100X150",
+      "quantity": 6,
+      "unit": "pc",
+      "unitPrice": 36.29,
+      "totalPrice": 217.74
+    },
+    {
+      "position": 27,
+      "description": "CPZ - FLANGE P/ PAINEL C-PZ 200X100MM",
+      "quantity": 3,
+      "unit": "pc",
+      "unitPrice": 5.66,
+      "totalPrice": 16.98
+    },
+    {
+      "position": 28,
+      "description": "CPZ - TE HORIZ. 90º PERF. S/VIR. C-PZ 200X100X150",
+      "quantity": 3,
+      "unit": "pc",
+      "unitPrice": 55.49,
+      "totalPrice": 166.47
+    },
+    {
+      "position": 29,
+      "description": "BPZ - ELETROC. LISA S/VIR. B-PZ 500X100X3000MM #16",
+      "quantity": 33,
+      "unit": "br",
+      "unitPrice": 263,
+      "totalPrice": 8679
+    },
+    {
+      "position": 30,
+      "description": "CPZ - TE HORIZ. 90º LISO S/VIR. C-PZ 500X100X150",
+      "quantity": 2,
+      "unit": "pc",
+      "unitPrice": 131.24,
+      "totalPrice": 262.48
+    },
+    {
+      "position": 31,
+      "description": "CPZ - CRUZETA HORIZ. 90º LISA S/VIR. C-PZ 500X100X150",
+      "quantity": 1,
+      "unit": "br",
+      "unitPrice": 149.35,
+      "totalPrice": 149.35
+    },
+    {
+      "position": 32,
+      "description": "CPZ - TE VERT. DESC. 90º LISO S/VIR. C-PZ 500X100X150",
+      "quantity": 3,
+      "unit": "pc",
+      "unitPrice": 90.58,
+      "totalPrice": 271.74
+    },
+    {
+      "position": 33,
+      "description": "CPZ - CURVA VERT. EXT. 90º LISA S/VIR. C-PZ 500X100X150",
+      "quantity": 4,
+      "unit": "pc",
+      "unitPrice": 51.34,
+      "totalPrice": 205.36
+    },
+    {
+      "position": 34,
+      "description": "CPZ - CURVA VERT. EXT. 45º LISA S/VIR. C-PZ 500X100X150",
+      "quantity": 2,
+      "unit": "pc",
+      "unitPrice": 25.67,
+      "totalPrice": 51.34
+    },
+    {
+      "position": 35,
+      "description": "CPZ - CURVA VERT. INT. 45º LISA S/VIR. C-PZ 500X100X150",
+      "quantity": 2,
+      "unit": "pc",
+      "unitPrice": 28.67,
+      "totalPrice": 57.34
+    },
+    {
+      "position": 36,
+      "description": "CPZ - CURVA VERT. INT. 90º LISA S/VIR. C-PZ 500X100X150",
+      "quantity": 2,
+      "unit": "pc",
+      "unitPrice": 57.35,
+      "totalPrice": 114.7
+    },
+    {
+      "position": 37,
+      "description": "CPZ - CURVA HORIZ. 90º LISA S/VIR. C-PZ 500X100X150",
+      "quantity": 4,
+      "unit": "pc",
+      "unitPrice": 149.1,
+      "totalPrice": 596.4
+    },
+    {
+      "position": 38,
+      "description": "CPZ - FLANGE P/ PAINEL C-PZ 500X100MM",
+      "quantity": 8,
+      "unit": "pc",
+      "unitPrice": 9.9,
+      "totalPrice": 79.2
+    },
+    {
+      "position": 39,
+      "description": "CPZ - CURVA HORIZ. 45º LISA S/VIR. C-PZ 500X100X150",
+      "quantity": 2,
+      "unit": "pc",
+      "unitPrice": 74.55,
+      "totalPrice": 149.1
+    },
+    {
+      "position": 40,
+      "description": "FPZ - TAMPA DE ENCAIXE F-PZ 500X10X3000MM",
+      "quantity": 6,
+      "unit": "br",
+      "unitPrice": 94.54,
+      "totalPrice": 567.24
+    },
+    {
+      "position": 41,
+      "description": "PL7080508GE - PARAF. CAB. LENT. FENDA 1/4X1/2 (UNC 20) - GE",
+      "quantity": 60,
+      "unit": "ct",
+      "unitPrice": 11.99,
+      "totalPrice": 719.4
+    },
+    {
+      "position": 42,
+      "description": "PL70305GE - ARRUELA LISA 1/4 - GE",
+      "quantity": 60,
+      "unit": "ct",
+      "unitPrice": 3.91,
+      "totalPrice": 234.6
+    },
+    {
+      "position": 43,
+      "description": "PL70205GE - PORCA SEXTAVADA 1/4 (UNC 20) - GE",
+      "quantity": 60,
+      "unit": "ct",
+      "unitPrice": 7.23,
+      "totalPrice": 433.8
+    },
+    {
+      "position": 44,
+      "description": "CPZ - EMENDA INT. U C-PZ 500X100MM",
+      "quantity": 18,
+      "unit": "pc",
+      "unitPrice": 14.14,
+      "totalPrice": 254.52
+    },
+    {
+      "position": 45,
+      "description": "CPZ - EMENDA INT. U C-PZ 200X100MM",
+      "quantity": 55,
+      "unit": "pc",
+      "unitPrice": 8.08,
+      "totalPrice": 444.4
+    },
+    {
+      "position": 46,
+      "description": "CPZ - EMENDA INT. U C-PZ 150X100MM",
+      "quantity": 38,
+      "unit": "pc",
+      "unitPrice": 7.07,
+      "totalPrice": 268.66
+    },
+    {
+      "position": 47,
+      "description": "CPZ - EMENDA INT. U C-PZ 100X50MM",
+      "quantity": 82,
+      "unit": "pc",
+      "unitPrice": 4.04,
+      "totalPrice": 331.28
+    },
+    {
+      "position": 48,
+      "description": "CPZ - CRUZETA HORIZ. 90º LISA S/VIR. C-PZ 100X50X150",
+      "quantity": 1,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar — sem cotação inicial (cotar com Perfil Líder)"
+    },
+    {
+      "position": 49,
+      "description": "BPZ - ELETROC. LISA S/VIR. B-PZ 150X50X3000MM #16",
+      "quantity": 45,
+      "unit": "br",
+      "notes": "Item adicionado da lista do Ademar (45 metros = 15 barras de 3m) — sem cotação inicial"
+    },
+    {
+      "position": 50,
+      "description": "CPZ - EMENDA INT. U C-PZ 150X50MM",
+      "quantity": 19,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar — sem cotação inicial"
+    },
+    {
+      "position": 51,
+      "description": "CPZ - CURVA HORIZ. 90º LISA S/VIR. C-PZ 150X50X150",
+      "quantity": 8,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar — sem cotação inicial"
+    },
+    {
+      "position": 52,
+      "description": "CPZ - CURVA VERT. INT. 90º LISA S/VIR. C-PZ 150X50X150",
+      "quantity": 6,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar — sem cotação inicial"
+    },
+    {
+      "position": 53,
+      "description": "CPZ - REDUÇÃO CONC. LISA S/VIR. C-PZ 150X100/100X100MM",
+      "quantity": 6,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar (Redução 150/100/100) — sem cotação inicial"
+    },
+    {
+      "position": 54,
+      "description": "CPZ - REDUÇÃO CONC. LISA S/VIR. C-PZ 150X50/100X50MM",
+      "quantity": 6,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar (Redução 150/50 x 100/50) — sem cotação inicial"
+    },
+    {
+      "position": 55,
+      "description": "CPZ - REDUÇÃO CONC. LISA S/VIR. C-PZ 200X100MM (genérica)",
+      "quantity": 8,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar (Redução 200/100 — destino a confirmar) — sem cotação inicial"
+    },
+    {
+      "position": 56,
+      "description": "CPZ - CURVA HORIZ. 45º LISA S/VIR. C-PZ 150X50X150 (ext)",
+      "quantity": 5,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar (Curva 45° 150/50 — 10 unid total, 5 ext + 5 int) — sem cotação inicial"
+    },
+    {
+      "position": 57,
+      "description": "CPZ - CURVA VERT. INT. 45º LISA S/VIR. C-PZ 150X50X150 (int)",
+      "quantity": 5,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar (Curva 45° 150/50 — 10 unid total, 5 ext + 5 int) — sem cotação inicial"
+    },
+    {
+      "position": 58,
+      "description": "BPZ - ELETROC. LISA S/VIR. B-PZ 600X100X3000MM #16",
+      "quantity": 27,
+      "unit": "br",
+      "notes": "Item adicionado da lista do Ademar (27 metros = 9 barras de 3m) — sem cotação inicial"
+    },
+    {
+      "position": 59,
+      "description": "CPZ - CURVA HORIZ. 45º LISA S/VIR. C-PZ 600X100X150",
+      "quantity": 2,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar — sem cotação inicial"
+    },
+    {
+      "position": 60,
+      "description": "CPZ - CURVA VERT. EXT. 90º LISA S/VIR. C-PZ 600X100X150",
+      "quantity": 1,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar — sem cotação inicial"
+    },
+    {
+      "position": 61,
+      "description": "CPZ - TE HORIZ. 90º LISO S/VIR. C-PZ 600X100X150",
+      "quantity": 1,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar — sem cotação inicial"
+    },
+    {
+      "position": 62,
+      "description": "CPZ - CURVA HORIZ. 90º LISA S/VIR. C-PZ 600X100X150",
+      "quantity": 2,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar — sem cotação inicial"
+    },
+    {
+      "position": 63,
+      "description": "CPZ - EMENDA INT. U C-PZ 600X100MM",
+      "quantity": 15,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar — sem cotação inicial"
+    },
+    {
+      "position": 64,
+      "description": "BPZ - ELETROC. LISA S/VIR. B-PZ 250X50X3000MM #16",
+      "quantity": 21,
+      "unit": "br",
+      "notes": "Item adicionado da lista do Ademar (21 metros = 7 barras de 3m) — sem cotação inicial"
+    },
+    {
+      "position": 65,
+      "description": "CPZ - CURVA HORIZ. 45º LISA S/VIR. C-PZ 250X50X150",
+      "quantity": 2,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar — sem cotação inicial"
+    },
+    {
+      "position": 66,
+      "description": "CPZ - CURVA HORIZ. 90º LISA S/VIR. C-PZ 250X50X150",
+      "quantity": 2,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar — sem cotação inicial"
+    },
+    {
+      "position": 67,
+      "description": "CPZ - CURVA VERT. INT. 90º LISA S/VIR. C-PZ 250X50X150",
+      "quantity": 1,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar — sem cotação inicial"
+    },
+    {
+      "position": 68,
+      "description": "CPZ - CURVA VERT. EXT. 90º LISA S/VIR. C-PZ 250X50X150",
+      "quantity": 1,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar — sem cotação inicial"
+    },
+    {
+      "position": 69,
+      "description": "CPZ - EMENDA INT. U C-PZ 250X50MM",
+      "quantity": 12,
+      "unit": "pc",
+      "notes": "Item adicionado da lista do Ademar — sem cotação inicial"
+    }
+  ],
+  "subtotal": 51311.86,
+  "taxes": 0,
+  "total": 51311.86,
+  "file": ".fractal/drive/Obras/WISE/Pedidos/007-Elétrica/Orçamentos/Orcamento-PerfilLider-267691.xlsx",
+  "sourceFile": ".fractal/drive/Obras/WISE/Pedidos/007-Elétrica/Orçamentos/Orcamento-PerfilLider-267691.pdf",
+  "normalizedFile": ".fractal/drive/Obras/WISE/Pedidos/007-Elétrica/Orçamentos/Orcamento-PerfilLider-267691.xlsx",
+  "email": "63913",
+  "sourceAttachmentName": "267691 - SMG22.pdf",
+  "comparisonStatus": "ready",
+  "status": "quoted",
+  "notes": "Cotação inicial em chapa 18 (1,25mm) — Noelia perguntou se deveria alterar para chapa 16 (email 63914), sem resposta documentada. Ademar aprovou o pedido mencionando R$ 29.133,29 (email 63974), divergente do PDF (R$ 30.902,62). Material destinado a 1° e 2° Subsolo. Aprovado pelo cliente (Salete/CGS) em 22/06/2026. Eletrocalhas serão fabricadas lisas (email 63974 - Nubia).\n\nATUALIZAÇÃO 25/06/2026: Quantidades dos 47 itens originais ajustadas conforme lista do Ademar (preços mantidos da cotação 267691). Duplicatas na lista do Ademar foram CONSOLIDADAS (somadas) por instrução do Felipe, para garantir cobertura total. Consolidações aplicadas: (a) Item 9 'Curva 90° vert ext 150x100' = 11+2+2 (sendo a menção 'Curva 99' interpretada como 90° por contexto) = 15 unid; (b) Item 22 'Curva 45° vert int 200x100 perf' = 7+7 = 14 unid; (c) Item 23 'Curva 45° vert ext 200x100 perf' = 7+7 = 14 unid.\n\nAdicionados 22 itens novos (posições 48-69) sem cotação inicial, conforme lista do Ademar — linhas ambíguas interpretadas: (a) 'Curva 45° 150/50 10 externa e interna' = 5+5; (b) 'Curva de eletrocalha 100/50 10 ext e int' = lembrete dos itens individuais, ignorada; (c) 'Redução 200/100 - 8' cadastrada como genérica (destino a confirmar com Ademar).\n\nSubtotal atual R$ 51.311,86 (apenas itens com preço) + 22 itens pendentes de cotação. Total geral do pedido 7 ainda a confirmar com Perfil Líder após cotação dos itens novos.",
+  "quotedAt": "2026-06-15T11:22:00.000Z",
+  "createdAt": "2026-06-25T14:36:00.000Z"
+}

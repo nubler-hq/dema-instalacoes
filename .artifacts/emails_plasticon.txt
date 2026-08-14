@@ -1,0 +1,104 @@
+
+| ID    | FLAGS | SUBJECT                                                                                      | FROM                                 | DATE                   |
+|-------|-------|----------------------------------------------------------------------------------------------|--------------------------------------|------------------------|
+| 63819 |   @   | Orçamento Plasticon - nº 23876                                                               | RENATO - Plasticon                   | 2026-05-26 17:22-03:00 |
+| 63751 |   @   | NOTA FISCAL 20365- REF:Orçamento Plasticon - nº 23808                                        | vendas@plasticon.com.br              | 2026-05-15 15:37-03:00 |
+| 63748 |   @   | RES: NOTA FISCAL 20355 - REF:Orçamento Plasticon - nº 23808                                  | Renato | Plasticon                   | 2026-05-15 13:14-03:00 |
+| 63747 |   @   | Orçamento Plasticon - nº 23811                                                               | RENATO - Plasticon                   | 2026-05-15 13:13-03:00 |
+| 63746 |   @   | NOTA FISCAL 20355 - REF:Orçamento Plasticon - nº 23808                                       | vendas@plasticon.com.br              | 2026-05-15 11:48-03:00 |
+| 63745 |  *@   | Orçamento Plasticon - nº 23808                                                               | RENATO - Plasticon                   | 2026-05-15 10:53-03:00 |
+| 63719 |   @   | RE: pedido 1 de elétrica (Plasticon)                                                         | Luana Alemi Martinez                 | 2026-05-08 13:37+00:00 |
+| 63712 |   @   | pedido 1 de elétrica (Plasticon)                                                             | Ademar                               | 2026-05-07 18:26-03:00 |
+| 63666 |   @   | NOTA FISCAL 20134 - REF: Orçamento Plasticon - nº 23534                                      | vendas@plasticon.com.br              | 2026-04-28 13:43-03:00 |
+| 63664 |   @   | Orçamento Plasticon - nº 23534                                                               | RENATO - Plasticon                   | 2026-04-28 13:12-03:00 |
+| 63662 |   @   | Orçamento Plasticon - nº 23534                                                               | RENATO - Plasticon                   | 2026-04-28 11:32-03:00 |
+| 63615 |   @   | NOTA FISCAL 20016 - REF: Orçamento Plasticon - nº 23378                                      | vendas@plasticon.com.br              | 2026-04-15 17:14-03:00 |
+| 63614 |   @   | Orçamento Plasticon - nº 23378                                                               | RENATO - Plasticon                   | 2026-04-15 16:39-03:00 |
+| 62847 |       | RES: Plasticon - Boleto em aberto NF 17060/01 R$ 9.679,50 - vencimento 26/09/2025            | Renato | Plasticon                   | 2025-09-30 13:34-03:00 |
+| 62787 |   @   | NOTA FISCAL 17.527 - REF: Orçamento Plasticon - alteração - nº 20777 - DEPOSITO IDENTIFICADO | vendas@plasticon.com.br              | 2025-09-24 16:17-03:00 |
+| 62784 |   @   | Orçamento Plasticon - alteração - nº 20777                                                   | RENATO - Plasticon                   | 2025-09-24 15:03-03:00 |
+| 62761 |   @   | Orçamento Plasticon - nº 20777                                                               | RENATO - Plasticon                   | 2025-09-23 18:25-03:00 |
+| 62714 |   @   | NOTA FISCAL 17.060 - REF: Orçamento Plasticon - nº 19858                                     | vendas@plasticon.com.br              | 2025-09-16 15:16-03:00 |
+| 62231 |   @   | Orçamento Plasticon - nº 19858                                                               | RENATO - Plasticon                   | 2025-07-22 14:42-03:00 |
+| 62101 |       | RES: Plasticon - Boleto em aberto NF 15878/01 R$ 14.120,00 - vencimento 30/06/2025           | Renato | Plasticon                   | 2025-07-04 08:36-03:00 |
+| 61968 |   @   | NOTA FISCAL 15.878 - REF: Orçamento Plasticon - nº 18907                                     | vendas@plasticon.com.br              | 2025-06-20 08:34-03:00 |
+| 61946 |       | Lida: PEDIDO N°11 ELÉTRICA - NURBAN CLEMENTINO - PLASTICON                                   | wellington.osorio@stog.com.br        | 2025-06-17 09:47-03:00 |
+| 61723 |   @   | Re: RES: Orçamento Plasticon - nº 18907                                                      | Cintia de Cássia Bueno Carubbi Motta | 2025-05-26 11:14-03:00 |
+| 61716 |       | RES: Orçamento Plasticon - nº 18907                                                          | Renato | Plasticon                   | 2025-05-26 10:53-03:00 |
+| 61715 |   @R  | Orçamento Plasticon - nº 18907                                                               | RENATO - Plasticon                   | 2025-05-26 10:30-03:00 |
+| 61121 |   @   | NOTA FISCAL 15.359 - REF: RES: PEDIDO N°30 ELÉTRICA  - MY ONE  - PLASTICON                   | vendas@plasticon.com.br              | 2025-04-14 14:01-03:00 |
+| 61110 |       | RES: RES: PEDIDO N°30 ELÉTRICA  - MY ONE  - PLASTICON                                        | renato@plasticon.com.br              | 2025-04-14 11:00-03:00 |
+| 61105 |       | RES: PEDIDO N°30 ELÉTRICA  - MY ONE  - PLASTICON                                             | Leonardo - CGS                       | 2025-04-14 10:35-03:00 |
+| 59386 |       | RES: RES: PEDIDO N°27 ELÉTRICA  - MY ONE  - PLASTICON                                        | renato@plasticon.com.br              | 2025-02-10 09:25-03:00 |
+| 59363 |       | RES: PEDIDO N°27 ELÉTRICA  - MY ONE  - PLASTICON                                             | Leonardo - CGS                       | 2025-02-07 15:58-03:00 |
+| 58569 |   @   | vale nº 1620: Orçamento Plasticon - nº 17353                                                 | vendas@plasticon.com.br              | 2025-01-20 14:38-03:00 |
+| 58557 |   @   | ENC: Orçamento Plasticon - nº 17353                                                          | Renato                               | 2025-01-20 14:17-03:00 |
+| 58531 |   @R  | Orçamento Plasticon - nº 17353                                                               | RENATO - Plasticon                   | 2025-01-17 14:59-03:00 |
+| 58431 |       | RES: PEDIDO N°20 ELÉTRICA - ONE DI  - PLASTICON                                              | Leonardo - CGS                       | 2025-01-16 09:58-03:00 |
+| 58156 |       | RES: PEDIDO N°20 ELÉTRICA - ONE DI  - PLASTICON                                              | Leonardo - CGS                       | 2025-01-09 15:43-03:00 |
+| 57984 |       | Re: PEDIDO N°19 ELÉTRICA - MOB STATION - PLASTICON                                           | Cintia de Cássia Bueno Carubbi Motta | 2025-01-06 14:02-03:00 |
+| 57944 |       | Re: NOTA FISCAL 14.089 - REF: PEDIDO N°34 ELÉTRICA - MOACI - PLASTICON                       | Kaio Henrique de Jesus Ferreia       | 2024-12-27 13:18-03:00 |
+| 57217 |       | RES: PEDIDO N°34 ELÉTRICA - MOACI - PLASTICON                                                | roberta.martins@stog.com.br          | 2024-11-27 14:53-03:00 |
+| 56918 |       | Re: PEDIDO N°16 ELÉTRICA - MOB STATION - PLASTICON                                           | Natalia Azevedo                      | 2024-11-13 13:50-03:00 |
+| 56908 |       | RES: PEDIDO N°15 ELÉTRICA - ONE DI  - PLASTICON                                              | Leonardo - CGS                       | 2024-11-13 11:29-03:00 |
+| 56443 |       | Re: PEDIDO N°14 ELÉTRICA - MOB STATION - PLASTICON                                           | Natalia Azevedo                      | 2024-10-30 17:00-03:00 |
+| 55852 |       | Re: PEDIDO N°11 ELÉTRICA - NURBAN CLEMENTINO - PLASTICON                                     | Vitória Vieira Gomes                 | 2024-10-15 11:21-03:00 |
+| 55729 |   @   | NOTA FISCAL 13.613 - REF: PEDIDO N°11 ELÉTRICA - ONE DI  - PLASTICON                         | vendas@plasticon.com.br              | 2024-10-11 16:08-03:00 |
+| 55723 |       | RES: PEDIDO N°11 ELÉTRICA - ONE DI  - PLASTICON                                              | Leonardo - CGS                       | 2024-10-11 15:44-03:00 |
+| 54589 |       | Re: PEDIDO N°09 ELÉTRICA - MOB STATION - PLASTICON                                           | Natalia Azevedo                      | 2024-09-17 16:09-03:00 |
+| 54495 |       | RES: PEDIDO N° 28 ELÉTRICA - FOLKS - PLASTICON                                               | gesiane.vieira@stog.com.br           | 2024-09-16 10:29-03:00 |
+| 54278 |       | Re: PEDIDO N°08 ELÉTRICA - MOB STATION - PLASTICON                                           | Natalia Azevedo                      | 2024-09-11 14:40-03:00 |
+| 54273 |       | Re: PEDIDO N°25 ELÉTRICA - FOLKS - PLASTICON                                                 | Matheus Rodrigues                    | 2024-09-11 14:20-03:00 |
+| 54190 |   @   | Plasticon - Boleto em aberto NF 12774 R$ 1.215,00 - vencimento 05/09/2024                    | administrativo@plasticon.com.br      | 2024-09-09 15:09-03:00 |
+| 54186 |       | Re: PEDIDO N°26 ELÉTRICA - NEXT. PE. J. M. - PLASTICON                                       | João Lucas Alves Alencar             | 2024-09-09 13:53-03:00 |
+| 54161 |       | Re: PEDIDO N°45 ELÉTRICA - PLASTICON - BLEND                                                 | Thalyta Gianesella Oliveira          | 2024-09-09 10:30-03:00 |
+| 54142 |       | RES: PEDIDO N°08 ELÉTRICA - NURBAN - PLASTICON                                               | vitoria.vieira@stog.com.br           | 2024-09-09 09:07-03:00 |
+| 54032 |    R  | Re: Plasticon - Boleto em aberto NF 12829 R$ 575,00 - vencimento 30/08                       | Vitória Vieira Gomes                 | 2024-09-04 12:12-03:00 |
+| 53962 |       | RES: PEDIDO N°06 ELÉTRICA - ONE DI - PLASTICON                                               | Leonardo - CGS                       | 2024-09-02 16:30-03:00 |
+| 53215 |       | RES: PEDIDO N°21 ELÉTRICA  - FOLKS - PLASTICON                                               | matheus.rodrigues@stog.com.br        | 2024-08-19 10:15-03:00 |
+| 52809 |   @   | VALE - Orçamento Plasticon - nº 15551                                                        | vendas@plasticon.com.br              | 2024-08-07 17:20-03:00 |
+| 52775 |       | RES: PEDIDO N°22 ELÉTRICA - MOACI - PLASTICON                                                | roberta.martins@stog.com.br          | 2024-08-07 10:21-03:00 |
+| 52497 |       | Re: PEDIDO N°04 ELÉTRICA - NURBAN - PLASTICON                                                | Ingrid Raianne Davi Badu             | 2024-07-30 17:15-03:00 |
+| 52188 |       | Re: PEDIDO N°02 ELÉTRICA - NURBAN - PLASTICON                                                | Ingrid Raianne Davi Badu             | 2024-07-23 16:25-03:00 |
+| 52144 |       | RES: PEDIDO N°18 ELÉTRICA - FOLKS - PLASTICON                                                | gesiane.vieira@stog.com.br           | 2024-07-23 08:50-03:00 |
+| 52029 |       | RES: PEDIDO N°05 ELÉTRICA - ONE DI - PHAYNE - PLASTICON                                      | Marcus Vinícius                      | 2024-07-22 08:26-03:00 |
+| 51808 |       | RES: PEDIDO N°20 ELÉTRICA - MOACI - PLASTICON                                                | roberta.martins@stog.com.br          | 2024-07-15 07:53-03:00 |
+| 51468 |       | Re: PEDIDO N°49 ELÉTRICA - PLANIK - PLASTICON                                                | Matheus Correia                      | 2024-07-02 11:54-03:00 |
+| 51435 |       | Re: PEDIDO N°18 ELÉTRICA - NEXT PE. JOÃO MANOEL - PLASTICON                                  | João Lucas Alves Alencar             | 2024-07-01 15:01-03:00 |
+| 49883 |   @   | RES: Eletroduto Corrugado e Caixas Elétricas Plasticon                                       | Renato                               | 2024-05-28 15:11-03:00 |
+| 49152 |       | RES: PEDIDO N°12 - FOLKS - ELÉTRICA - PLASTICON                                              | matheus.rodrigues@stog.com.br        | 2024-05-13 12:40-03:00 |
+| 48890 |       | Re: PEDIDO N°39 ELÉTRICA - PLANIK - PLASTICON                                                | Matheus Correia                      | 2024-05-08 09:45-03:00 |
+| 48787 |       | Re: PEDIDO N° 13 ELÉTRICA - NEXT PE. JOÃO MANOEL - PLASTICON                                 | João Lucas Alves Alencar             | 2024-05-06 16:36-03:00 |
+| 48741 |       | RES: PEDIDO N°11 ELÉTRICA - CUBATÃO TGM - PLASTICON                                          | gesiane.vieira@stog.com.br           | 2024-05-06 12:01-03:00 |
+| 47734 |       | Re: PEDIDO N°35 ELÉTRICA - PLANIK - PLASTICON                                                | Lucas Secchi Ribeiro                 | 2024-04-10 12:46-03:00 |
+| 47720 |   @   | Orçamento Plasticon - nº 14102                                                               | RENATO - Plasticon                   | 2024-04-10 09:09-03:00 |
+| 47602 |       | RES: PEDIDO N°05 ELÉTRICA - CUBATÃO TGM - PLASTICON                                          | matheus.rodrigues@stog.com.br        | 2024-04-08 14:06-03:00 |
+| 47595 |       | Re: PEDIDO N°23 ELÉTRICA - BLEND - PLASTICON                                                 | Emmanuele Guimaraes                  | 2024-04-08 13:48-03:00 |
+| 47011 |   @   | NOTAS 11.607 / 11.608 : PEDIDO N°20 ELÉTRICA - BLEND - PLASTICON                             | vendas@plasticon.com.br              | 2024-03-25 14:42-03:00 |
+| 46985 |       | Re: PEDIDO N°20 ELÉTRICA - BLEND - PLASTICON                                                 | Emmanuele Guimaraes                  | 2024-03-25 09:05-03:00 |
+| 46964 |       | Re: PEDIDO N°20 ELÉTRICA - BLEND - PLASTICON                                                 | Ademar                               | 2024-03-22 18:21-03:00 |
+| 45832 |       | Re: PEDIDO N°24 ELÉTRICA - PLANIK - PLASTICON                                                | Matheus Correia                      | 2024-02-28 11:40-03:00 |
+| 45825 |       | RES: ENC: VALE Nº 1326: Orçamento Plasticon - nº 13677                                       | Renato                               | 2024-02-28 09:20-03:00 |
+| 45824 |   @   | Orçamento Plasticon - alteração  - nº 13677                                                  | RENATO - Plasticon                   | 2024-02-28 09:19-03:00 |
+| 45820 |   @R  | ENC: VALE Nº 1326: Orçamento Plasticon - nº 13677                                            | Renato                               | 2024-02-28 08:59-03:00 |
+| 45819 |   @   | Orçamento Plasticon - nº 13677                                                               | RENATO - Plasticon                   | 2024-02-28 08:43-03:00 |
+| 45556 |       | Re: PEDIDO N°06 ELÉTRICA - NEXT. PE. JOÃO MANOEL - PLASTICON                                 | João Lucas Alves Alencar             | 2024-02-20 08:18-03:00 |
+| 45482 |       | Re: PEDIDO N°06 ELÉTRICA - NEXT. PE. JOÃO MANOEL - PLASTICON                                 | Ademar                               | 2024-02-15 18:58-03:00 |
+| 44902 |       | Re: PEDIDO N°22 ELÉTRICA - PLANIK - PLASTICON                                                | Lucas Secchi Ribeiro                 | 2024-01-23 15:06-03:00 |
+| 44900 |       | RES: RES: PEDIDO N° 17 ELÉTRICA - BLEND - PLASTICON                                          | Renato                               | 2024-01-23 14:50-03:00 |
+| 44752 |       | Re: PEDIDO N°20 ELÉTRICA - PLANIK - PLASTICON                                                | Lucas Secchi Ribeiro                 | 2024-01-19 10:45-03:00 |
+| 44517 |   @   | Orçamento Plasticon - alteração  - nº 12610                                                  | Renato - Plasticon                   | 2024-01-11 14:53-03:00 |
+| 43676 |   @   | NOTA FISCAL 10.589 - REF: PEDIDO N°01 ELÉTRICA - NEXT PJM - PLASTICON                        | vendas@plasticon.com.br              | 2023-11-22 09:28-03:00 |
+| 43538 |   @   | Fwd: PEDIDO N°01 ELÉTRICA - NEXT PJM - PLASTICON                                             | Ademar                               | 2023-11-14 11:49-03:00 |
+| 43420 |   @   | ENC: PEDIDO N°03 ELÉTRICA - AUGUSTA - PLASTICON                                              | Erivaldo                             | 2023-11-09 17:30+00:00 |
+| 43171 |   @   | NOTA FISCAL 10.385 - REF: PEDIDO N°05 ELÉTRICA - BLEND - PLASTICON                           | vendas@plasticon.com.br              | 2023-10-30 13:49-03:00 |
+| 43138 |       | Re: PEDIDO N°04 ELÉTRICA - BRACON PERDIZES - PLASTICON                                       | Eric Tanaka                          | 2023-10-27 14:41-03:00 |
+| 43152 |   @   | ENC: PEDIDO N°05 ELÉTRICA - BLEND - PLASTICON                                                | Caio César Delamare e Sá Scariot     | 2023-10-27 14:33-03:00 |
+| 43132 |   @   | Orçamento Plasticon - nº 12610                                                               | Renato - Plasticon                   | 2023-10-27 13:56-03:00 |
+| 43071 |       | Re: PEDIDO N°03 - BRACON PERDIZES - PLASTICON                                                | Eric Tanaka                          | 2023-10-26 11:53-03:00 |
+| 43043 |       | Re: PEDIDO N°11 - ELÉTRICA - PLANIK - PLASTICON                                              | Lucas Secchi Ribeiro                 | 2023-10-25 14:07-03:00 |
+| 43016 |   @   | Orçamento Plasticon - nº 12581                                                               | Renato - Plasticon                   | 2023-10-25 10:01-03:00 |
+| 38459 |    R  | RES: Re: PEDIDO N°30 ELÉTRICA - PLASTICON - ENSEADA                                          | Renato                               | 2023-05-17 09:33-03:00 |
+| 38452 |       | Re: PEDIDO N°30 ELÉTRICA - PLASTICON - ENSEADA                                               | rayssa guzenski                      | 2023-05-17 08:38-03:00 |
+| 37379 |   @R  | ENC: Plasticon - Boleto em aberto NF 8547/01 R$ 690,00 - vencimento 31/03/2023               | Renato                               | 2023-04-03 11:47-03:00 |
+

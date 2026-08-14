@@ -1,0 +1,30 @@
+{
+  "customer": "03be712a-263a-46d1-82af-aa18a473d7ed",
+  "supplier": "7891e5e6-8c8c-47b9-a180-f679b40fdb34",
+  "number": "006",
+  "type": "Hidráulica",
+  "quote": "844.448",
+  "paymentTerms": "28 dias",
+  "deliveryDays": 2,
+  "invoice": {
+    "name": "SMG22 Empreendimentos Imobiliários SPE LTDA",
+    "cnpj": "48.868.032/0001-30"
+  },
+  "items": [
+    {
+      "description": "Tubos soldáveis e série R (Amanco) — diversos diâmetros",
+      "quantity": 1,
+      "unit": "kit"
+    },
+    {
+      "description": "Joelhos e luvas de esgoto — diversos diâmetros",
+      "quantity": 1,
+      "unit": "kit"
+    }
+  ],
+  "total": 11553.39,
+  "file":".fractal/drive/Obras/WISE/Pedidos/006-Hidráulica/PEDIDO_006_HIDRAULICA_WISE_FF_GUARULHOS_844_448.xlsx",
+    "status": "sent",
+  "sentAt": "2026-05-21T23:15:00.000Z",
+  "createdAt": "2026-05-21T18:00:00.000Z"
+}

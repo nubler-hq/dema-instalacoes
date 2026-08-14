@@ -1,0 +1,5 @@
+{
+  "taskId": "DEM-008",
+  "description": "Replicar o card de regime (barra ou badge) nos cards do kanban pra manter consistência visual com a lista.",
+  "status": "finished"
+}

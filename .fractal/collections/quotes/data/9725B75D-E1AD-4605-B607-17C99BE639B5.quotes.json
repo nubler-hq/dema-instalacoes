@@ -1,0 +1,189 @@
+{
+  "customer": "89879105-9531-4bc3-992c-932e1ef6a07e",
+  "supplier": "faabbd0f-7c78-4f16-9d2f-e6468750e03d",
+  "number": "002",
+  "type": "Fixação",
+  "quote": "3029615",
+  "paymentTerms": "28 dias",
+  "invoice": {
+    "name": "GTZ 84 Empreendimentos Imobiliários SPE LTDA",
+    "cnpj": "48.950.512/0001-45"
+  },
+  "items": [
+    {
+      "description": "ABRAÇ U PERFIL C/ PARAF 1.1/4",
+      "quantity": 100,
+      "unit": "PC",
+      "unitPrice": 0.75,
+      "totalPrice": 75,
+      "notes": "AUPP1.1/4GE"
+    },
+    {
+      "description": "ABRAÇ U PERFIL C/ PARAF 2",
+      "quantity": 500,
+      "unit": "PC",
+      "unitPrice": 0.96,
+      "totalPrice": 480,
+      "notes": "AUPP2GE"
+    },
+    {
+      "description": "ABRAÇ U PERFIL C/ PARAF 3",
+      "quantity": 300,
+      "unit": "PC",
+      "unitPrice": 1.48,
+      "totalPrice": 444,
+      "notes": "AUPP3GE"
+    },
+    {
+      "description": "ABRAÇ U PERFIL C/ PARAF 4",
+      "quantity": 300,
+      "unit": "PC",
+      "unitPrice": 1.68,
+      "totalPrice": 504,
+      "notes": "AUPP4GE"
+    },
+    {
+      "description": "ABRAÇ U PERFIL C/ PARAF 6",
+      "quantity": 100,
+      "unit": "PC",
+      "unitPrice": 3.48,
+      "totalPrice": 348,
+      "notes": "AUPP6GE"
+    },
+    {
+      "description": "ABRAÇ GOTA ECONOMICA 1",
+      "quantity": 100,
+      "unit": "PC",
+      "unitPrice": 0.45,
+      "totalPrice": 45,
+      "notes": "AGE1GE"
+    },
+    {
+      "description": "ABRAÇ GOTA ECONOMICA 1",
+      "quantity": 1000,
+      "unit": "PC",
+      "unitPrice": 0.45,
+      "totalPrice": 450,
+      "notes": "AGE1GE"
+    },
+    {
+      "description": "ABRAÇ GOTA ECONOMICA 1.1/4",
+      "quantity": 500,
+      "unit": "PC",
+      "unitPrice": 0.51,
+      "totalPrice": 255,
+      "notes": "AGE1.1/4GE"
+    },
+    {
+      "description": "ABRAÇ GOTA ECONOMICA 2",
+      "quantity": 500,
+      "unit": "PC",
+      "unitPrice": 0.76,
+      "totalPrice": 380,
+      "notes": "AGE2GE"
+    },
+    {
+      "description": "ABRAÇ GOTA ECONOMICA 3",
+      "quantity": 300,
+      "unit": "PC",
+      "unitPrice": 1.2,
+      "totalPrice": 360,
+      "notes": "AGE3GE"
+    },
+    {
+      "description": "ABRAÇ GOTA ECONOMICA 4",
+      "quantity": 500,
+      "unit": "PC",
+      "unitPrice": 1.7,
+      "totalPrice": 850,
+      "notes": "AGE4GE"
+    },
+    {
+      "description": "ABRAÇ GOTA ECONOMICA 6",
+      "quantity": 300,
+      "unit": "PC",
+      "unitPrice": 3.2,
+      "totalPrice": 960,
+      "notes": "AGE6GE"
+    },
+    {
+      "description": "ARRUELA LISA 1/4",
+      "quantity": 3000,
+      "unit": "PC",
+      "unitPrice": 0.038,
+      "totalPrice": 114,
+      "notes": "AL1/4"
+    },
+    {
+      "description": "ARRUELA LISA 3/8",
+      "quantity": 5000,
+      "unit": "PC",
+      "unitPrice": 0.05,
+      "totalPrice": 250,
+      "notes": "AL3/8"
+    },
+    {
+      "description": "JAQUETA E CONE 3/8",
+      "quantity": 3000,
+      "unit": "PC",
+      "unitPrice": 0.72,
+      "totalPrice": 2160,
+      "notes": "JC3/8"
+    },
+    {
+      "description": "PERF PERFURADO 19 X 38 X 6 MTS CHAPA 18",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 69.3,
+      "totalPrice": 3465,
+      "notes": "PP19X38X6C18"
+    },
+    {
+      "description": "PERF PERFURADO 38 X 38 X 6 MTS CHAPA 18",
+      "quantity": 50,
+      "unit": "PC",
+      "unitPrice": 91,
+      "totalPrice": 4550,
+      "notes": "PP38X38X6C18"
+    },
+    {
+      "description": "PORCA SEXTAVADA 1/4",
+      "quantity": 3000,
+      "unit": "PC",
+      "unitPrice": 0.06,
+      "totalPrice": 180,
+      "notes": "PS1/4"
+    },
+    {
+      "description": "PORCA SEXTAVADA 3/8",
+      "quantity": 5000,
+      "unit": "PC",
+      "unitPrice": 0.11,
+      "totalPrice": 550,
+      "notes": "PS3/8"
+    },
+    {
+      "description": "VERGALHÃO RT 1/4 X 3 MTS GALVANIZADO",
+      "quantity": 200,
+      "unit": "PC",
+      "unitPrice": 6.1,
+      "totalPrice": 1220,
+      "notes": "VRT1/4X3GAL"
+    },
+    {
+      "description": "VERGALHÃO RT 3/8 X 3 MTS GALVANIZADO",
+      "quantity": 300,
+      "unit": "PC",
+      "unitPrice": 13.5,
+      "totalPrice": 4050,
+      "notes": "VRT3/8X3GAL"
+    }
+  ],
+  "total": 21690,
+  "file":".fractal/drive/Obras/GTZ-84/Pedidos/002-Fixação/PEDIDO_002_FIXACAO_GTZ_84_FIXAGOLD_3029615.xlsx",
+    "email": "63980",
+  "status": "quoted",
+  "notes": "Cotação #3029615 recebida de Fixagold em 23/06/2026. Prazo de pagamento 28 dias. Entrega informada em 3 a 5 dias úteis. Total R$ 21.690,00. PDF contém duas linhas de AGE1GE, mantidas conforme o documento original.",
+  "quotedAt": "2026-06-23T13:01:19.000Z",
+  "createdAt": "2026-06-23T13:01:19.000Z"
+}

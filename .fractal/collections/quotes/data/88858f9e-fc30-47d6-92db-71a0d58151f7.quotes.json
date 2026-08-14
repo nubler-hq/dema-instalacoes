@@ -1,0 +1,45 @@
+{
+  "customer": "89879105-9531-4bc3-992c-932e1ef6a07e",
+  "supplier": "a492b43d-cad0-433d-b738-6c8f6aecf981",
+  "number": "001",
+  "type": "Elétrica",
+  "quote": "24846",
+  "paymentTerms": "30 dias",
+  "deliveryDays": 3,
+  "invoice": {
+    "name": "GTZ 84 INVESTIMENTOS IMOBILIÁRIOS SPE LTDA.",
+    "cnpj": "48.950.512/0001-45"
+  },
+  "items": [
+    {
+      "description": "CAIXA OCTOGONAL TETO SNAP FIT COM TAMPA",
+      "quantity": 400,
+      "unit": "PÇS",
+      "unitPrice": 1.98,
+      "totalPrice": 792
+    },
+    {
+      "description": "ELETRODUTO FLEXÍVEL CORRUGADO MÉDIO DE 25 MM PEAD OCRE - 50 METROS",
+      "quantity": 36,
+      "unit": "RL",
+      "unitPrice": 110,
+      "totalPrice": 3960,
+      "notes": "ELC25O"
+    },
+    {
+      "description": "ELETRODUTO FLEXÍVEL CORRUGADO MÉDIO DE 32 MM PEAD OCRE - 50 METROS",
+      "quantity": 10,
+      "unit": "RL",
+      "unitPrice": 155,
+      "totalPrice": 1550,
+      "notes": "ELC32O"
+    }
+  ],
+  "total": 6302,
+  "file": ".fractal/drive/Obras/GTZ-84/Pedidos/001-Elétrica/PEDIDO_001_ELETRICA_GTZ_84_PLASTICON_24846.xlsx",
+  "email": "63121",
+  "status": "sent",
+  "notes": "Pedido 1 de elétrica (GTZ 84) - Plasticon. Pedido interno 24846. Enviado por Ademar para Erivaldo, Ageu e juriti@gattaz.com.br em 05/11/2025. Materiais para lajes do 2 ao piso do Térreo. Valor: R$ 6.302,00. Condições: 30 dias.",
+  "quotedAt": "2025-11-05T00:00:00.000Z",
+  "sentAt": "2025-11-05T13:33:00.000Z"
+}

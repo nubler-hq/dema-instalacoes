@@ -1,0 +1,17 @@
+{
+  "slug": "plasticon",
+  "name": "PLASTICON COMÉRCIO LTDA",
+  "documents": {
+    "cnpj": "23.848.502/0001-72",
+    "ie": "140.345.037.110"
+  },
+  "segment": "electrical",
+  "contact": "Renato Rodrigues",
+  "email": "renato@plasticon.com.br",
+  "phone": "(11) 5181-3000 / (11) 99157-3102",
+  "postalCode": "04222-002",
+  "address": "Rua Auriverde, 1697 - Vila Independência - São Paulo/SP",
+  "paymentTerms": "28 DIAS",
+  "notes": "Orçamento para Wise Clementino: 1.700 cx de teto, 1.000 caixas de passagem Angle Box, 10 rolos mangueira lisa 32mm.",
+  "createdAt": "2026-05-21T15:54:00.000Z"
+}

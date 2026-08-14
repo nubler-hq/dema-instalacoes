@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>__TITLE__</title>
+  <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <style>
+    :root {
+      --paper: #fbf7ef;
+      --surface: #fffdf8;
+      --wash: #f3eadb;
+      --ink: #211b16;
+      --muted: #6a6056;
+      --soft: #8f8275;
+      --line: #ded2c2;
+      --line-strong: #c7b39e;
+      --brand: #a94f2d;
+      --brand-dark: #71361f;
+      --green: #31594d;
+      --green-soft: #e4eee8;
+      --gold: #9b681e;
+      --danger: #9b3c2c;
+      --radius: 8px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Aptos, "Segoe UI", Helvetica, sans-serif;
+      font-size: 15px;
+    }
+    a { color: var(--brand-dark); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    button, summary { font: inherit; }
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      display: grid;
+      grid-template-columns: auto minmax(320px, 1fr) auto;
+      gap: 18px;
+      align-items: center;
+      min-height: 82px;
+      padding: 14px 24px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 253, 248, 0.97);
+      backdrop-filter: blur(12px);
+    }
+    .brand { display: grid; gap: 2px; border-left: 5px solid var(--brand); padding-left: 12px; }
+    .brand strong { font-size: 14px; letter-spacing: 0; text-transform: uppercase; }
+    .brand span { color: var(--muted); font-size: 11px; font-weight: 800; letter-spacing: 0; text-transform: uppercase; }
+    .title-block h1 { margin: 0; font-size: 17px; line-height: 1.12; letter-spacing: 0; font-weight: 850; }
+    .title-block p { margin: 6px 0 0; color: var(--muted); line-height: 1.35; }
+    .top-actions { display: flex; justify-content: flex-end; gap: 8px; flex-wrap: wrap; }
+    .action-link {
+      display: inline-flex;
+      min-height: 36px;
+      align-items: center;
+      justify-content: center;
+      padding: 0 12px;
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius);
+      background: #fff;
+      color: var(--ink);
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+    .metrics-band {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(150px, 1fr));
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(90deg, rgba(169, 79, 45, 0.06), transparent 38%), #fffaf2;
+    }
+    .metric { min-height: 128px; display: grid; grid-template-rows: auto 1fr; align-content: start; gap: 18px; padding: 16px 18px 17px; border-right: 1px solid var(--line); }
+    .metric:last-child { border-right: 0; }
+    .metric-icon { width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--line-strong); border-radius: 999px; color: var(--green); background: rgba(255,255,255,0.62); }
+    .metric-icon svg { width: 17px; height: 17px; stroke-width: 1.8; }
+    .metric span { color: var(--muted); font-size: 11px; font-weight: 850; letter-spacing: 0; text-transform: uppercase; }
+    .metric strong { font-size: 22px; line-height: 1.05; }
+    .metric small { color: var(--soft); font-size: 12px; }
+    .metric-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 34px; }
+    .metric-copy { display: grid; align-content: end; gap: 5px; }
+    .workspace { display: grid; grid-template-columns: 390px minmax(0, 1fr); min-height: calc(100vh - 82px); }
+    .decision { border-right: 1px solid var(--line); background: #f8f2e8; }
+    .decision-sticky { position: sticky; top: 82px; max-height: calc(100vh - 82px); overflow: auto; }
+    .side-section { padding: 18px; border-bottom: 0; }
+    .section-kicker { margin: 0 0 6px; color: var(--brand-dark); font-size: 11px; font-weight: 900; letter-spacing: 0; text-transform: uppercase; }
+    h2 { margin: 0; font-size: 20px; letter-spacing: 0; line-height: 1.2; }
+    .muted { margin: 8px 0 0; color: var(--muted); line-height: 1.45; }
+    .nav-list { display: grid; gap: 1px; margin-top: 8px; }
+    .nav-link { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; align-items: center; min-height: 25px; padding: 3px 0; border: 0; color: var(--ink); font-size: 12px; font-weight: 760; opacity: 0.52; text-decoration: none; transition: opacity 160ms ease, color 160ms ease, transform 160ms ease; }
+    .nav-link span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .nav-link small { color: var(--muted); font-size: 11px; font-weight: 850; }
+    .nav-link:hover { opacity: 0.86; color: var(--green); text-decoration: none; }
+    .nav-link.active { opacity: 1; color: var(--green); transform: translateX(2px); }
+    .nav-link.active small { color: var(--green); }
+    .allocation-list { margin-top: 12px; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+    .allocation-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; padding: 12px 12px; border-bottom: 1px solid var(--line); }
+    .allocation-row:last-child { border-bottom: 0; }
+    .allocation-main strong { display: block; font-size: 14px; }
+    .allocation-main small, .allocation-money small { display: block; margin-top: 4px; color: var(--muted); font-size: 12px; line-height: 1.35; }
+    .allocation-money { text-align: right; white-space: nowrap; font-weight: 900; }
+    .allocation-bar { grid-column: 1 / -1; height: 7px; overflow: hidden; border-radius: 99px; background: #eadccb; }
+    .allocation-bar i { display: block; width: var(--w); height: 100%; background: var(--green); }
+    .quick-table { width: 100%; margin-top: 12px; border: 1px solid var(--line); border-radius: var(--radius); border-collapse: separate; border-spacing: 0; overflow: hidden; font-size: 13px; }
+    .quick-table th, .quick-table td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    .quick-table tr:last-child th, .quick-table tr:last-child td { border-bottom: 0; }
+    .quick-table th { width: 42%; color: var(--muted); font-size: 11px; font-weight: 850; letter-spacing: 0; text-transform: uppercase; }
+    .quick-table td { line-height: 1.65; }
+    .workbench { min-width: 0; background: var(--surface); }
+    .workbench-head {
+      position: sticky;
+      top: 82px;
+      z-index: 20;
+      display: block;
+      gap: 18px;
+      align-items: end;
+      padding: 18px 22px 14px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 253, 248, 0.97);
+      backdrop-filter: blur(10px);
+    }
+    .workbench-head p { margin: 5px 0 0; color: var(--muted); line-height: 1.4; }
+    .group-nav { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+    .group-nav-button { flex: 0 0 auto; border: 1px solid var(--line-strong); border-radius: var(--radius); padding: 8px 10px; background: #fff; color: var(--ink); cursor: pointer; font-size: 12px; font-weight: 850; }
+    .group-nav-button:hover { border-color: var(--brand); color: var(--brand-dark); }
+    .group-list { border-bottom: 1px solid var(--line); }
+    .group-block { scroll-margin-top: 96px; border-top: 1px solid var(--line); background: #f7efe4; }
+    .group-block:first-child { border-top: 0; }
+    .group-summary { display: grid; grid-template-columns: minmax(300px, 1fr) repeat(4, minmax(105px, auto)); gap: 16px; align-items: center; padding: 15px 22px; cursor: pointer; list-style: none; }
+    .group-summary::-webkit-details-marker { display: none; }
+    .group-summary:hover { background: #fbf4e9; }
+    .group-title { display: grid; gap: 4px; min-width: 0; }
+    .group-title strong { font-size: 16px; line-height: 1.25; }
+    .group-title small { color: var(--muted); line-height: 1.35; }
+    .group-metric { display: grid; gap: 2px; text-align: right; white-space: nowrap; }
+    .group-metric span { color: var(--muted); font-size: 10px; font-weight: 900; letter-spacing: 0; text-transform: uppercase; }
+    .group-metric strong { font-size: 14px; font-weight: 900; }
+    .group-detail { padding: 0 22px 20px; background: #f7efe4; }
+    .matrix-wrap { overflow-x: auto; border: 1px solid var(--line-strong); }
+    .matrix { width: 100%; min-width: 1180px; table-layout: fixed; border-collapse: collapse; font-size: 13px; background: #fff; }
+    .matrix .col-item { width: 44%; }
+    .matrix .col-qty { width: 6%; }
+    .matrix .col-supplier { width: 10%; }
+    .matrix tbody td { background: #fff; }
+    .matrix th, .matrix td { padding: 10px 12px; border: 1px solid var(--line); vertical-align: top; text-align: left; overflow-wrap: anywhere; }
+    .matrix th { position: sticky; top: 0; z-index: 1; background: #f7efe4; color: var(--muted); font-size: 11px; font-weight: 850; letter-spacing: 0; text-transform: uppercase; }
+    .matrix th .rank-note { display: block; margin-top: 3px; color: var(--green); font-size: 10px; font-weight: 900; letter-spacing: 0; text-transform: uppercase; }
+    .matrix tbody tr:last-child td { border-bottom: 0; }
+    .matrix .qty { width: 86px; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .matrix td.best-price { background: #edf6f0; box-shadow: inset 0 0 0 1px rgba(49, 89, 77, 0.16); }
+    .matrix th.best-total-col, .matrix td.best-total-col { border-left: 3px solid var(--green); border-right: 3px solid var(--green); }
+    .matrix th.best-total-col { border-top: 3px solid var(--green); background: #e8f3ed; color: var(--green); }
+    .matrix tbody td.best-total-col { background: #fbfffc; }
+    .matrix tbody td.best-total-col.best-price { background: #e6f3eb; }
+    .matrix tfoot td.best-total-col { border-bottom: 3px solid var(--green); background: #e8f3ed; color: var(--green); }
+    .matrix tfoot td { border-top: 2px solid var(--line-strong); border-bottom: 0; background: #f7efe4; font-weight: 900; }
+    .matrix tfoot td:first-child { color: var(--brand-dark); text-transform: uppercase; font-size: 11px; letter-spacing: 0; }
+    .matrix tfoot small { display: block; margin-top: 3px; color: var(--muted); font-size: 11px; font-weight: 750; }
+    .price-cell { position: relative; display: grid; gap: 3px; line-height: 1.22; white-space: normal; }
+    .price-cell.best { padding-right: 18px; }
+    .price-cell.best { color: var(--green); font-weight: 900; }
+    .price-cell.missing { color: var(--soft); justify-content: center; }
+    .price-total { display: block; font-weight: 850; }
+    .price-unit { display: block; color: var(--muted); font-size: 11px; font-weight: 750; }
+    .price-cell.best .price-unit { color: var(--green); }
+    .winner-icon { position: absolute; top: 1px; right: 0; width: 13px; height: 13px; color: var(--green); stroke-width: 2; opacity: 0.78; }
+    .pending-section { scroll-margin-top: 96px; padding: 22px; border-top: 1px solid var(--line); background: #fff8ee; }
+    .pending-list { margin-top: 14px; border-top: 1px solid var(--line-strong); }
+    .pending-row { display: grid; grid-template-columns: 1fr auto; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+    .pending-row small { color: var(--muted); }
+    .empty { padding: 16px 0; color: var(--muted); }
+    .footer { padding: 13px 22px; border-top: 1px solid var(--line); background: #f7efe4; color: var(--muted); font-size: 12px; }
+    @media print { .topbar, .workbench-head { position: static; } .top-actions, .group-nav { display: none; } body { background: #fff; } .workspace { grid-template-columns: 1fr; } .decision { border-right: 0; } }
+    @media (max-width: 1100px) { .topbar { grid-template-columns: 1fr; gap: 10px; } .top-actions { justify-content: flex-start; } .metrics-band { grid-template-columns: repeat(3, minmax(0, 1fr)); } .workspace { grid-template-columns: 1fr; } .decision { border-right: 0; } .workbench-head { position: static; grid-template-columns: 1fr; } }
+    @media (max-width: 680px) { .topbar { padding: 14px; } .title-block h1 { font-size: 21px; } .metrics-band { grid-template-columns: 1fr 1fr; } .metric { min-height: 74px; padding: 12px 14px; } .metric strong { font-size: 18px; } .side-section, .workbench-head, .pending-section { padding: 15px; } .group-summary { grid-template-columns: 1fr 1fr; padding: 14px 15px; } .group-title { grid-column: 1 / -1; } .group-detail { padding: 0 15px 16px; } }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><strong>Dema Instalações</strong><span>Mapa de cotação</span></div>
+    <div class="title-block"><h1>__HEADING__</h1></div>
+    <nav class="top-actions" aria-label="Arquivos do mapa"><a class="action-link" href="./DASHBOARD.xlsx">Abrir XLSX</a><a class="action-link" href="./data.json">Abrir JSON</a><button class="action-link" type="button" onclick="window.print()">Imprimir</button></nav>
+  </header>
+  <main class="workspace">
+    <aside class="decision" aria-label="Painel de decisão"><div class="decision-sticky">
+      <section class="side-section"><p class="section-kicker">Navegação</p><h2>Ir para seção</h2><nav id="quoteNav" class="nav-list" aria-label="Navegação do mapa de cotação"></nav></section>
+      <section class="side-section"><p class="section-kicker">Distribuição da cesta</p><h2>Compra sugerida por fornecedor</h2><div id="basketSuppliers" class="allocation-list"></div></section>
+      <section class="side-section"><p class="section-kicker">Conferência rápida</p><h2>O que olhar antes de aprovar</h2><table class="quick-table"><tr><th>Primeiro</th><td>Resolver itens sem preço para não fechar compra incompleta.</td></tr><tr><th>Depois</th><td>Conferir se a quebra por fornecedor compensa frete, prazo e faturamento.</td></tr><tr><th>Por fim</th><td>Usar os grupos para validar equivalência técnica dos materiais.</td></tr></table></section>
+      <section class="side-section"><p class="section-kicker">Origem</p><table class="quick-table"><tr><th>Cliente</th><td id="originCustomer">-</td></tr><tr><th>Data</th><td id="originDate">-</td></tr><tr><th>E-mail</th><td id="originEmail">-</td></tr></table></section>
+    </div></aside>
+    <section class="workbench" aria-label="Comparativo por grupo">
+      <section class="metrics-band" aria-label="Resumo executivo">
+        <div class="metric"><div class="metric-top"><span>Cesta sugerida</span><span class="metric-icon"><i data-lucide="shopping-cart"></i></span></div><div class="metric-copy"><strong id="metricTotal">-</strong><small>menor preço por item cotado</small></div></div>
+        <div class="metric"><div class="metric-top"><span>Economia possível</span><span class="metric-icon"><i data-lucide="trending-down"></i></span></div><div class="metric-copy"><strong id="metricSavings">-</strong><small>comparado ao pior conjunto cotado</small></div></div>
+        <div class="metric"><div class="metric-top"><span>Itens sem preço</span><span class="metric-icon"><i data-lucide="circle-alert"></i></span></div><div class="metric-copy"><strong id="metricMissing">-</strong><small>precisam retorno antes do pedido</small></div></div>
+        <div class="metric"><div class="metric-top"><span>Itens resolvidos</span><span class="metric-icon"><i data-lucide="check-circle-2"></i></span></div><div class="metric-copy"><strong id="metricResolved">-</strong><small>já entram na decisão de compra</small></div></div>
+        <div class="metric"><div class="metric-top"><span>Fornecedores</span><span class="metric-icon"><i data-lucide="building-2"></i></span></div><div class="metric-copy"><strong id="metricSuppliers">-</strong><small>comparados neste mapa</small></div></div>
+        <div class="metric"><div class="metric-top"><span>Grupos</span><span class="metric-icon"><i data-lucide="layers-3"></i></span></div><div class="metric-copy"><strong id="metricGroups">-</strong><small>famílias técnicas para conferência</small></div></div>
+      </section>
+      <div class="workbench-head"><div><p class="section-kicker">Comparativo técnico</p><h2>Grupos de itens com fornecedores e preços</h2><p>Cada grupo mostra cobertura, melhor fornecedor e matriz de preços para decisão assertiva.</p></div></div>
+      <div id="groupList" class="group-list"></div>
+      <section class="pending-section" id="pending-items"><p class="section-kicker">Pendências</p><h2>Itens sem cotação</h2><p class="muted">Estes itens ficaram sem preço em todos os fornecedores e devem ser cobrados antes de fechar o pedido.</p><div id="pendingList" class="pending-list"></div></section>
+    </section>
+  </main>
+  <footer class="footer" id="footerNote">Gerado a partir do JSON único do mapa de cotação.</footer>
+  <script type="application/json" id="quote-data">__DATA__</script>
+  <script>
+    const data = JSON.parse(document.getElementById('quote-data').textContent);
+    const money = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' });
+    const qtyFormat = new Intl.NumberFormat('pt-BR');
+    const byId = (id) => document.getElementById(id);
+    const fmtMoney = (value) => Number.isFinite(value) ? money.format(value) : '-';
+    const fmtQty = (value, unit) => `${Number.isFinite(value) ? qtyFormat.format(value) : (value || '-')}${unit ? ` ${unit}` : ''}`;
+    const shortText = (value, size = 68) => !value ? '' : value.length > size ? `${value.slice(0, size)}...` : value;
+    const escapeHtml = (value) => String(value ?? '').replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#039;', '"': '&quot;' }[char]));
+
+    function fillHeader() {
+      byId('metricTotal').textContent = fmtMoney(data.summary.basketTotal);
+      byId('metricSavings').textContent = fmtMoney(data.summary.basketSavings);
+      byId('metricMissing').textContent = data.summary.itemsWithoutQuotes;
+      byId('metricResolved').textContent = data.summary.basketResolved;
+      byId('metricSuppliers').textContent = data.summary.supplierCount;
+      byId('metricGroups').textContent = data.summary.groupCount;
+      byId('originCustomer').textContent = data.customer?.name || '-';
+      byId('originDate').textContent = data.timestamps?.mapDate || '-';
+      byId('originEmail').textContent = data.source?.emailId || '-';
+      byId('footerNote').textContent = `Gerado a partir do JSON único do mapa de cotação. Assunto: ${data.source?.emailSubject || '-'}.`;
+    }
+
+    function renderBasket() {
+      const container = byId('basketSuppliers');
+      const allocations = data.basket?.supplierAllocations || [];
+      const maxTotal = Math.max(...allocations.map((supplier) => supplier.total), 1);
+      container.innerHTML = allocations.map((supplier) => {
+        const width = Math.max(4, (supplier.total / maxTotal) * 100).toFixed(1);
+        return `<article class="allocation-row"><div class="allocation-main"><strong>${escapeHtml(supplier.name)}</strong></div><div class="allocation-money">${fmtMoney(supplier.total)}<small>${((supplier.total / data.summary.basketTotal) * 100).toFixed(1)}% da cesta</small></div><div class="allocation-bar" aria-hidden="true"><i style="--w:${width}%"></i></div></article>`;
+      }).join('');
+    }
+
+    function renderNavigation() {
+      const nav = byId('quoteNav');
+      const groupLinks = data.groups.map((group, index) => `
+        <a class="nav-link" href="#group-${index}" data-target="group-${index}">
+          <span>${escapeHtml(group.title)}</span>
+          <small>${group.resolved}/${group.items.length}</small>
+        </a>
+      `).join('');
+      nav.innerHTML = `${groupLinks}
+        <a class="nav-link" href="#pending-items" data-target="pending-items">
+          <span>Itens faltantes</span>
+          <small>${data.pendingItems?.length || 0}</small>
+        </a>`;
+    }
+
+    function setupActiveNavigation() {
+      const links = Array.from(document.querySelectorAll('.nav-link'));
+      const sections = links.map((link) => document.getElementById(link.dataset.target)).filter(Boolean);
+      const setActive = (id) => {
+        links.forEach((link) => link.classList.toggle('active', link.dataset.target === id));
+      };
+      if (!sections.length) return;
+      setActive(sections[0].id);
+      const observer = new IntersectionObserver((entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => Math.abs(a.boundingClientRect.top - 120) - Math.abs(b.boundingClientRect.top - 120))[0];
+        if (visible) setActive(visible.target.id);
+      }, { rootMargin: '-110px 0px -68% 0px', threshold: [0.01, 0.12, 0.25] });
+      sections.forEach((section) => observer.observe(section));
+    }
+
+    function priceCell(item, supplier) {
+      const offer = (item.offers || []).find((candidate) => candidate.supplierId === supplier.id && candidate.available);
+      if (!offer || !Number.isFinite(offer.unitPrice)) return '<span class="price-cell missing">-</span>';
+      const isBest = item.bestSupplierId === supplier.id;
+      return `<span class="price-cell ${isBest ? 'best' : ''}"><span class="price-total">${fmtMoney(offer.totalPrice)}</span><span class="price-unit">${fmtMoney(offer.unitPrice)}/un</span>${isBest ? '<i class="winner-icon" data-lucide="check-circle-2" aria-label="Menor valor"></i>' : ''}</span>`;
+    }
+
+    function renderGroups() {
+      byId('groupList').innerHTML = data.groups.map((group, index) => {
+        const fixedSuppliers = data.suppliers;
+        const bestTotalSupplierId = group.bestTotalSupplier?.supplierId;
+        const colgroup = `<colgroup><col class="col-item"><col class="col-qty">${fixedSuppliers.map(() => '<col class="col-supplier">').join('')}</colgroup>`;
+        const supplierHeaders = fixedSuppliers.map((supplier) => {
+          const isBestTotal = supplier.id === bestTotalSupplierId;
+          return `<th class="${isBestTotal ? 'best-total-col' : ''}">${escapeHtml(supplier.sheetName || supplier.name)}${isBestTotal ? '<small class="rank-note">menor total</small>' : ''}</th>`;
+        }).join('');
+        const supplierTotals = fixedSuppliers.map((supplier) => {
+          const supplierGroup = (group.suppliers || []).find((candidate) => candidate.supplierId === supplier.id);
+          const isBestTotal = supplier.id === bestTotalSupplierId;
+          if (!supplierGroup || !supplierGroup.covered) return `<td class="${isBestTotal ? 'best-total-col' : ''}">-<small>sem itens</small></td>`;
+          return `<td class="${isBestTotal ? 'best-total-col' : ''}">${fmtMoney(supplierGroup.total)}<small>${supplierGroup.covered} itens cotados</small></td>`;
+        }).join('');
+        const rows = group.items.map((item) => `<tr><td><strong>${item.position}. ${escapeHtml(item.description)}</strong></td><td class="qty">${fmtQty(item.quantity, item.unit)}</td>${fixedSuppliers.map((supplier) => {
+          const classes = [
+            item.bestSupplierId === supplier.id ? 'best-price' : '',
+            supplier.id === bestTotalSupplierId ? 'best-total-col' : '',
+          ].filter(Boolean).join(' ');
+          return `<td class="${classes}">${priceCell(item, supplier)}</td>`;
+        }).join('')}</tr>`).join('');
+        return `<details class="group-block" id="group-${index}" open><summary class="group-summary"><span class="group-title"><strong>${escapeHtml(group.title)}</strong><small>${escapeHtml(group.subtitle || 'Família técnica de materiais')}</small></span><span class="group-metric"><span>Itens</span><strong>${group.items.length}</strong></span><span class="group-metric"><span>Cobertos</span><strong>${group.resolved}/${group.items.length}</strong></span><span class="group-metric"><span>Melhor grupo</span><strong>${fmtMoney(group.bestOfferTotal)}</strong></span><span class="group-metric"><span>Economia</span><strong>${fmtMoney(group.savings)}</strong></span></summary><div class="group-detail"><div class="matrix-wrap"><table class="matrix">${colgroup}<thead><tr><th>Item</th><th class="qty">Qtd.</th>${supplierHeaders}</tr></thead><tbody>${rows}</tbody><tfoot><tr><td colspan="2">Total do grupo por fornecedor</td>${supplierTotals}</tr></tfoot></table></div></div></details>`;
+      }).join('');
+    }
+
+    function renderPending() {
+      const items = data.pendingItems || [];
+      byId('pendingList').innerHTML = items.length ? items.map((item) => `<article class="pending-row"><div><strong>${item.position}. ${escapeHtml(item.description)}</strong><br><small>Grupo: ${escapeHtml(item.title || item.groupTitle || 'Não classificado')}</small></div><strong>${fmtQty(item.quantity, item.unit)}</strong></article>`).join('') : '<div class="empty">Nenhum item pendente. Todos os itens possuem pelo menos uma cotação.</div>';
+    }
+
+    fillHeader();
+    renderBasket();
+    renderGroups();
+    renderPending();
+    renderNavigation();
+    setupActiveNavigation();
+    if (window.lucide) window.lucide.createIcons();
+    window.addEventListener('load', () => {
+      if (window.lucide) window.lucide.createIcons();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "customer": "5075836f-a817-48fa-99ad-092428f490e2",
+  "supplier": "48f28ddf-ef64-4224-9548-bf4464e4ff94",
+  "number": "001",
+  "type": "Hidráulica",
+  "quote": "142980W",
+  "paymentTerms": "28 dias",
+  "freight": "CIF",
+  "deliveryDays": 7,
+  "invoice": {
+    "name": "Bela Vista Empreendimento Imobiliário S.A.",
+    "cnpj": "47.312.779/0001-44"
+  },
+  "items": [
+    {
+      "description": "Passante em EPE 20 x 20 x 12 cm",
+      "quantity": 400,
+      "unit": "Pç",
+      "unitPrice": 9.12,
+      "totalPrice": 3648,
+      "notes": "PASS-20X20X12"
+    },
+    {
+      "description": "Passante em EPE 10 x 10 x 12 cm",
+      "quantity": 400,
+      "unit": "Pç",
+      "unitPrice": 2.28,
+      "totalPrice": 912,
+      "notes": "PASS-10X10X12"
+    },
+    {
+      "description": "Passante em EPE 20 x 10 x 12 cm",
+      "quantity": 800,
+      "unit": "Pç",
+      "unitPrice": 4.56,
+      "totalPrice": 3648,
+      "notes": "PASS-20X10X12"
+    },
+    {
+      "description": "Passante em EPE 15 x 15 x 12 cm",
+      "quantity": 1300,
+      "unit": "Pç",
+      "unitPrice": 5.13,
+      "totalPrice": 6669,
+      "notes": "PASS-15X15X12"
+    }
+  ],
+  "total": 14877,
+  "file": ".fractal/drive/Obras/OR-RYT/Pedidos/001-Hidráulica/PEDIDO_001_HIDRAULICA_OR_RYT_PASS_PRO_142980W.xlsx",
+  "status": "sent",
+  "sentAt": "2026-05-21T23:15:00.000Z",
+  "createdAt": "2026-05-21T18:00:00.000Z"
+}

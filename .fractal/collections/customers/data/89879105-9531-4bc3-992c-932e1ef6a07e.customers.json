@@ -1,0 +1,27 @@
+{
+  "slug": "gtz-84",
+  "name": "GTZ 84 INVESTIMENTOS IMOBILIÁRIOS SPE LTDA.",
+  "segment": "residential",
+  "addresses": {
+    "delivery": "AV. IBIRAPUERA, 2082 - INDIANÓPOLIS - SP",
+    "billing": "Av. Ibirapuera, 1753 - CJ- 21 - Indianópolis/SP"
+  },
+  "postalCode": "04029-100",
+  "phone": "11 3050-0700",
+  "billingEmail": "",
+  "ie": "ISENTO",
+  "client": "GTZ 84 Empreendimentos Imobiliários SPE LTDA",
+  "document": "48.950.512/0001-45",
+  "engineer": "",
+  "status": "in_progress",
+  "notes": "Obra em fase de fechamento. Cotação Cemil Tubos em atualização (Rosana Nobrega).",
+  "templates": {
+    "order": ".fractal/artifacts/docs/customers/gtz-84/templates/PEDIDO.xlsx"
+  },
+  "budget": {
+    "type": "contract",
+    "budget": 1600000,
+    "notes": "Materiais por conta do contrato (Dema compra). Cada pedido aprovado pelo cliente abate do saldo."
+  },
+  "createdAt": "2026-05-21T15:54:00.000Z"
+}

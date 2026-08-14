@@ -1,0 +1,45 @@
+{
+  "customer": "89879105-9531-4bc3-992c-932e1ef6a07e",
+  "supplier": "a492b43d-cad0-433d-b738-6c8f6aecf981",
+  "number": "002",
+  "type": "Elétrica",
+  "quote": "24107",
+  "paymentTerms": "28 DIAS",
+  "freight": "CIF",
+  "invoice": {
+    "name": "GTZ 84 Empreendimentos Imobiliários SPE LTDA",
+    "cnpj": "48.950.512/0001-45"
+  },
+  "items": [
+    {
+      "description": "Caixa Octogonal Teto Snap Fit® com tampa",
+      "quantity": 500,
+      "unit": "PÇ",
+      "unitPrice": 2.15,
+      "totalPrice": 1075,
+      "notes": "CTO"
+    },
+    {
+      "description": "Eletroduto Flexível Corrugado Médio de 25mm - PEAD OCRE - 50 metros",
+      "quantity": 80,
+      "unit": "ROLO",
+      "unitPrice": 127,
+      "totalPrice": 10160,
+      "notes": "ELC25O"
+    },
+    {
+      "description": "Eletroduto Flexível Corrugado Médio de 32mm - PEAD OCRE - 50 metros",
+      "quantity": 10,
+      "unit": "ROLO",
+      "unitPrice": 167,
+      "totalPrice": 1670,
+      "notes": "ELC32O"
+    }
+  ],
+  "total": 12905,
+  "file": ".fractal/drive/Obras/GTZ-84/Pedidos/002-Elétrica/PEDIDO_002_ELETRICA_GTZ_84_PLASTICON_24107.xlsx",
+  "status": "sent",
+  "notes": "Cotação #24107 recebida de Renato Rodrigues em 02/06/2026. Total: R$ 12.905,00. Condições: 28 DIAS, CIF, impostos inclusos (sem IPI). Originalmente registrado como 003; corrigido para 002 após confirmação com Ademar.",
+  "quotedAt": "2026-06-02T17:05:00.000Z",
+  "sentAt": "2026-06-03T21:13:00.000Z"
+}

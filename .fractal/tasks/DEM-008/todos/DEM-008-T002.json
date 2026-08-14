@@ -1,0 +1,5 @@
+{
+  "taskId": "DEM-008",
+  "description": "Atualizar os 3 clientes via `fractal collections records update`: Wise (contract, 1.000.000, nota), GTZ 84 (contract, 1.600.000), RYT Paulista (owner, nota explicativa).",
+  "status": "finished"
+}

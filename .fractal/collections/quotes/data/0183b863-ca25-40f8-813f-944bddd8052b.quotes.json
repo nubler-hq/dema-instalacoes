@@ -1,0 +1,470 @@
+{
+  "customer": "03be712a-263a-46d1-82af-aa18a473d7ed",
+  "number": "001",
+  "type": "CANTEIRO",
+  "items": [
+    {
+      "description": "CABO TIPO PP 3 X 2,5 MM",
+      "quantity": 200,
+      "unit": "M"
+    },
+    {
+      "description": "CABO TIPO PP 2 X 1,5 MM",
+      "quantity": 200,
+      "unit": "M"
+    },
+    {
+      "description": "CABO 6,0 MM PRETO",
+      "quantity": 200,
+      "unit": "M"
+    },
+    {
+      "description": "CABO 6,0 MM VERDE",
+      "quantity": 100,
+      "unit": "M"
+    },
+    {
+      "description": "FITA ISOLANTE 3M 33+",
+      "quantity": 12,
+      "unit": "ROLOS",
+      "notes": "08 ROLOS JÁ FORAM FORNECIDOS PELA DEMA INSTALAÇÕES"
+    },
+    {
+      "description": "CAIXA 4 X 2 AMARELA CONVENCIONAL",
+      "quantity": 40,
+      "unit": "CX"
+    },
+    {
+      "description": "CONJUNTO DE 02 TOMADAS 10 A PARA CAIXA 4 X 2",
+      "quantity": 15,
+      "unit": "CONJ"
+    },
+    {
+      "description": "CONJUNTO DE 02 TOMADAS 20 A PARA CAIXA 4 X 2",
+      "quantity": 10,
+      "unit": "CONJ"
+    },
+    {
+      "description": "CONJUNTO COM 01 INTERRUPTOR SIMPLES",
+      "quantity": 6,
+      "unit": "CONJ"
+    },
+    {
+      "description": "CONJUNTO COM PLACA CEGA 4 X 2",
+      "quantity": 10,
+      "unit": "CONJ"
+    },
+    {
+      "description": "FITA PERFURADA 30 M X 1/4\"",
+      "quantity": 1,
+      "unit": "ROLO"
+    },
+    {
+      "description": "PARAFUSO AGULHA PARA DRYWALL 2,5 MM",
+      "quantity": 300,
+      "unit": "UN"
+    },
+    {
+      "description": "BUCHA NYLON 6 MM COM PARAFUSO PHILLIPS E ARRUELA",
+      "quantity": 500,
+      "unit": "UN"
+    },
+    {
+      "description": "QUADRO DE COMANDO 800 X 1000 X 200 MM",
+      "quantity": 1,
+      "unit": "UN"
+    },
+    {
+      "description": "CANALETA COM RECORTE ABERTO CINZA 50 X 50 MM",
+      "quantity": 2,
+      "unit": "UN"
+    },
+    {
+      "description": "DR TETRAPOLAR 80 A",
+      "quantity": 2,
+      "unit": "UN"
+    },
+    {
+      "description": "DISJUNTOR DIN 3 X 80 A",
+      "quantity": 2,
+      "unit": "UN"
+    },
+    {
+      "description": "DISJUNTOR CAIXA MOLDADA 3 X 150 A",
+      "quantity": 1,
+      "unit": "UN"
+    },
+    {
+      "description": "CABO TRIPLEX 70 MM² COM NEUTRO NU",
+      "quantity": 40,
+      "unit": "M"
+    },
+    {
+      "description": "TERMINAL DE COMPRESSÃO 70 MM²",
+      "quantity": 10,
+      "unit": "UN"
+    },
+    {
+      "description": "DISJUNTOR 2 X 25 A",
+      "quantity": 6,
+      "unit": "UN"
+    },
+    {
+      "description": "DISJUNTOR 1 X 20 A",
+      "quantity": 4,
+      "unit": "UN"
+    },
+    {
+      "description": "DISJUNTOR 2 X 20 A",
+      "quantity": 6,
+      "unit": "UN"
+    },
+    {
+      "description": "DISJUNTOR 3 X 20 A",
+      "quantity": 2,
+      "unit": "UN"
+    },
+    {
+      "description": "BARRAMENTO 150 A TRIFÁSICO TIPO ESCAMA DE PEIXE PARA 24 DISJUNTORES",
+      "quantity": 1,
+      "unit": "UN"
+    },
+    {
+      "description": "TERMINAL TIPO ARGOLA 1,5 X 2,5 MM",
+      "quantity": 30,
+      "unit": "UN"
+    },
+    {
+      "description": "TERMINAL TIPO ARGOLA 4,0 A 6,0 MM",
+      "quantity": 30,
+      "unit": "UN"
+    },
+    {
+      "description": "TERMINAL TIPO ILHÓS TUBULAR 2,5 MM",
+      "quantity": 50,
+      "unit": "UN"
+    },
+    {
+      "description": "TERMINAL TIPO ILHÓS TUBULAR 6,0 MM",
+      "quantity": 50,
+      "unit": "UN"
+    },
+    {
+      "description": "ABRAÇADEIRA NYLON PRETA 200 X 50 MM",
+      "quantity": 100,
+      "unit": "UN"
+    },
+    {
+      "description": "CORRUGADO AMARELO 3/4\"",
+      "quantity": 2,
+      "unit": "ROLOS"
+    },
+    {
+      "description": "CORRUGADO AMARELO 1\"",
+      "quantity": 2,
+      "unit": "ROLOS"
+    },
+    {
+      "description": "JUNÇÃO 100 X 100 MM PVC ESG.",
+      "quantity": 6,
+      "unit": "UN"
+    },
+    {
+      "description": "COTOVELO 45° X 100 MM PVC ESG.",
+      "quantity": 15,
+      "unit": "UN"
+    },
+    {
+      "description": "COTOVELO 90° X 100 MM PVC ESG.",
+      "quantity": 15,
+      "unit": "UN"
+    },
+    {
+      "description": "LUVA 100 MM PVC ESG.",
+      "quantity": 35,
+      "unit": "UN"
+    },
+    {
+      "description": "JUNÇÃO 100 X 50 MM PVC ESG.",
+      "quantity": 4,
+      "unit": "UN"
+    },
+    {
+      "description": "COTOVELO 90° X 50 MM PVC ESG.",
+      "quantity": 20,
+      "unit": "UN"
+    },
+    {
+      "description": "COTOVELO 45° X 50 MM PVC ESG.",
+      "quantity": 20,
+      "unit": "UN"
+    },
+    {
+      "description": "COTOVELO 90° X 40 MM PVC ESG.",
+      "quantity": 10,
+      "unit": "UN"
+    },
+    {
+      "description": "COTOVELO 90° X 40 MM COM ANEL PVC ESG.",
+      "quantity": 5,
+      "unit": "UN"
+    },
+    {
+      "description": "COTOVELO 45° X 40 MM PVC ESG.",
+      "quantity": 10,
+      "unit": "UN"
+    },
+    {
+      "description": "LUVA 50 MM PVC ESG.",
+      "quantity": 50,
+      "unit": "UN"
+    },
+    {
+      "description": "CAIXA SIFONADA 100 X 100 X 50 MM",
+      "quantity": 4,
+      "unit": "UN"
+    },
+    {
+      "description": "JUNÇÃO 50 MM PVC ESG.",
+      "quantity": 4,
+      "unit": "UN"
+    },
+    {
+      "description": "TUBO 50 MM PVC ESG.",
+      "quantity": 10,
+      "unit": "BARRAS"
+    },
+    {
+      "description": "TUBO 100 MM PVC ESG.",
+      "quantity": 10,
+      "unit": "BARRAS"
+    },
+    {
+      "description": "TUBO 40 MM PVC ESG.",
+      "quantity": 2,
+      "unit": "BARRAS"
+    },
+    {
+      "description": "BUCHA DE REDUÇÃO 100 X 50 MM PVC ESG.",
+      "quantity": 2,
+      "unit": "UN"
+    },
+    {
+      "description": "TUBO PVC MR 60 MM",
+      "quantity": 4,
+      "unit": "BARRAS"
+    },
+    {
+      "description": "COTOVELO 90° X 60 MM PVC MR",
+      "quantity": 10,
+      "unit": "UN"
+    },
+    {
+      "description": "COTOVELO 45° X 60 MM PVC MR",
+      "quantity": 10,
+      "unit": "UN"
+    },
+    {
+      "description": "TÊ 60 MM PVC MR",
+      "quantity": 4,
+      "unit": "UN"
+    },
+    {
+      "description": "FLANGE 60 MM PVC MR",
+      "quantity": 1,
+      "unit": "UN"
+    },
+    {
+      "description": "REGISTRO 60 MM PVC MR",
+      "quantity": 3,
+      "unit": "UN"
+    },
+    {
+      "description": "FLANGE 25 MM PVC MR",
+      "quantity": 1,
+      "unit": "UN"
+    },
+    {
+      "description": "FLANGE 32 MM PVC MR",
+      "quantity": 1,
+      "unit": "UN"
+    },
+    {
+      "description": "REGISTRO PVC MR 1\"",
+      "quantity": 1,
+      "unit": "UN"
+    },
+    {
+      "description": "LUVA AZUL 32 X 1\"",
+      "quantity": 1,
+      "unit": "UN"
+    },
+    {
+      "description": "BUCHA DE REDUÇÃO 32 X 25 MM PVC MR",
+      "quantity": 1,
+      "unit": "UN"
+    },
+    {
+      "description": "REGISTRO 25 MM PVC MR",
+      "quantity": 1,
+      "unit": "UN"
+    },
+    {
+      "description": "TORNEIRA DE BÓIA 3/4\"",
+      "quantity": 1,
+      "unit": "UN"
+    },
+    {
+      "description": "TÊ 60 X 25 X 60 MM PVC MR",
+      "quantity": 10,
+      "unit": "UN"
+    },
+    {
+      "description": "REGISTRO DE PRESSÃO SEM ACABAMENTO 3/4\"",
+      "quantity": 6,
+      "unit": "UN"
+    },
+    {
+      "description": "LUVA AZUL 3/4\"",
+      "quantity": 10,
+      "unit": "UN"
+    },
+    {
+      "description": "ADAPTADOR 3/4\" PVC MR",
+      "quantity": 10,
+      "unit": "UN"
+    },
+    {
+      "description": "JOELHO 90° X 25 MM PVC MR",
+      "quantity": 30,
+      "unit": "UN"
+    },
+    {
+      "description": "JOELHO 45° X 25 MM PVC MR",
+      "quantity": 30,
+      "unit": "UN"
+    },
+    {
+      "description": "TÊ 25 MM PVC MR",
+      "quantity": 8,
+      "unit": "UN"
+    },
+    {
+      "description": "JOELHO AZUL 25 X 1/2\"",
+      "quantity": 24,
+      "unit": "UN"
+    },
+    {
+      "description": "BUCHA DE REDUÇÃO 60 X 25 MM LONGA PVC MR",
+      "quantity": 3,
+      "unit": "UN"
+    },
+    {
+      "description": "LUVA 25 MM PVC MR",
+      "quantity": 6,
+      "unit": "UN"
+    },
+    {
+      "description": "LUVA 60 MM PVC MR",
+      "quantity": 4,
+      "unit": "UN"
+    },
+    {
+      "description": "FITA PERFURADA 30 X 1/4\"",
+      "quantity": 2,
+      "unit": "ROLOS"
+    },
+    {
+      "description": "BUCHA NYLON 8 MM COM PARAFUSO PHILLIPS E ARRUELA",
+      "quantity": 200,
+      "unit": "UN"
+    },
+    {
+      "description": "PARAFUSO FENDA LENTILHA 1/4\" X 1/2\"",
+      "quantity": 300,
+      "unit": "UN"
+    },
+    {
+      "description": "PORCA SEXTAVADA 1/4\" X 1/2\"",
+      "quantity": 300,
+      "unit": "UN"
+    },
+    {
+      "description": "ARRUELA LISA 1/4\"",
+      "quantity": 300,
+      "unit": "UN"
+    },
+    {
+      "description": "ADESIVO DE PVC 850 MG",
+      "quantity": 1,
+      "unit": "UN"
+    },
+    {
+      "description": "PASTA LUBRIFICANTE 1 L",
+      "quantity": 1,
+      "unit": "UN"
+    },
+    {
+      "description": "LIXA DE FERRO Nº 100",
+      "quantity": 10,
+      "unit": "FOLHAS"
+    },
+    {
+      "description": "ANEL 100 MM",
+      "quantity": 70,
+      "unit": "UN"
+    },
+    {
+      "description": "ANEL 50 MM",
+      "quantity": 70,
+      "unit": "UN"
+    },
+    {
+      "description": "TÊ DE PEX 25 X 1/2 X 25",
+      "quantity": 20,
+      "unit": "UN"
+    },
+    {
+      "description": "TAMPÃO 25 MM",
+      "quantity": 2,
+      "unit": "UN"
+    },
+    {
+      "description": "PLUGUE DE PVC 1/2\" ROSCA MACHO",
+      "quantity": 20,
+      "unit": "UN"
+    },
+    {
+      "description": "CONECTOR MACHO 25 X 3/4\"",
+      "quantity": 4,
+      "unit": "UN"
+    },
+    {
+      "description": "MANGUEIRA PEX 25 MM",
+      "quantity": 3,
+      "unit": "ROLOS"
+    },
+    {
+      "description": "TORNEIRA DE 1/2\" PARA JARDIM",
+      "quantity": 16,
+      "unit": "UN"
+    },
+    {
+      "description": "VEDA ROSCA GRANDE",
+      "quantity": 3,
+      "unit": "UN"
+    },
+    {
+      "description": "BOMBA DE PRESSURIZAÇÃO TRIFÁSICA COM CONTROLADOR DE BOMBA 60 MCA X 5 M³/H 220/380 V",
+      "quantity": 2,
+      "unit": "UN"
+    },
+    {
+      "description": "COMANDO PARA BOMBA TRIFÁSICA 3 CV 220 V DE POLICARBONATO",
+      "quantity": 2,
+      "unit": "UN"
+    }
+  ],
+  "status": "draft",
+  "notes": "PEDIDO DE CANTEIRO DA WISE VILA CLEMENTINO. VALORES E FORNECEDOR AINDA NÃO DEFINIDOS."
+}

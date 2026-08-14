@@ -1,0 +1,34 @@
+
+| ID    | FLAGS | SUBJECT                                                                             | FROM                                  | DATE                   |
+|-------|-------|-------------------------------------------------------------------------------------|---------------------------------------|------------------------|
+| 63818 |  *@   | Re: Proposta Comercial do Orçamento Nº 240888 materiais para OR RYT Paulista 241182 | Paulo Coyado - A3 Eletro              | 2026-05-26 15:35-03:00 |
+| 63816 |  *@   | Nota Fiscal Eletronica - 295878                                                     | Faturamento - FF Guarulhos            | 2026-05-26 18:30+00:00 |
+| 63817 |  *@   | Boleto 295878                                                                       | Igor Henrique - Faturamento - FF      | 2026-05-26 15:30-03:00 |
+| 63815 |  *@   | Proposta Comercial do Orçamento Nº 241182 ryt                                       | Paulo Coyado - A3 Eletro              | 2026-05-26 18:28+00:00 |
+| 63814 |  *    | RES: RES: RES: materiais Wise Clementino (Pedido de hidráulica 3)                   | vendas2@fixagold.com.br               | 2026-05-26 13:32-03:00 |
+| 63813 |       | Re: Fwd: RES: Re: materiais para piso subsolo Wise Clementino                       | Sidny - FF                            | 2026-05-26 12:58-03:00 |
+| 63812 |   @   | Pedido nº25013 - Dema - Aditivo nº 02                                               | Erivaldo                              | 2026-05-26 15:36+00:00 |
+| 63811 |   @   | RES: RES: materiais Wise Clementino (Pedido de hidráulica 3)                        | Salete Leo - Suprimentos CGS          | 2026-05-26 11:41-03:00 |
+| 63810 |   @   | RES: Re: materiais para piso subsolo Wise Clementino                                | Salete Leo - Suprimentos CGS          | 2026-05-26 11:41-03:00 |
+| 63809 |  *    | As melhoras Marcas do Mercado a Pronta Entrega                                      | Merc - Tudo em Hidráulica um só lugar | 2026-05-26 05:01-07:00 |
+| 63808 |  *    | Luminárias padrão FDE para projetos públicos e privados                             | Rimo Elétrica                         | 2026-05-26 11:01+00:00 |
+| 63807 |  *    | Comunicado financeiro sobre títulos vencidos                                        | Alexandre Lima                        | 2026-05-26 05:40-03:00 |
+| 63806 |       | RES: FATURAMENTO PARCELADO                                                          | Salete Leo - Suprimentos CGS          | 2026-05-25 13:46-03:00 |
+| 63805 |       | FATURAMENTO PARCELADO                                                               | Francisco Ferraz-CGS                  | 2026-05-25 12:09-03:00 |
+| 63804 |       | UMA HISTÓRIA QUE EVOLUI JUNTO COM A INDÚSTRIA BRASILEIRA                            | HellermannTyton                       | 2026-05-25 14:02+00:00 |
+| 63803 |   @   | Venha nos visitar na Instalshow!                                                    | Julia Alves - BBTEC                   | 2026-05-25 12:29+00:00 |
+| 63801 |   @   | solicitação de orçamento parte 2 OR RYT Paulista                                    | Ademar                                | 2026-05-25 09:23-03:00 |
+| 63800 |   @   | solicitação de orçamento parte 1 OR RYT Paulista                                    | Ademar                                | 2026-05-25 09:21-03:00 |
+| 63802 |       | Vem com o Rei das Abraçadeiras!                                                     | Antonio Marcos Garcia                 | 2026-05-25 12:03+00:00 |
+| 63799 |       | Sua opinião é importante para nós!                                                  | Daniel Rauen de Oliveira              | 2026-05-25 11:38+00:00 |
+| 63798 |       | Fernanda, Mais imersão e impacto para seus clientes                                 | Dicomp                                | 2026-05-25 09:36+00:00 |
+| 63797 |       | Fwd: apto Juliana                                                                   | Vera Lucia Pedro                      | 2026-05-22 16:39-03:00 |
+| 63796 |   @   | RE: Boleto NF 233691de 21/05/2026 SMG22 Empreendimentos                             | Nadia Braga de Oliveira               | 2026-05-22 19:14+00:00 |
+| 63795 |       | Não lida: RD 147-Nik Paradiso                                                       | Aline Macedo                          | 2026-05-22 18:43+00:00 |
+| 63794 |   @   | NOTA FISCAL 20461 - REF: pedido 5 de elétrica (Wise Clementino)                     | vendas@plasticon.com.br               | 2026-05-22 15:36-03:00 |
+| 63793 |   @   | Re: apto Juliana                                                                    | Vera Lucia Pedro                      | 2026-05-22 09:27-03:00 |
+| 63792 |       | Re: apto Juliana                                                                    | Vera Lucia Pedro                      | 2026-05-22 08:15-03:00 |
+| 63791 |  *    | Fernanda, EZVIZ com preço especial para revenda e projetos                          | Dicomp                                | 2026-05-22 09:36+00:00 |
+| 63790 |   @   | Proposta Comercial do Orçamento Nº 240889 - APTO JULIA                              | Paulo Coyado - A3 Eletro              | 2026-05-21 21:51+00:00 |
+| 63789 |   @R  | Proposta Comercial do Orçamento Nº 240888 materiais para OR RYT Paulista            | Paulo Coyado - A3 Eletro              | 2026-05-21 21:30+00:00 |
+

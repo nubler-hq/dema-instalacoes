@@ -1,0 +1,26 @@
+{
+  "slug": "wise",
+  "name": "Wise Vila Clementino",
+  "segment": "residential",
+  "addresses": {
+    "billing": "Rua Desembargador Eliseu Guilherme, 292 - Conjunto 82 E - Paraíso - São Paulo/SP"
+  },
+  "postalCode": "04004-030",
+  "phone": "(11) 2391-9460",
+  "billingEmail": "adm.obra144@cgsengenharia.com.br; eng.obra144@cgsengenharia.com.br",
+  "ie": "ISENTO",
+  "client": "SMG22 Empreendimentos Imobiliários SPE LTDA",
+  "document": "48.868.032/0001-30",
+  "engineer": "Adriana",
+  "status": "in_progress",
+  "notes": "Obra residencial - Pedidos de elétrica e hidráulica em andamento. Cotação Fixagold #3028284 recebida. IMPORTANTE: SMG22 Empreendimentos Imobiliários SPE LTDA é o nome jurídico do cliente para esta obra.",
+  "templates": {
+    "order": ".fractal/artifacts/docs/customers/wise/templates/PEDIDO.xlsx"
+  },
+  "budget": {
+    "type": "contract",
+    "budget": 1000000,
+    "notes": "Valor estimado - confirmar com Ademar. Materiais por conta do contrato (Dema compra). Cada pedido aprovado pelo cliente abate do saldo."
+  },
+  "createdAt": "2026-05-21T13:59:00.000Z"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "predinho",
+  "name": "PREDINHO (obra nova - temporário)",
+  "segment": "",
+  "addresses": {
+    "delivery": "",
+    "billing": ""
+  },
+  "postalCode": "",
+  "phone": "",
+  "billingEmail": "",
+  "ie": "",
+  "client": "",
+  "document": "",
+  "engineer": "",
+  "status": "quoting",
+  "notes": "Obra nova - PREDINHO. Cadastro temporário criado em 15/07/2026. Pendente: preencher dados completos (endereço, documento, contato, engenheira, orçamento).",
+  "templates": {
+    "order": ".fractal/artifacts/docs/customers/predinho/templates/PEDIDO.xlsx"
+  },
+  "createdAt": "2026-07-15T17:00:00.000Z"
+}

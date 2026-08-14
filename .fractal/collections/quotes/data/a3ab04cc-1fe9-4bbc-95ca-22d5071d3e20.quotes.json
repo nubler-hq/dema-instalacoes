@@ -1,0 +1,40 @@
+{
+  "customer": "5075836f-a817-48fa-99ad-092428f490e2",
+  "supplier": "a492b43d-cad0-433d-b738-6c8f6aecf981",
+  "number": "001",
+  "type": "Elétrica",
+  "quote": "",
+  "paymentTerms": "28 dias",
+  "freight": "CIF",
+  "invoice": {
+    "name": "Bela Vista Empreendimento Imobiliário S.A.",
+    "cnpj": "47.312.779/0001-44"
+  },
+  "items": [
+    {
+      "description": "Caixa Octogonal Teto Snap Fit com tampa",
+      "quantity": 1000,
+      "unit": "pc"
+    },
+    {
+      "description": "Caixa de Passagem Angle Box",
+      "quantity": 200,
+      "unit": "pc"
+    },
+    {
+      "description": "Eletroduto Flexível Corrugado 32mm PEAD Ocre (50m)",
+      "quantity": 20,
+      "unit": "rolos"
+    },
+    {
+      "description": "Eletroduto Flexível Corrugado 25mm PEAD Ocre (50m)",
+      "quantity": 100,
+      "unit": "rolos"
+    }
+  ],
+  "total": 18470,
+  "file": ".fractal/drive/Obras/OR-RYT/Pedidos/001-Elétrica/PEDIDO_001_ELETRICA_OR_RYT_PLASTICON.xlsx",
+  "status": "sent",
+  "sentAt": "2026-05-21T23:15:00.000Z",
+  "createdAt": "2026-05-05T10:00:00.000Z"
+}

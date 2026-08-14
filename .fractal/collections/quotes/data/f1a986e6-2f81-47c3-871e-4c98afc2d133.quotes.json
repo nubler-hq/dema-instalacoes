@@ -1,0 +1,198 @@
+{
+  "customer": "89879105-9531-4bc3-992c-932e1ef6a07e",
+  "supplier": "faabbd0f-7c78-4f16-9d2f-e6468750e03d",
+  "number": "001",
+  "type": "Fixação",
+  "quote": "3028376",
+  "paymentTerms": "28 dias",
+  "invoice": {
+    "name": "GTZ 84 Investimentos Imobiliários SPE LTDA",
+    "cnpj": "48.950.512/0001-45"
+  },
+  "items": [
+    {
+      "description": "AGE1GE - ABRAÇ GOTA ECONOMICA 1",
+      "quantity": 1000,
+      "unit": "PC",
+      "unitPrice": 0.46,
+      "totalPrice": 460,
+      "notes": "AGE1GE"
+    },
+    {
+      "description": "AGE1.1/2GE - ABRAÇ GOTA ECONOMICA 1.1/2",
+      "quantity": 200,
+      "unit": "PC",
+      "unitPrice": 0.63,
+      "totalPrice": 126,
+      "notes": "AGE1.1/2GE"
+    },
+    {
+      "description": "AGE1.1/4GE - ABRAÇ GOTA ECONOMICA 1.1/4",
+      "quantity": 200,
+      "unit": "PC",
+      "unitPrice": 0.51,
+      "totalPrice": 102,
+      "notes": "AGE1.1/4GE"
+    },
+    {
+      "description": "AGE2GE - ABRAÇ GOTA ECONOMICA 2",
+      "quantity": 300,
+      "unit": "PC",
+      "unitPrice": 0.76,
+      "totalPrice": 228,
+      "notes": "AGE2GE"
+    },
+    {
+      "description": "AGE2.1/2GE - ABRAÇ GOTA ECONOMICA 2.1/2",
+      "quantity": 200,
+      "unit": "PC",
+      "unitPrice": 0.94,
+      "totalPrice": 188,
+      "notes": "AGE2.1/2GE"
+    },
+    {
+      "description": "AGE3GE - ABRAÇ GOTA ECONOMICA 3",
+      "quantity": 350,
+      "unit": "PC",
+      "unitPrice": 1.15,
+      "totalPrice": 402.5,
+      "notes": "AGE3GE"
+    },
+    {
+      "description": "AGE4GE - ABRAÇ GOTA ECONOMICA 4",
+      "quantity": 200,
+      "unit": "PC",
+      "unitPrice": 1.6,
+      "totalPrice": 320,
+      "notes": "AGE4GE"
+    },
+    {
+      "description": "AGE6GE - ABRAÇ GOTA ECONOMICA 6",
+      "quantity": 70,
+      "unit": "PC",
+      "unitPrice": 2.96,
+      "totalPrice": 207.2,
+      "notes": "AGE6GE"
+    },
+    {
+      "description": "AGE8GE - ABRAÇ GOTA ECONOMICA 8",
+      "quantity": 20,
+      "unit": "PC",
+      "unitPrice": 5.4,
+      "totalPrice": 108,
+      "notes": "AGE8GE"
+    },
+    {
+      "description": "AL1/4 - ARRUELA LISA 1/4",
+      "quantity": 2500,
+      "unit": "PC",
+      "unitPrice": 0.038,
+      "totalPrice": 95,
+      "notes": "AL1/4"
+    },
+    {
+      "description": "AL3/8 - ARRUELA LISA 3/8",
+      "quantity": 6000,
+      "unit": "PC",
+      "unitPrice": 0.05,
+      "totalPrice": 300,
+      "notes": "AL3/8"
+    },
+    {
+      "description": "BSDSPHTOM8X110 - BROCA SDS PLUS HTOM 08 X 110",
+      "quantity": 6,
+      "unit": "PC",
+      "unitPrice": 7.1,
+      "totalPrice": 42.6,
+      "notes": "BSDSPHTOM8X110"
+    },
+    {
+      "description": "BSDSPHTOM10X110 - BROCA SDS PLUS HTOM 10 X 110",
+      "quantity": 6,
+      "unit": "PC",
+      "unitPrice": 8.9,
+      "totalPrice": 53.4,
+      "notes": "BSDSPHTOM10X110"
+    },
+    {
+      "description": "BSDSPM15X160 - BROCA SDS PLUS MAKITA 15 X 160",
+      "quantity": 6,
+      "unit": "PC",
+      "unitPrice": 36,
+      "totalPrice": 216,
+      "notes": "BSDSPM15X160"
+    },
+    {
+      "description": "JC1/4 - JAQUETA E CONE 1/4",
+      "quantity": 1500,
+      "unit": "PC",
+      "unitPrice": 0.45,
+      "totalPrice": 675,
+      "notes": "JC1/4"
+    },
+    {
+      "description": "JC3/8 - JAQUETA E CONE 3/8",
+      "quantity": 4000,
+      "unit": "PC",
+      "unitPrice": 0.7,
+      "totalPrice": 2800,
+      "notes": "JC3/8"
+    },
+    {
+      "description": "PP19X38X6C18 - PERF PERFURADO 19 X 38 X 6 MTS CHAPA 18",
+      "quantity": 20,
+      "unit": "PC",
+      "unitPrice": 48,
+      "totalPrice": 960,
+      "notes": "PP19X38X6C18"
+    },
+    {
+      "description": "PP38X38X6C18 - PERF PERFURADO 38 X 38 X 6 MTS CHAPA 18",
+      "quantity": 30,
+      "unit": "PC",
+      "unitPrice": 90,
+      "totalPrice": 2700,
+      "notes": "PP38X38X6C18"
+    },
+    {
+      "description": "PS1/4 - PORCA SEXTAVADA 1/4",
+      "quantity": 2500,
+      "unit": "PC",
+      "unitPrice": 0.06,
+      "totalPrice": 150,
+      "notes": "PS1/4"
+    },
+    {
+      "description": "PS3/8 - PORCA SEXTAVADA 3/8",
+      "quantity": 6000,
+      "unit": "PC",
+      "unitPrice": 0.11,
+      "totalPrice": 660,
+      "notes": "PS3/8"
+    },
+    {
+      "description": "VRT1/4X3GAL - VERGALHÃO RT 1/4 X 3 MTS GALVANIZADO",
+      "quantity": 150,
+      "unit": "PC",
+      "unitPrice": 6.23,
+      "totalPrice": 934.5,
+      "notes": "VRT1/4X3GAL"
+    },
+    {
+      "description": "VRT3/8X3GAL - VERGALHÃO RT 3/8 X 3 MTS GALVANIZADO",
+      "quantity": 350,
+      "unit": "PC",
+      "unitPrice": 13.8,
+      "totalPrice": 4830,
+      "notes": "VRT3/8X3GAL"
+    }
+  ],
+  "total": 16558.2,
+  "file": ".fractal/drive/Obras/GTZ-84/Pedidos/001-Fixação/Orçamentos/Orcamento-Fixagold-Fixacao-3028376.xlsx",
+  "normalizedFile": ".fractal/drive/Obras/GTZ-84/Pedidos/001-Fixação/Orçamentos/Orcamento-Fixagold-Fixacao-3028376.xlsx",
+  "comparisonStatus": "ready",
+  "status": "sent",
+  "notes": "Orçamento #3028376 recebido de Fixagold em 21/05/2026 para GTZ 84. 22 itens detalhados, total R$ 16.558,20. ⚠️ Pendente: Questionar Fixagold se conseguem completar o orçamento com os itens faltantes — abraçadeiras perfil (6\", 4\", 3\", 2\", 1.1/4\"), cone 3/8\" avulso, jaqueta 3/8\" avulso, disco de corte inox 4\", lâmina serra Starrett 24T, e quantidades adicionais de brocas SDS Plus 10mm e 15mm.",
+  "sentAt": "2026-05-21T23:15:00.000Z",
+  "createdAt": "2026-05-21T18:00:00.000Z"
+}
